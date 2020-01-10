@@ -1,0 +1,140 @@
+{
+  "categories": [
+    {
+      "id": "SkfwRdFBM",
+      "name": "pages",
+      "display": "页面",
+      "type": "categories",
+      "usage": 1,
+      "createdAt": "2018-01-27T04:21:46.414Z",
+      "updatedAt": "2018-01-27T04:21:46.414Z"
+    },
+    {
+      "id": "S1Q3HFKBf",
+      "name": "contents",
+      "display": "内容",
+      "type": "categories",
+      "usage": 1,
+      "createdAt": "2018-01-27T04:52:59.449Z",
+      "updatedAt": "2018-01-27T04:52:59.449Z"
+    },
+    {
+      "id": "SyS4hKYBG",
+      "name": "pages-main",
+      "display": "一级页面",
+      "category": "pages",
+      "usage": 2,
+      "createdAt": "2018-01-27T05:20:44.877Z",
+      "updatedAt": "2018-02-01T02:45:12.264Z",
+      "_contentSelectable": false
+    },
+    {
+      "id": "S1KOpk5rz",
+      "name": "contents-home",
+      "display": "主页内容管理",
+      "category": "contents",
+      "usage": 2,
+      "createdAt": "2018-01-27T12:15:44.535Z",
+      "updatedAt": "2018-02-01T02:45:26.866Z",
+      "_contentSelectable": false
+    },
+    {
+      "id": "BJpYqb5SM",
+      "name": "contents-services",
+      "display": "服务",
+      "category": "contents",
+      "usage": 2,
+      "createdAt": "2018-01-27T14:19:49.134Z",
+      "updatedAt": "2018-02-01T02:45:29.248Z",
+      "_contentSelectable": false
+    },
+    {
+      "id": "Bk1jcb9rM",
+      "name": "contents-about",
+      "display": "关于我们",
+      "category": "contents",
+      "usage": 2,
+      "createdAt": "2018-01-27T14:20:06.597Z",
+      "updatedAt": "2018-02-01T02:45:31.242Z",
+      "_contentSelectable": false
+    },
+    {
+      "id": "H1_o5-qBM",
+      "name": "contents-contact",
+      "display": "联系我们",
+      "category": "contents",
+      "usage": 2,
+      "createdAt": "2018-01-27T14:20:16.265Z",
+      "updatedAt": "2018-02-01T02:45:33.182Z",
+      "_contentSelectable": false
+    },
+    {
+      "id": "BJyTcW5Hf",
+      "name": "contents-development",
+      "display": "系统开发",
+      "category": "contents",
+      "usage": 2,
+      "createdAt": "2018-01-27T14:20:38.710Z",
+      "updatedAt": "2018-02-01T02:45:35.291Z",
+      "_contentSelectable": false
+    },
+    {
+      "id": "r1zA9W9Hf",
+      "name": "contents-technical",
+      "display": "技术平台",
+      "category": "contents",
+      "usage": 2,
+      "createdAt": "2018-01-27T14:20:57.984Z",
+      "updatedAt": "2018-02-01T02:45:37.222Z",
+      "_contentSelectable": false
+    },
+    {
+      "id": "S1m8jZcHf",
+      "name": "pages-sub",
+      "display": "子页面",
+      "category": "pages",
+      "usage": 2,
+      "createdAt": "2018-01-27T14:23:06.981Z",
+      "updatedAt": "2018-02-01T02:45:14.479Z",
+      "_contentSelectable": false
+    },
+    {
+      "id": "BkrFL8bLz",
+      "name": "posts",
+      "display": "文章",
+      "type": "categories",
+      "usage": 1,
+      "createdAt": "2018-02-02T03:09:48.553Z",
+      "updatedAt": "2018-02-02T03:09:48.553Z"
+    },
+    {
+      "id": "SkecUUbUG",
+      "name": "photos",
+      "display": "图片",
+      "type": "categories",
+      "usage": 1,
+      "createdAt": "2018-02-02T03:10:00.133Z",
+      "updatedAt": "2018-02-02T03:10:00.133Z"
+    },
+    {
+      "id": "B1DPu8ZLf",
+      "name": "photos-slides",
+      "display": "轮播图",
+      "_contentSelectable": true,
+      "category": "photos",
+      "usage": 2,
+      "createdAt": "2018-02-02T03:17:51.080Z",
+      "updatedAt": "2018-02-02T03:17:51.080Z"
+    },
+    {
+      "id": "HJvZYKWLM",
+      "name": "photos-details",
+      "display": "细节图片",
+      "_contentSelectable": true,
+      "category": "photos",
+      "usage": 2,
+      "createdAt": "2018-02-02T06:45:19.378Z",
+      "updatedAt": "2018-02-02T06:45:19.378Z"
+    }
+  ]
+}

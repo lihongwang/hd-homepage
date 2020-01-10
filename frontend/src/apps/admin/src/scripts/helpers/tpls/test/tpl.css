@@ -1,0 +1,154 @@
+.white_section {
+    background-color: #fff;
+}
+
+.section_gap {
+    padding: 73px 0 55px;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.heading {
+    text-align: center;
+    position: relative;
+    max-width: 570px;
+    margin: 0 auto;
+    padding-bottom: 26px;
+    margin-bottom: 20px;
+}
+
+.heading h1 {
+    line-height: normal;
+    color: #2b2b3d;
+    font-weight: 700;
+    display: inline-block;
+    letter-spacing: 1px;
+    line-height: normal;
+    text-transform: uppercase;
+    padding-bottom: 0;
+}
+
+h1 {
+    font-size: 33px;
+    line-height: normal;
+    font-weight: 700;
+    margin: 0px 0 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+}
+
+.heading h1 span {
+    font-weight: 400;
+}
+
+.heading:after {
+    content: "";
+    display: block;
+    width: 69px;
+    height: 2px;
+    background-color: #ff6058;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.sec_top_gp {
+    padding-top: 45px;
+}
+
+.welcome {
+    padding-top: 50px;
+}
+
+.noPaddLeft {
+    padding-left: 0px !important;
+}
+
+.welcome_heading {
+    line-height: 36px;
+    color: #555769;
+}
+
+.font-light {
+    font-weight: 300 !important;
+}
+
+.welcomr_text {
+    padding: 0;
+    float: right;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #76767e;
+    padding-bottom: 22px;
+    margin: 0px;
+}
+
+.sec_top_gp {
+    padding-top: 45px;
+}
+
+.welcome_listing {
+    padding: 0;
+    position: relative;
+}
+
+.welcome_listing span {
+    color: #ff6058;
+    font-size: 30px;
+    display: block;
+    width: 48px;
+    height: 48px;
+    border: 1px solid #ff6058;
+    text-align: center;
+    line-height: 49px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.welcome_listing h3 {
+    text-transform: uppercase;
+    line-height: 48px;
+    margin-left: 64px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 19px;
+    line-height: normal;
+    font-weight: 700;
+    margin: 0px 0 20px;
+}

@@ -1,0 +1,13 @@
+{
+    "subTitle": "GORGEOUS & TREND",
+    "title": "RESPONSIVE DESIGN",
+    "orangeRow": [{
+        "src": "http://www.magictemplates.nl/Solid-01/assets/img/media/frame-check.png",
+        "title": "CLEAN CODE",
+        "text": "Donec tincidunt turpis risus, ac posuere erat pretium ut. Morbi est sapien, luctus nec risus nec, sodales malesuada libero. Mauris tincidunt arcu sit amet sem auctor fermentum."
+    }, {
+        "src": "http://www.magictemplates.nl/Solid-01/assets/img/media/frame-expand.png",
+        "title": "BOXED & WIDE LAYOUT",
+        "text": "Donec tincidunt turpis risus, ac posuere erat pretium ut. Morbi est sapien, luctus nec risus nec, sodales malesuada libero. Mauris tincidunt arcu sit amet sem auctor fermentum."
+    }]
+}

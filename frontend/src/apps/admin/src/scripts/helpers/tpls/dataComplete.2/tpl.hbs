@@ -1,0 +1,22 @@
+<section class="light" id="services">
+            <div class="container">
+                <div class="sub-title">{{subTitle}}</div>
+                <h2>{{title}}</h2>
+                <div class="content">
+                    <div class="row">
+                        {{#each serviceRow}}
+                        <div class="col-sm-4">
+                            <div class="thumbnail">
+                                <img src="{{src}}" alt="Polygon 1">
+                                <div class="caption">
+                                    <h4>{{title}}</h4>
+                                    <p>{{text}}</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        {{/each}}
+                    </div>
+                </div>
+            </div>
+        </section>

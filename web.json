@@ -1,0 +1,85 @@
+{
+    "env": "development",
+    "host": "localhost",
+    "port": "8087",
+    "ssl": false,
+    "timezone": "UTC",
+
+    "system": {
+        "name": "hd-homepage",
+        "url": "http://localhost:8087",
+        "company": {
+            "name": "hudaokeji",
+            "address": "nanchang",
+            "hp": "http://hudaokeji.com"
+        }
+    },
+    "auth": "./backend/auth/auth",
+    "router": {
+        "statics": {
+            "paths": [{
+                "mapping": "",
+                "dir": "./frontend"
+            }, {
+                "mapping": "",
+                "dir": "./frontend/src"
+            }, {
+                "mapping": "/upload",
+                "dir": "./public/upload"
+            }]
+        },
+        "slaxes": {
+            "paths": [{
+                    "mapping": "",
+                    "dir": "./frontend/dist/home"
+                },
+                {
+                    "mapping": "/admin",
+                    "dir": "./frontend/src/apps/admin/src",
+                    "middleware": "./backend/middlewares/ensureAuth"
+                },
+                {
+                    "mapping": "/vhtml5",
+                    "dir": "./frontend/src/apps/vhtml5/src",
+                    "middleware": "./backend/middlewares/ensureAuth"
+                }
+            ]
+        },
+        "custom": "./backend/config/routes"
+    },
+
+    "http": {
+        "csrf": false,
+        "session": {
+            "secret": "hd-homepage-supernova",
+            "saveUninitialized": true,
+            "resave": false,
+            "cookie": {
+                "httpOnly": true,
+                "maxAge": 7200000
+            }
+        }
+    },
+    "views": {
+        "handlebars": {
+            "extname": "handlebars",
+            "viewsDir": "backend/views",
+            "partialsDir": "backend/views/partials"
+        }
+    },
+    "mail": {
+        "adapter": "smtp",
+        "smtp": {
+            "host": "smtp.hudaokeji.com",
+            "port": 587,
+            "secure": false,
+            "tls": {
+                "rejectUnauthorized": false
+            },
+            "auth": {
+                "user": "testadm@hudaokeji.com",
+                "pass": "hmJ3uS$x"
+            }
+        }
+    }
+}

@@ -1,0 +1,44 @@
+<section id="about2" class="section">
+    <div class="container">
+        <div class="row">
+            <!-- begin accordions -->
+            <div id="accordion" class="col-sm-6 block panel-group col-md-6 wow softFadeInUp  animated" data-wow-delay=".2s" role="tablist" aria-multiselectable="true" style="visibility: visible; animation-delay: 0.2s; animation-name: softFadeInUp;">
+                {{#eachData container}}
+                <!-- 1staccordion panel -->
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab">
+                        <h4 class="panel-title">
+                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collaplse{{index}}" aria-expanded="false" aria-controls="collaplse{{index}}" class="collapsed">
+					      {{title}}
+					    </a>
+                        </h4>
+                    </div>
+                    <div id="collaplse{{index}}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne" aria-expanded="false" style="height: 0px;">
+                        <div class="panel-body">
+                            <p>{{{html}}}</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- end 1st accordion panel -->
+                {{/eachData}}
+            </div>
+            <!-- end accordions -->
+            <!-- begin skills -->
+            <div id="skills" class="col-sm-6 block col-sm-6 col-md-6 wow softFadeInUp" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: softFadeInUp;">
+                {{#each skills}}
+                <!-- 1st skillbar -->
+                <div class="skillbar" data-percent="{{percent}}">
+                    <div class="skillbar-title"><span>{{title}}</span></div>
+                    <div class="skillbar-bar {{bgname}}" style="width:{{percent}} "></div>
+                    <div class="skill-bar-percent ">{{percent}}</div>
+                </div>
+                <!-- end 1st skillbar -->
+
+                {{/each}}
+            </div>
+            <!-- end skills -->
+        </div>
+        <!-- end row -->
+    </div>
+    <!-- end container -->
+</section>

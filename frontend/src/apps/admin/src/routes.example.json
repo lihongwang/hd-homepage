@@ -1,0 +1,12 @@
+{
+    "home": {
+        "pathto": "/",
+        "data": {
+            "name": "home",
+            "navName": "网站信息管理"
+        },
+        "controller": {
+            "type": "scripts/routes/home/HomeController"
+        }
+    }
+}

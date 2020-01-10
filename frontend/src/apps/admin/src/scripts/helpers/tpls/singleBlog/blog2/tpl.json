@@ -1,0 +1,31 @@
+{
+    "bannerSrc": "http://ndtheme.com/illusion/images/blog/banner/img-01.jpg",
+    "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "date": "2 April, 2017",
+    "auther": "Admin",
+    "viewsCount": "193",
+    "commentCount": "05",
+    "html": "<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur interdum enim, id venenatis neque.Proin aliquet, augue non tristique dictum, massa turpis suscipit lectus, in sodales justo elit eu libero.Vivamus pulvinar eget lectus rutrum tincidunt. Aenean quis sapien non erat laoreet molestie. Fusce utgravida mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.   Fusce viverra ante non elementum maximus. Cras faucibus vel neque eget porttitor. In nec condimentum nulla. Suspendisse id placerat lectus. Nulla vulputate velit non augue commodo vestibulum. Praesent faucibusfeugiat purus, ac varius sem faucibus non. Sed mattis ex nunc, nec viverra metus tristique at.</p>  <blockquote>Etiam sit amet sollicitudin erat, sit amet dapibus leo. Nulla tempor euismod aliquam. Nulla ipsum est, aliquet   commodo ullamcorper ac, rhoncus id mauris. Nulla odio mi, dignissim et dolor a, convallis vestibulum leo. Proin dignissim dictum libero, sed vulputate nibh vehicula id.</blockquote> <p>Cras dapibus posuere purus, sit amet luctus felis venenatis ac. Morbi justo lectus, tristique nec ligula vel, mollis lobortis justo. Mauris pharetra dictum eros eget ultricies. Donec a tempor sem, eget tristique  ex. Aenean vel accumsan eros. Nunc feugiat interdum dui volutpat scelerisque. Nam lobortis faucibus dui,    et tincidunt urna sagittis vitae.</p><p>Maecenas nibh enim, condimentum quis ex non, porttitor ullamcorper odio. Phasellus arcu tellus, scelerisque vitae sem at, iaculis consectetur massa. Ut ultricies augue ut accumsan semper. Cras sagittis massa condimentum leo tempor, at auctor orci dapibus. Integer condimentum finibus metus vel interdum. Cras dui diam, rutrum   vitae felis sit amet, vulputate malesuada leo. Pellentesque varius massa eget mi condimentum congue. Mauris non venenatis augue. Nullam molestie est non ultricies interdum. Duis convallis eros in ligula molestie eleifend. Sed sem ipsum, dapibus ac enim non, tristique rutrum eros. Morbi mollis, nibh sed auctor rhoncus, mauris nisl hendrerit neque, a bibendum diam enim sed sem.</p>  <h3>Lorem ipsum dolor sit amet.</h3><ul><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li><li>Mauris dictum massa at ligula commodo accumsan.</li><li>Integer et neque dapibus, dignissim tellus ac, dignissim libero.</li> <li>Fusce imperdiet erat eu dolor interdum lacinia.</li><li>Nullam commodo libero sit amet eros dignissim dignissim.</li></ul><p>Etiam eros libero, vulputate at lorem sed, ultrices vestibulum orci. Vivamus vitae velit neque. Pellentesquepulvinar tortor at mi finibus commodo ut vitae ante. Praesent molestie nisl mauris, nec porta nisl volutpat id. Sed eget pulvinar tortor. Vestibulum dui ipsum, consequat at ligula ac, interdum dapibus odio. Utsed nibh lacinia, molestie massa in, dictum dolor. Vestibulum justo enim, iaculis eget pretium eget,aliquet nec lorem. Integer id sapien elit. Pellentesque nisl dui, dapibus eget bibendum sit amet, posuerenon enim. Nulla facilisis gravida gravida. Maecenas varius interdum metus, et bibendum dui sagittis sed.Suspendisse potenti. Pellentesque ac tincidunt mi, id condimentum velit.</p>",
+    "commentItems": [{
+        "src": "http://theme.pixflow.net/massive-dynamic/portfolio-design-agency/portfolio/",
+        "title": "cheap thrills",
+        "date": "20 Sep, 2017",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam efficitur risus ac facilisis  blandit. Duis justo lacus, vehicula vitae nisi at, aliquam posuere enim. Morbi pellentesque condimentum massa eu vestibulum. Sed dictum lobortis sem, eu pretium odio tempus consequat. Sed pellentesque massa sit amet tempor vestibulum.",
+        "commentChild": [{
+            "src": "http://ndtheme.com/illusion/images/clients/client-02.jpg",
+            "title": "cheap thrills",
+            "date": "20 Sep, 2017",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam efficitur risus ac facilisis  blandit. Duis justo lacus, vehicula vitae nisi at, aliquam posuere enim. Morbi pellentesque condimentum massa eu vestibulum. Sed dictum lobortis sem, eu pretium odio tempus consequat. Sed pellentesque massa sit amet tempor vestibulum."
+        }, {
+            "src": "http://ndtheme.com/illusion/images/clients/client-03.jpg",
+            "title": "cheap thrills",
+            "date": "20 Sep, 2017",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam efficitur risus ac facilisis  blandit. Duis justo lacus, vehicula vitae nisi at, aliquam posuere enim. Morbi pellentesque condimentum massa eu vestibulum. Sed dictum lobortis sem, eu pretium odio tempus consequat. Sed pellentesque massa sit amet tempor vestibulum."
+        }]
+    }, {
+        "src": "http://theme.pixflow.net/massive-dynamic/portfolio-design-agency/portfolio/",
+        "title": "cheap thrills",
+        "date": "20 Sep, 2017",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam efficitur risus ac facilisis  blandit. Duis justo lacus, vehicula vitae nisi at, aliquam posuere enim. Morbi pellentesque condimentum massa eu vestibulum. Sed dictum lobortis sem, eu pretium odio tempus consequat. Sed pellentesque massa sit amet tempor vestibulum."
+    }]
+}

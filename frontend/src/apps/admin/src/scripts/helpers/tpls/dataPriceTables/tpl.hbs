@@ -1,0 +1,37 @@
+<div class="row">
+			{{#each pricingTable}}
+			<!--block1-->
+				<div class="col-sm-4 col-md-4 pricing-table">
+					<ul>
+						
+						<li class="pricing-header-row-1">
+						<h4><span>{{title}}</span></h4>
+						<small>{{fromTtitle}}</small>
+						</li>
+						<li class="pricing-header-row-2">
+						<h3 class="price">{{pricTtile}}</h3>
+							<small>{{pricTtile1}}</small>
+						</li>
+						<li class="pricing-content-row-odd">
+						{{title1}}
+						</li>
+						<li class="pricing-content-row-even">
+							<span>{{bigTitle2}}</span>{{title2}}
+						</li>
+						<li class="pricing-content-row-odd">
+							{{title3}}
+						</li>
+						<li class="pricing-content-row-even">
+							{{title4}}
+						</li>
+						<li class="pricing-content-row-odd">
+							{{title5}}
+						</li>
+						<li class="pricing-footer">
+						<a class="btn btn-pricing" href="{{link}}">
+						 <h5>{{bontonTitle}}</h5></a>
+						</li>
+					</ul>
+				</div>
+                 {{/each}}
+			</div>

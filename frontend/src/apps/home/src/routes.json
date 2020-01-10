@@ -1,0 +1,74 @@
+{
+  "home": {
+    "pathto": "/",
+    "data": {
+      "name": "home",
+      "navName": "首页"
+    },
+    "controller": {
+      "type": "scripts/routes/home/HomeController"
+    },
+    "position": "1",
+    "hide": false
+  },
+  "about": {
+    "pathto": "/about",
+    "data": {
+      "name": "about",
+      "navName": "关于我们"
+    },
+    "controller": {
+      "type": "scripts/routes/about/AboutController"
+    },
+    "subs": [],
+    "position": "4",
+    "hide": false
+  },
+  "technical": {
+    "pathto": "/technical",
+    "data": {
+      "name": "technical",
+      "navName": "技术平台"
+    },
+    "controller": {
+      "type": "scripts/routes/technical/TechnicalController"
+    },
+    "position": "3",
+    "hide": false
+  },
+  "development": {
+    "pathto": "/development",
+    "data": {
+      "name": "development",
+      "navName": "网站系统开发"
+    },
+    "controller": {
+      "type": "scripts/routes/development/DevelopmentController"
+    },
+    "position": "2",
+    "hide": false,
+    "subs": []
+  },
+  "contact": {
+    "pathto": "/contact",
+    "hide": false,
+    "data": {
+      "name": "contact",
+      "navName": "联系我们"
+    },
+    "controller": {
+      "type": "scripts/routes/contact/ContactController"
+    }
+  },
+  "messages": {
+    "pathto": "/messages",
+    "hide": true,
+    "data": {
+      "name": "messages",
+      "navName": "留言板"
+    },
+    "controller": {
+      "type": "scripts/routes/messages/MessagesController"
+    }
+  }
+}

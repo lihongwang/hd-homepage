@@ -1,0 +1,51 @@
+<section id="portfolio">
+    <div class="container">
+        <div class="title-sections">
+            <h1 class="title-section">{{title}}</h1>
+            <p class="description-section">{{desc}}</p>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div id="filters" class="text-center">
+                    <ul class="text-center">
+                        {{#each filter}}
+                        <li>
+                            <span class="filter {{#if @index}}""{{else}} active {{/if}}" data-filter="website user-interface video">
+                                <i class="fa fa-th"></i> {{name}}</span>
+                        </li>
+                        {{/each}}
+                    </ul>
+                </div>
+                <div id="portfolio-grid">
+                    {{#each portfolioItems}}
+                    <div class="portfolio-block" style="display: inline-block;  opacity: 1;">
+                        <div class="portfolio-wrapper">
+                            <img src="{{img}}" alt="">
+                            <div class="overlaycolor"></div>
+                            <div class="block">
+                                <div class="text text-center">
+                                    <div class="inner">
+                                        <a href="{{img}}" class="fimage" title="{{title}}">
+                                            <i class="fa fa-exchange get"></i>
+                                        </a>
+                                        <a href="{{href}}">
+                                            <h3 class="title">{{title}}</h3>
+                                        </a>
+                                        <span class="category">{{category}}</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {{/each}}
+                </div>
+            </div>
+
+        </div>
+
+        <div class="text-center">
+            <a href="javascript:void(0);" class="button button-small more">Show More</a>
+        </div>
+    </div>
+</section>

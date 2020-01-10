@@ -1,0 +1,25 @@
+{
+  "sites": [
+    {
+      "id": "ryx8E4tGM",
+      "name": "互道科技",
+      "contact": "0791-88269604",
+      "keywords": "",
+      "description": "",
+      "footer": "Copyright © 2015 南昌互道科技有限公司. All Rights Reserved",
+      "createdAt": "2017-12-21T13:16:55.737Z",
+      "updatedAt": "2018-01-12T06:57:20.670Z",
+      "file": {
+        "fieldname": "file",
+        "originalname": "logo(640).png",
+        "encoding": "7bit",
+        "mimetype": "image/png",
+        "destination": "/Users/vitoli/uZone/webServer/hd-homepage/public/upload/sites",
+        "filename": "1515740240616-logo(640).png",
+        "path": "/upload/sites/1515740240616-logo(640).png",
+        "size": 23846
+      },
+      "src": "/upload/sites/1515740240616-logo(640).png"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+'use strict';
+const <%=Name%> = require('../../models/<%=Name%>').<%=Name%>;
+const parse = require('../../helpers/parseList').parse;
+const validate = require('../../helpers/validation').validate;
+module.exports = {
+    index: function(req, res) {
+        parse("<%=name%>", req, res, ["name"]);
+    },
+
+    select: function(req, res) {
+        let <%=name%> = <%=Name%>.findAll({
+            type: "main"
+        });
+        res.json(<%=name%>);
+    },
+
+    show: function(req, res) {
+        let opt = {};
+        opt[req.query.key] = req.query.value;
+        let <%=name%> = <%=Name%>.findByReg(opt);
+        if (<%=name%>) {
+            res.json(<%=name%>);
+        } else {
+            res.json({ status: false, msg: "no results!" });
+        }
+    },
+
+    update: function(req, res) {
+        req.body.file = req.file;
+        let <%=name%> = <%=Name%>.update(req.body);
+        res.json({ status: true, result: <%=name%> });
+    },
+
+    create: function(req, res) {
+        req.body.file = req.file;
+        validate(<%=Name%>, { name: req.body.name }, req, res);
+    },
+
+    delete: function(req, res) {
+        <%=Name%>.delete(req.body);
+        res.json({ status: true, msg: "删除成功！" });
+    },
+
+    import: function(req, res) {
+        res.json(<%=Name%>.importData());
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "name" : "<%=name%>",
+    "title": "A exmaple with navbar and a welcome view and three chapter views",
+    "runtime" : {
+      "skylarkjs" : {
+        "version" : "0.9.5"
+      },
+      "paths": {
+        "server": "scripts/services/server",
+        "commHelpers": "src/helpers",
+        "toastr": "https://cdn.bootcss.com/toastr.js/latest/js/toastr",
+        "handlebars": "https://cdn.bootcss.com/handlebars.js/4.0.11/handlebars.amd.min",
+        "lodash": "https://cdn.bootcss.com/lodash.js/4.17.4/lodash.min",
+        "skylark-jquery": "http://registry.skylarkjs.org/packages/skylark-jquery/v0.9.6-beta/skylark-jquery",
+        "skylark-bs-swt": "http://registry.skylarkjs.org/packages/skylark-bs-swt/v0.9.0-beta/js/skylark-bs-swt",
+        "text" : "https://cdnjs.cloudflare.com/ajax/libs/require-text/2.0.12/text"
+      },
+      "map": {
+        "*": {
+          "jquery": "skylark-jquery",
+          "skylarkBs": "skylark-bs-swt"
+        }
+      }
+    },
+    "page" : {
+        "routeViewer" : "#main"
+     },
+    "plugins": {
+        "navbar": {
+            "hookers": "starting",
+            "controller": {
+                "type": "scripts/plugins/navbar/NavbarController"
+            }
+        }
+    },
+    "routes" : {
+      "home": {
+        "pathto": "<%= domain %>",
+        "data": {
+            "name": "home",
+            "navName": "HomePage"
+        },
+        "controller": {
+            "type": "scripts/routes/home/HomeController"
+        }
+      }
+    }
+}

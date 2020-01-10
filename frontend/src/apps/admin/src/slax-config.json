@@ -1,0 +1,63 @@
+{
+    "name": "admin",
+    "title": "admin page",
+    "runtime": {
+        "skylarkjs": {
+            "version": "0.9.5"
+        },
+        "paths": {
+            "server": "/src/services/server",
+            "commHelpers": "/src/helpers",
+            "material": "/lib/material",
+            "toastr": "https://cdn.bootcss.com/toastr.js/latest/js/toastr",
+            "lodash": "https://cdn.bootcss.com/lodash.js/4.17.4/lodash.min",
+            "handlebars": "https://cdn.bootcss.com/handlebars.js/4.0.11/handlebars.amd.min",
+            "skylark-jquery": "/lib/skylark-jquery",
+            "skylark-bs-swt": "/lib/skylark-bs-swt",
+            "text": "https://cdn.bootcss.com/require-text/2.0.12/text.min",
+            "template": "/lib/template.min",
+            "minibed": "/lib/minibed",
+            "umeditor": "/lib/umeditor/umeditor.min",
+            "umeditorConfig": "/lib/umeditor/umeditor.config",
+            "umeditorZh": "/lib/umeditor/lang/zh-cn/zh-cn",
+            "codemirror": "https://cdn.bootcss.com/codemirror/5.34.0",
+            "codemirror/lib": "https://cdn.bootcss.com/codemirror/5.34.0"
+        },
+        "packages": [{
+            "name": "ace",
+            "main": "ace",
+            "location": "https://cdn.bootcss.com/ace/1.2.9"
+        }],
+        "map": {
+            "*": {
+                "jquery": "skylark-jquery",
+                "jQuery": "skylark-jquery",
+                "skylarkBs": "skylark-bs-swt"
+            }
+        },
+        "shim": {
+            "grapesjs": [
+                "jQuery"
+            ]
+        }
+    },
+    "spaModule": "scripts/helpers/spa",
+    "page": {
+        "routeViewer": "#main"
+    },
+    "plugins": {
+        "app": {
+            "hookers": "starting started",
+            "controller": {
+                "type": "scripts/plugins/app/AppController"
+            }
+        },
+        "navbar": {
+            "hookers": "starting",
+            "controller": {
+                "type": "scripts/plugins/navbar/NavbarController"
+            }
+        }
+    },
+    "routesPath": "./routes.json"
+}

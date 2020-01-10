@@ -1,0 +1,63 @@
+{
+    "leftItems": [{
+        "href": "http://theme.pixflow.net/massive-dynamic/portfolio-design-agency/",
+        "title": "HOME"
+
+    }, {
+        "href": "http://theme.pixflow.net/massive-dynamic/portfolio-design-agency/portfolio/",
+        "title": "PORTFOLIO"
+
+    }, {
+        "href": "http://theme.pixflow.net/massive-dynamic/portfolio-design-agency/about/",
+        "title": "ABOUT"
+    }, {
+        "href": "http://theme.pixflow.net/massive-dynamic/portfolio-design-agency/contact/",
+        "title": "CONTACT"
+    }, {
+        "href": "/",
+        "title": "SINGLES"
+    }],
+    "copyright": "Copyright - Made with Massive Dynamic",
+    "portfolio": [{
+        "bgImg": "http://theme.pixflow.net/massive-dynamic/portfolio-design-agency/wp-content/uploads/sites/38/2015/12/98262733726020.56b66f7b10965-630x542.jpg",
+        "href": "http://theme.pixflow.net/massive-dynamic/portfolio-design-agency/portfolios/design-tools/?pnt=96",
+        "title": "Design Tools",
+        "category": "Tools",
+        "likeCount": "24"
+    }, {
+        "bgImg": "http://theme.pixflow.net/massive-dynamic/portfolio-design-agency/wp-content/uploads/sites/38/2015/12/3b10e016669601.562affae7d60e-600x542.jpg",
+        "href": "http://theme.pixflow.net/massive-dynamic/portfolio-design-agency/portfolios/design-tools/?pnt=96",
+        "title": "Shopping Tag",
+        "category": "Enviroment, Tools",
+        "likeCount": "24"
+
+    }, {
+        "bgImg": "http://theme.pixflow.net/massive-dynamic/portfolio-design-agency/wp-content/uploads/sites/38/2015/12/98262733726020.56b66f7b10965-630x542.jpg",
+        "href": "http://theme.pixflow.net/massive-dynamic/portfolio-design-agency/portfolios/design-tools/?pnt=96",
+        "title": "Logo Collection",
+        "category": "Special",
+        "likeCount": "24"
+
+    }, {
+        "bgImg": "http://theme.pixflow.net/massive-dynamic/portfolio-design-agency/wp-content/uploads/sites/38/2015/12/98262733726020.56b66f7b10965-630x542.jpg",
+        "href": "http://theme.pixflow.net/massive-dynamic/portfolio-design-agency/portfolios/design-tools/?pnt=96",
+        "title": "Paper on Card Work",
+        "category": "Enviroment, Special, Tools ",
+        "likeCount": "24"
+
+    }, {
+        "bgImg": "http://theme.pixflow.net/massive-dynamic/portfolio-design-agency/wp-content/uploads/sites/38/2015/12/98262733726020.56b66f7b10965-630x542.jpg",
+        "href": "http://theme.pixflow.net/massive-dynamic/portfolio-design-agency/portfolios/design-tools/?pnt=96",
+        "title": "Be On Cover !",
+        "category": "Enviroment, Special, Tools",
+        "likeCount": "24"
+
+    }, {
+        "bgImg": "http://theme.pixflow.net/massive-dynamic/portfolio-design-agency/wp-content/uploads/sites/38/2015/12/98262733726020.56b66f7b10965-630x542.jpg",
+        "href": "http://theme.pixflow.net/massive-dynamic/portfolio-design-agency/portfolios/design-tools/?pnt=96",
+        "title": "Bottle of Juice",
+        "category": "Special, Tools",
+        "likeCount": "24"
+
+    }]
+}

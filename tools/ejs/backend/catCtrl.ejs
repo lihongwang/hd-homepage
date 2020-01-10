@@ -1,0 +1,24 @@
+_(ctrlJson.contents.extralNames).each(function(name) {
+    let catName = "contents_" + name;
+    module.exports[name] = function(req, res) {
+        parse("contents", req, res, ["name"], {
+            category: catName
+        });
+    };
+    module.exports["post_" + name] = function(req, res) {
+        let category = Category.findOrCreate("name", {
+            name: catName,
+            type: "contents",
+            usage: 2
+        });
+        req.body.category = catName;
+        req.body.file = req.file;
+        validate(Content, { uniqName: req.body.name + "_" + catName }, req, res);
+    };
+    module.exports["public_" + name] = function(req, res) {
+        parse("contents", req, res, ["name"], {
+            published: 'true',
+            category: catName
+        });
+    };
+});

@@ -1,0 +1,35 @@
+<div class="block-page">
+  <div class="container-medium clearfix">
+
+    <h2 class="text-uppercase text-center color-dark">{{title}}</h2>
+    <div class="devider">
+      <i class="ti-pencil"></i>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-3 hidden-xs">
+        <span class="left-icon">
+          <i class="icon {{icon}}"></i>{{leftText}}</span>
+
+      </div>
+      <div class="col-sm-9">
+        <h4 class="color-dark">{{title1}}</h4>
+        <div class="white-space-10"></div>
+        <p>{{text}}</p>
+        <ul class="list-unstyled">
+          {{#each unstyled}}
+          <li>
+            <i class="fa  fa-angle-right"></i>{{text}}</li>
+          {{/each}}
+        </ul>
+        <div class="white-space-20"></div>
+        <p>
+          <a href="{{link}}" class="pull-right btn btn-flat-solid primary-btn btn-xs">{{btnTitle}}
+            <i class="ti-arrow-top-right"></i>
+          </a>
+        </p>
+      </div>
+    </div>
+
+  </div>
+</div>

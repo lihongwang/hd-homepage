@@ -1,0 +1,10 @@
+{
+    "pathInfo": {
+        "rootPath": "../../",
+        "dbPath": "../dbs",
+        "routePath": "../routes",
+        "backendPath": "../../backend",
+        "frontendPath": "../../frontend",
+        "publicPath": "../../public"
+    }
+}

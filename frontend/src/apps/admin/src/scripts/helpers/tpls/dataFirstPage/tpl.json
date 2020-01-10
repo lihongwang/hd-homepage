@@ -1,0 +1,32 @@
+{
+    "page": [{
+        "link": "/",
+        "title": "Home"
+
+    }, {
+        "link": "/",
+        "title": "About"
+
+    }, {
+        "link": "/",
+        "title": "Portfolio"
+
+    }, {
+        "link": "/",
+        "title": "Blog"
+
+    }, {
+        "link": "/",
+        "title": "Contact"
+
+    }],
+    "emailLink": "#",
+    "emailTitle": "hr@hudaokeji.com",
+    "logoSrc": "http://responsiveexpert.com/themes/lumen/html/img/logo-footer.png",
+    "comText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc euismod sed libero at congue. Praesent vulputate dolor velit, in condimentum odio pellentesin ondimentum odio pellentesque",
+    "phoneTitle": "(0791) 88269604",
+    "nameTitle": "HUDAO",
+    "addressText": "江西省南昌市高新区火炬大街918号泰豪软件园南区综合楼二楼",
+    "mapSrc": "http://responsiveexpert.com/themes/lumen/html/img/map-footer.png"
+
+}

@@ -1,0 +1,31 @@
+<div id="qbootstrap-blog" class="qbootstrap-bg-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center qbootstrap-heading animate-box fadeInUp animated-fast">
+                <h2>{{title}}</h2>
+                <p>{{desc}}</p>
+            </div>
+        </div>
+        <div class="row row-bottom-padded-md">
+        {{#each items}}
+            <div class="col-lg-4 col-md-4">
+                <div class="qbootstrap-blog animate-box fadeInUp animated-fast">
+                    <div class="blog-text">
+                        <h3>
+                            <a href="{{href}}">{{title}}</a>
+                        </h3>
+                    </div>
+                    <a href="{{href}}">
+                        <img class="img-responsive" src="{{src}}" alt="">
+                    </a>
+                    <div class="blog-text">
+                        <span>{{date}}</span>
+                        <p>{{desc}}</p>
+                        <a href="{{moreLink}}" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            {{/each}}
+        </div>
+    </div>
+</div>

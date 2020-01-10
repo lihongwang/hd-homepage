@@ -1,0 +1,143 @@
+<header class="left side-classic header-light logo-dark standard-mode" style="visibility: visible;">
+    <div class="color-overlay border-left border-enabled"></div>
+    <div class="texture-overlay"></div>
+    <div class="bg-image"></div>
+    <div class="content side style-center">
+        <div class="logo">
+            <a href="http://theme.pixflow.net/massive-dynamic/portfolio-design-agency/">
+                <img src="http://theme.pixflow.net/massive-dynamic/portfolio-design-agency/wp-content/uploads/sites/38/2017/05/logo4.jpg"></a>
+        </div>
+        <nav class="navigation hidden-tablet hidden-phone">
+            <ul id="menu-menu" class="clearfix">
+                {{#each leftItems}}
+                <li class="menu-item menu-item-type-post/type menu-item-object-page menu-item-home">
+                    <a href="{{href}}">
+                        <span class="menu-separator-block"></span>
+                        <span class="menu-title md-text-mode">
+                            <span class="title">{{title}}</span>
+                        </span>
+                        <span class="menu-separator"></span>
+                    </a>
+                </li>
+                {{/each}}
+                <!--Add someting to navigation like search box-->
+            </ul>
+        </nav>
+        <div class="footer hidden-tablet hidden-phone ">
+            <div class="info">
+                <div class="footer-content">
+                    <ul class="footer-socials">
+                        <li class="icon">
+                            <a href="#" title="facebook" target="_blank">
+                                <span class="fa fa-facebook default"></span>
+                                <span class="icon-facebook2 hover"></span>
+                            </a>
+                        </li>
+                        <li class="icon">
+                            <a href="#" title="twitter" target="_blank">
+                                <span class="fa fa-twitter default"></span>
+                                <span class="icon-twitter5 hover"></span>
+                            </a>
+                        </li>
+                        <li class="icon">
+                            <a href="#" title="youtube" target="_blank">
+                                <span class="fa fa-youtube-play default"></span>
+                                <span class="icon-youtube2 hover"></span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="copyright ">
+                        <p>{{copyright}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="navigation-button hidden-desktop visible-tablet" href="#">
+            <span class="icon-gathermenu"></span>
+        </a>
+    </div>
+</header>
+<div class="wrap right " style="width:86%;">
+    <!-- Start of Main -->
+    <main class="clearfix  " style="padding-top:0px; width:100%;">
+        <!-- Start of Main content -->
+        <div id="content" class="content " style="padding: 0.0% ;">
+            <div class="color-overlay color-type"></div>
+            <div class="content-container post-96 page type-page status-publish hentry">
+                <div class="no-bg-image vc_row wpb_row mBuilder-element vc_row wpb_row mBuilder-element    sectionOverlay vc_general vc_parallax vc_parallax- full_size " >
+                    <div class="wrap clearfix box_size_container">
+                        <div class="wpb_column vc_column_container    col-sm-6">
+                            <div class="vc_column-inner">
+                                <div class="wpb_wrapper">
+                                    <div class="md-text-container md_text_style-5a66f7f4c0e89 md-align-left wpb_wrapper wpb_md_text_wrapper ui-md_text">
+                                        <div class="md-text gizmo-container">
+                                            <div class="md-text-title inline-editor-title " style="line-height: 40px; font-size: 35px; height: auto;">Case study</div>
+                                            <div class="md-text-content inline-editor  without-content">
+                                                <p></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="md-text-container md-align-left wpb_wrapper md_text_style-5a66f7f4c1215 wpb_md_text_wrapper ui-md_text">
+                                        <div class="md-text gizmo-container">
+                                            <div class="md-text-title inline-editor-title " style="line-height: 40px; font-size: 35px; height: auto;">Portfolio.</div>
+                                            <div class="md-text-content inline-editor  without-content">
+                                                <p></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="vc_empty_space gizmo-container small-gizmo no-setting-gizmo no-animation-gizmo clearfix" style="height:15px"></div>
+                                    <div class="sc-separator  separator-5a66f7f4c15b9  md-align-left clearfix">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="no-bg-image vc_row wpb_row mBuilder-element  controls-in   sectionOverlay vc_general vc_parallax vc_parallax- full_size " >
+                    <div class="wrap clearfix">
+                        <div class="wpb_column vc_column_container    col-sm-12">
+                            <div class="vc_column-inner">
+                                <div class="wpb_wrapper">
+                                    <div class="portfolio portfolio-multisize gizmo-container portfolio-multisize-5a65a5a5b553f inside  ">
+                                        <div class="isotope clearfix portfolio-container" style="position: relative;">
+                                            {{#each portfolio}}
+                                            <div class="col-md-4 portfolio-item item term-18  thumbnail-large" style=" padding: 0px; ">
+                                                <div class="item-wrap portfolio-popup">
+                                                    <div class="item-image" style="height: 468px; background-image: url({{bgImg}});"></div>
+                                                    <a class="overlay-background" href="">
+                                                    </a>
+                                                    <div class="item-meta">
+                                                        <a class="overlay-background" href="{{href}}">
+                                                        </a>
+                                                        <h3 class="item-title portfolio-popup">
+                                                            <a class="overlay-background" href="{{href}}">
+                                                            </a>
+                                                            <a href="{{href}}">{{title}}</a>
+                                                        </h3>
+                                                        <h5 class="item-category"> {{category}}</h5>
+                                                    </div>
+                                                    <a href="#" class="md-post-like" title="Like">
+                                                        <span class="like-heart">
+                                                            <i id="icon-unlike" class="fa fa-heart"></i>
+                                                        </span>
+                                                        <span class="like-count">{{likeCount}}</span></a>
+                                                </div>
+                                            </div>
+                                            {{/each}}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer id="footer-default-id" class="footer-default "  data-width="100">
+        <div class="color-overlay texture-type"></div>
+        <div class="color-overlay image-type"></div>
+        <div class="texture-overlay"></div>
+        <div class="bg-image"></div>
+    </footer>
+</div>

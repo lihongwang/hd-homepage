@@ -1,0 +1,59 @@
+<section class="blog-area">
+    <div class="container">
+        <div class="row">
+            {{#each items}}
+            <div class="col-md-4 col-sm-6">
+                <div class="blog-part">
+                    <div class="blog-img">
+                        <a href="#">
+                            <img src="{{src}}" alt="">
+                        </a>
+                    </div>
+                    <div class="blog-info">
+                        <div class="blog-meta">
+                            <span>
+                                <i class="fa fa-user"></i>
+                                {{user}}
+                            </span>
+                            <span>
+                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                               {{date}} 
+                            </span>
+                        </div>
+                        <h3>
+                            <a href="#">{{title}} </a>
+                        </h3>
+                        <p>{{text}} </p>
+                        <a href="#">READ MORE</a>
+                    </div>
+                </div>
+            </div>
+            {{/each}}
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="page">
+                    <ul>
+                        <li>
+                            <a href="#">01</a>
+                        </li>
+                        <li class="active">
+                            <a href="#">02</a>
+                        </li>
+                        <li>
+                            <a href="#">03</a>
+                        </li>
+                        <li>
+                            <a href="#">04</a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

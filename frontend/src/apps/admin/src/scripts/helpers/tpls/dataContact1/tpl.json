@@ -1,0 +1,19 @@
+{
+    "contactTitle": "联系我们",
+    "contactText": "互道科技注重专业探索，摒弃虚浮夸张；在更深远的认知中将不断修正服务导向，完善服务品质；以探求精品塑造与理念升华，勇做推动行业发展的中坚力量！",
+    "contact": [{
+            "icon": "fa fa-map",
+            "title": "江西省南昌市高新区火炬大街918号泰豪软件园南区综合楼二楼"
+        },
+        {
+            "icon": "fa fa-phone",
+            "title": "(0791) 88269604"
+
+        },
+        {
+            "icon": "fa fa-envelope",
+            "title": "hr@hudaokeji.com"
+        }
+    ],
+    "btnTitle": "提交"
+}

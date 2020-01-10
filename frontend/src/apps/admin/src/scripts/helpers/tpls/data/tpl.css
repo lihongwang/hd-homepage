@@ -1,0 +1,262 @@
+.pageTitle {
+    padding: 60px 0;
+    min-height: 30px;
+    position: relative;
+}
+
+.pageTitle h2 {
+    font-size: 31px;
+    font-weight: 700;
+    color: #717171;
+    line-height: 1.2em;
+    border-left: #f65314 solid 2px;
+    padding: 15px 0 15px 28px;
+    text-transform: uppercase;
+    min-height: 1.2em;
+    position: relative;
+}
+
+.pageTitle .more {
+    display: block;
+    background: url(../newImages/nimg40.png) center no-repeat;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -20px;
+}
+
+.pageTitle .img1 {
+    position: absolute;
+    right: 55px;
+    top: 50%;
+    margin-top: -14px;
+}
+
+.pageTitle .msg {
+    color: #aeaeae;
+    padding-top: 16px;
+    width: 45%;
+}
+
+.pageTitle .tag {
+    position: absolute;
+    right: 80px;
+    top: 60px;
+    text-align: right;
+    width: 635px;
+}
+
+.pageTitle .tag a {
+    display: inline-block;
+    color: #4e4e4e;
+    margin: 0 0 9px 15px;
+    height: 29px;
+    line-height: 29px;
+    padding: 0 10px;
+    background: #f6f6f6;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.pageTitle .tag a:hover {
+    background: #26c7fc;
+    color: #FFF;
+}
+
+.pageTitle .a1 {
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    height: 28px;
+    line-height: 28px;
+    padding: 0 8px;
+    background: #f65314;
+    color: #FFF;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+h2,
+.h2 {
+    font-size: 30px;
+    line-height: 1.4;
+    text-transform: uppercase;
+    color: #3d3d3d;
+}
+
+.line-inset-1 {
+    position: relative;
+}
+
+h2+* {
+    margin-top: 10px;
+}
+
+p {
+    letter-spacing: 0.1em;
+}
+
+p {
+    line-height: 2;
+    margin: 0;
+}
+
+*+.link {
+    margin-top: 12px;
+}
+
+.link {
+    font-size: 14px;
+    font-weight: 700;
+    color: #3d3d3d;
+    text-transform: uppercase;
+}
+
+a {
+    display: inline-block;
+    font: inherit;
+    color: inherit;
+    text-decoration: none;
+    -moz-transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+}
+
+.indexPart2 ul {
+    margin-right: -28px;
+}
+
+.indexPart2 li {
+    color: #FFF;
+}
+
+.indexPart2 li:hover .name {
+    top: 100px;
+    opacity: 0;
+}
+
+.indexPart2 li:hover .img {
+    left: 10px;
+    top: 12px;
+    width: 55px;
+}
+
+.indexPart2 li:hover .name2 {
+    top: 10px;
+}
+
+.indexPart2 li:hover .list {
+    top: 70px;
+}
+
+.indexPart2 li:hover .name2,
+.indexPart2 li:hover .list {
+    opacity: 1;
+}
+
+.indexPart2 .box {
+    height: 224px;
+    background: #f65314;
+    /* border: #FFF solid 9px; */
+    position: relative;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.indexPart2 li:nth-child(2) .box {
+    background: #26c7fc;
+}
+
+.indexPart2 li:nth-child(3) .box {
+    background: #44b573;
+}
+
+.indexPart2 li:nth-child(4) .box {
+    background: #5a3c82;
+}
+
+.indexPart2 .li_02 .box {
+    background: #26c7fc;
+}
+
+.indexPart2 .li_03 .box {
+    background: #44b573;
+}
+
+.indexPart2 .li_04 .box {
+    background: #5a3c82;
+}
+
+.indexPart2 .img {
+    position: absolute;
+    left: 0;
+    top: 45px;
+    width: 100%;
+    text-align: center;
+}
+
+.indexPart2 .name {
+    position: absolute;
+    left: 0;
+    top: 125px;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    opacity: 1;
+    filter: alpha(opacity=1);
+}
+
+.indexPart2 .name2 {
+    position: absolute;
+    left: 65px;
+    top: 130px;
+    white-space: nowrap;
+    line-height: 26px;
+    text-transform: uppercase;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.indexPart2 .name div,
+.indexPart2 .name2 div {
+    font-size: 20px;
+}
+
+.indexPart2 .list {
+    position: absolute;
+    left: 0;
+    top: 100px;
+    width: 100%;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.indexPart2 dl {
+    margin: 0 15px;
+    border-top: #FFF solid 1px;
+    padding-top: 10px;
+}
+
+.indexPart2 dd {
+    float: left;
+    width: 50%;
+    height: 25px;
+    line-height: 25px;
+    overflow: hidden;
+    background: url(../newImages/ico2.png) 8px center no-repeat;
+}
+
+.indexPart2 dd:nth-child(odd) {
+    color: #3d3d3d;
+}

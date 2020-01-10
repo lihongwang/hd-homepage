@@ -1,0 +1,55 @@
+<div class="wal">
+    <!--wal  our service-->
+    <div class="container pageTitle">
+        <h2>{{title1}}
+            <br>{{title2}}
+            <a href="{{link}}" class="more"></a>
+        </h2>
+        <img src="{{headSrc}}" alt="" class="img1">
+    </div>
+    <div class="row indexPart2">
+        <div class="container">
+        <div class="col-lg-5 col-sm-5 wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;">
+            <div class="box-inset-1">
+                <h2>Welcome to our Site!</h2>
+                <div class="line-inset-1">
+                    <p>
+                        We are the unique set-up, that is ready to challenge and knock out such a global problem as unemployment. Our company gladly
+                        helps those, who are ready to learn, to develop and to gain new experience.
+                    </p>
+                    <a href="#" class="link">More</a>
+                </div>
+            </div>
+        </div>
+        <ul class="col-lg-7 col-sm-7">
+            {{#each service}}
+            <li class="col-lg-4 col-sm-4 li_01">
+                <div class="box">
+                    <div class="img">
+                        <a href="">
+                            <img src="{{bgSrc}}" alt="">
+                        </a>
+                    </div>
+                    <div class="name">
+                        <a href="">
+                            <div>{{name}}</div>{{cnName1}}</a>
+                    </div>
+                    <div class="name2">
+                        <a href="">
+                            <div>{{name}}</div>{{cnName2}}</a>
+                    </div>
+                    <div class="list">
+                        <dl>
+                            {{#each subs}}
+                                <dd>{{this}}</dd>
+                            {{/each}}
+                        </dl>
+                    </div>
+                </div>
+            </li>
+            {{/each}}
+        </ul>
+        </div>
+    </div>
+    <div class="h30"></div>
+</div>

@@ -1,0 +1,45 @@
+{
+    "title": "cinemato",
+    "desc": "Demo",
+    "items": [{
+        "href": "/",
+        "src": "http://preview.yrthemes.com/cinamatography/assets/img/full_preview/index.jpg",
+        "title": "Home page"
+    }, {
+        "href": "/",
+        "src": "http://preview.yrthemes.com/cinamatography/assets/img/full_preview/about.jpg",
+        "title": "About us"
+    }, {
+        "href": "/",
+        "src": "http://preview.yrthemes.com/cinamatography/assets/img/full_preview/service.jpg",
+        "title": "Service page"
+    }, {
+        "href": "/",
+        "src": "http://preview.yrthemes.com/cinamatography/assets/img/full_preview/gallery1.jpg",
+        "title": "Portfolio 1"
+    }, {
+        "href": "/",
+        "src": "http://preview.yrthemes.com/cinamatography/assets/img/full_preview/gallery2.jpg",
+        "title": "Portfolio 2"
+    }, {
+        "href": "/",
+        "src": "http://preview.yrthemes.com/cinamatography/assets/img/full_preview/blog1.jpg",
+        "title": "Blogs Style 1"
+    }, {
+        "href": "/",
+        "src": "http://preview.yrthemes.com/cinamatography/assets/img/full_preview/blog2.jpg",
+        "title": "Blogs Style 2"
+    }, {
+        "href": "/",
+        "src": "http://preview.yrthemes.com/cinamatography/assets/img/full_preview/blog3.jpg",
+        "title": "Blogs Style 3"
+    }, {
+        "href": "/",
+        "src": "http://preview.yrthemes.com/cinamatography/assets/img/full_preview/error.jpg",
+        "title": "404 error"
+    }, {
+        "href": "/",
+        "src": "http://preview.yrthemes.com/cinamatography/assets/img/full_preview/contact.jpg",
+        "title": "Contact us"
+    }]
+}

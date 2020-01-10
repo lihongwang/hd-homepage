@@ -1,0 +1,25 @@
+<section id="blog-wrapper">
+    <div class="section-heading"><a href="#">{{wrapperTitle}}</a></div>
+    <div class="caroufredsel_wrapper" style="display: block; text-align: start; float: none; position: relative; top: auto; right: auto; bottom: auto; left: auto; z-index: auto; width: 1905px; height: 530px; margin: 50px 0px 0px; overflow: hidden;"><div class="blog-carousel" style="text-align: left; float: none; position: absolute; top: 0px; right: auto; bottom: auto; left: 53px; margin: 0px; width: 6705px; height: 597px; z-index: auto;">
+    {{#each blog}}
+    <article class="blog animated fadeInLeft" style="margin-right: 15px;">
+            <div class="blog-visual">
+                <img src="{{img}}" alt="">
+                <div class="blog-hover">
+                    <div class="hover-icons animated ">
+                        <span class="fa fa-search"></span>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="head">{{title}}</a>
+            <ul>
+                <li>{{commentsCount}}</li>
+                <li>{{date}}</li>
+            </ul>
+            <p>{{abstract}}</p>
+        </article>
+    {{/each}}
+    </div></div>
+    <div id="blog-carousel-pagination" class="carousel-pagination" style="display: block;"><a href="#" class="selected"><span>1</span></a><a href="#"><span>2</span></a></div>
+
+</section>

@@ -1,0 +1,27 @@
+{
+
+    "container": [{
+            "title": "UtilHub-BaaS云服务的统合平台",
+            "html": "<p>UtilHub是一个BaaS云服务的统合平台,可以将包括UtilHub以及第三方提供在内的、各个分散的BaaS云服务在WEB前端层聚合成一个统合的WEB系统,提供给用户使用.p>"
+        },
+        {
+            "title": "UtilHub-互联网操作系统",
+            "html": "<div class='level4'><p>如下图所示, 一般意义上的操作系统（ Operating System， 简称OS） 是指直接运行在单个计算机“ 裸机” 上的系统软件, 管理和控制计算机硬件与软件资源， 面向用户的应用程序必须在操作系统的支持下才能运行。 <br > </p><p>而UtilHub基于BaaS统合和FaaS平台,从逻辑上实现了的是一个巨大的互联网操作系统.下表从概念上将UtilHub与传统的PC操作系统作了一番比较:</p><div class = 'table sectionedit8'><table class='inline'> <tbody> <tr class = 'row0'> <th class = 'col0' colspan='2'>User</th > <td class = 'col2'>-</td><td class='col3'>-</td> </tr><tr class = 'row1'> <th class = 'col0' colspan='2'>Shell</th><td class='col2'>Web Site(Faas Engine)</td><td class='col3'>Desktop</td> </tr> <tr class = 'row2'> <th class = 'col0' colspan='2'><abbr title='Operating System'>OS</abbr> Kernel</th><td class='col2'>UtilHub Platform</td><td class='col3'>Windows/Linux/Android/…</td> </tr><tr class = 'row3'> <th class = 'col0' rowspan='2'>Resoure</th><th class='col1'>Software </th><td class='col2'>BaaS</td><td class='col3'>Driver</td> </tr><tr class= 'row4'> <th class = 'col0'>Hardware</th><td class='col1'>The Internet(Computer Network)</td><td class='col2'>Computer(CPU,Storage,NetWork etc)</td> </tr> </tbody></table > </div></div>"
+        },
+        {
+            "title": "UtilHub-FaaS云服务平台",
+            "html": "<div class='level4'><p>首先我们简单的总结一下什么是云服务以及云服务的几种基本模式. <br> 云是网络、 互联网的一种比喻说法。 云服务即通过互联网为客户提供的各种服务,包括计算资源,数据存储.按云服务的内容进行分类,云服务有以下基本模式:</p><ul ><li class = 'level1'><div class='li'> IaaS(Infrastructure as a Service)即基础设施即服务, <br>这里的基础设施指的是虚拟计算机、 云存储、 防火墙和配置服务等网络基础架构部件,云服务的利用者可以基于这些资源自行安装和维护操作系统. </div> </li> <li class = 'level1'><div class='li'> PaaS(Platform as a Service) 即平台即服务 <br>这里的平台指的是可以在上面开发、 测试和部署软件的一种平台,这里的软件通常运行在服务器上面,通过WEB浏览器进行访问. </div></li> <li class = 'level1'><div class='li'> SaaS(Software as a Service) 即软件即服务  <br>这里的软件主要指通过WEB应用程序发布的Office Suite,GroupWare,ERP,CRM等各种类型的应用软件. </div></li><li class='level1'><div class='li'> DaaS(Desktop as a Service) 即桌面即服务 <br>这里的桌面主要指Windows,Linux等PC操作系统的桌面环境 </div></li> <li class = 'level1'><div class='li'> BaaS(Backend as a Service) 即后端即服务 <br>这里的后端主要指可以通过WEB API访问的各种后台服务,包括数据 / 文件存储、 账户管理、 消息推送等.虚拟计算机、 云存储等IaaS中的基础设施被封装在后端服务里. </div></li></ul><p>其中,IaaS, PaaS,SaaS由NTIS(美国国家标准技术研究所) 作了标准化的定义,而BaaS,DaaS我们认为本质上其实可以看成SaaS的一种细分. </p><p>不同于以上几种已有的云服务模式,UtilHub的FaaS云服务平台实现了一个新型的云服务模式. <br > UtilHub提供了一个完全运行于WEB浏览器环境中的前端引擎,基于前端引擎实现了一个组件化的前端系统平台. <br> 前端系统运行时,引擎动态加载所需要的各个组件,包括终端(可以是桌面形式也可以是其他形式),控件,以及应用程序等,并自动解决组件间的依存关系. <br > 所有这些前端组件都统一注册在UtilHub的FaaS服务中心,以FaaS云服务的形式提供给客户使用. </p><p>如果按照NTIS对云服务模式所作的三大标准划分(Iaas / PaaS / SaaS),与BaaS和DaaS一样,FaaS本质上也可以看做SaaS的一个细分. </p><p> 另外， UtilHub实现了一个完整的前端系统平台,如果从UtilHub平台的角度来看,FaaS综合了SaaS(在线提供平台应用)、 PaaS(在线提供平台应用的开发和部署环境)、 DaaS(在线提供运行平台应用的桌面环境) 三大服务模式. </p></div>"
+        }
+    ],
+    "skills": [{
+            "text": "85%",
+            "title": "Skylark.js",
+            "bgname": "bgSkylark"
+        },
+        {
+            "text": "85%",
+            "title": "node.js",
+            "bgname": "bgnodejs"
+        }
+    ]
+}

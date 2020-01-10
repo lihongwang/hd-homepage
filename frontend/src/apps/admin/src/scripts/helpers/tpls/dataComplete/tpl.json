@@ -1,0 +1,20 @@
+{
+    "subTitle": "MADE FOR ENTREPRENEURS",
+    "title": "WE ARE SOLID",
+    "solidRow": [{
+        "src": "http://www.magictemplates.nl/Solid-01/assets/img/media/wireframe-1.png",
+        "title": "COMPLETELY CUSTOMIZABLE",
+        "subTitle": "REALLY EASY TO USE",
+        "text": "Quisque lacinia vulputate neque eu scelerisque. Ut sollicitudin enim non laoreet feugiat. Maecenas at urna sem. Duis a sapien id neque laoreet sollicitudin ut eget urna. Ut sed neque interdum, mollis dolor interdum, eleifend dui."
+    }, {
+        "src": "http://www.magictemplates.nl/Solid-01/assets/img/media/wireframe-2.png",
+        "title": "RESPONSIVE DESIGN",
+        "subTitle": "100% RESPONSIVE LAYOUT",
+        "text": "Aliquam sed luctus purus, et ultrices tortor. Nam accumsan sodales dignissim. Suspendisse fringilla velit a nunc lobortis, id tincidunt enim malesuada. Suspendisse non nulla sapien. Maecenas elementum risus arcu, consequat luctus ligula fermentum eu."
+    }, {
+        "src": "http://www.magictemplates.nl/Solid-01/assets/img/media/wireframe-3.png",
+        "title": "UNLIMITED OPTIONS",
+        "subTitle": "LOADED WITH POWER",
+        "text": "Donec tincidunt turpis risus, ac posuere erat pretium ut. Morbi est sapien, luctus nec risus nec, sodales malesuada libero. Mauris tincidunt arcu sit amet sem auctor fermentum. Vivamus id posuere sapien."
+    }]
+}

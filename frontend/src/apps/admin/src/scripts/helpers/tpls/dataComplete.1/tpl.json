@@ -1,0 +1,13 @@
+{
+    "subTitle": "READY FOR ACTION",
+    "title": "PERSONALIZED",
+    "coffeeRow": [{
+        "src": "http://www.magictemplates.nl/Solid-01/assets/img/icon/line-blue-1.png",
+        "title": "CUSTOM MENUS",
+        "text": "Quisque lacinia vulputate neque eu scelerisque. Ut sollicitudin enim non laoreet feugiat. Maecenas at urna sem."
+    }, {
+        "src": "http://www.magictemplates.nl/Solid-01/assets/img/icon/line-blue-2.png",
+        "title": "USER FRIENDLY",
+        "text": "Quisque lacinia vulputate neque eu scelerisque. Ut sollicitudin enim non laoreet feugiat. Maecenas at urna sem."
+    }]
+}

@@ -1,0 +1,45 @@
+.modal-dialog {
+    .sub-form {
+        li.result-item {
+            list-style: none;
+            line-height: 35px;
+        }
+    }
+    .lists {
+        ul,
+        li {
+            list-style: none;
+        }
+        li:nth-child(2n) {
+            background: #eee;
+        }
+    }
+    //select all  checkout box bug
+    .frozen-thead-wrapper .repeater-list-heading .checkbox-inline {
+        // padding: 0;
+        height: 16px;
+        .checkbox-material {
+            top: -5px;
+        }
+    }
+    #selectContentListR_checkall .checkbox-material:before {
+        display: none;
+    }
+    .checkbox .checkbox-material:before,
+    label.checkbox-inline .checkbox-material:before {
+        width: 16px;
+        height: 16px;
+        top: 0;
+    }
+    .checkbox .checkbox-material .check,
+    label.checkbox-inline .checkbox-material .check {
+        width: 16px;
+        height: 16px;
+    }
+    .checkbox .checkbox-material .check:before,
+    label.checkbox-inline .checkbox-material .check:before {
+        margin-top: -6px;
+        margin-left: 4px;
+    }
+    //select all  checkout box bug end
+}

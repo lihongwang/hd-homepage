@@ -1,0 +1,43 @@
+{
+    "imgItem": [{
+        "title": "COYOTE BUTTES $450",
+        "img": "http://theme.pixflow.net/massive-dynamic/travel/wp-content/uploads/sites/56/2016/05/sandstone-467714_1920.jpg"
+    }, {
+        "title": "BOKA WATERFALL $450",
+        "img": "http://theme.pixflow.net/massive-dynamic/travel/wp-content/uploads/sites/56/2016/05/Liverpool_Metropolitan_Cathedral_at_dusk_reduced_grain_corrected_perspective.jpg"
+    }, {
+        "title": "METROPOLITAN   $650",
+        "img": "http://theme.pixflow.net/massive-dynamic/travel/wp-content/uploads/sites/56/2016/05/photo-1429063361180-a0dee910834e-1.jpg"
+    }, {
+        "title": "PHI PHI ISLAND   $540",
+        "img": "http://theme.pixflow.net/massive-dynamic/travel/wp-content/uploads/sites/56/2016/05/Phi-Phi-2.jpg"
+    }],
+    "title": "MOST POPULAR",
+    "subtitle": "Importing pre-made demos is nothing new, but importing demos in a beautiful and convenient way is something that no one has ever done before. We introduce you Massive Importer, a quick, beautiful and powerful feature, that allows you to import Massive Dynamic Demos very easy.Say goodbye to pre - made layouts like boxed or full width, you can create your layout exactly the way you want it.You have the option to change width,height andset spaces for layouts.",
+    "address": "COUNTRIES",
+    "customCompass": [{
+        "address": "Rome"
+    }, {
+        "address": "Florence"
+    }, {
+        "address": "Naples"
+    }, {
+        "address": "Capri"
+    }, {
+        "address": "Blogna"
+    }, {
+        "address": "Milan"
+    }, {
+        "address": "Turin"
+    }, {
+        "address": "Venice"
+    }, {
+        "address": "Rome"
+    }, {
+        "address": "Florence"
+    }, {
+        "address": "Naples"
+    }, {
+        "address": "Capri"
+    }]
+}

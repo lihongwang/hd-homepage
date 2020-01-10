@@ -1,0 +1,21 @@
+<div class="container wrapper">
+				<div class="inner_content">
+					<div class="pad45"></div>
+					<div class="main fadeinup animated fadeInUp">
+						
+				<ul class="cbp_tmtimeline">
+                    {{#each timeline}}
+					<li>
+						<time class="cbp_tmtime"><span>{{timeTitle}}</span></time>
+						<div class="{{icon}}"></div>
+						<div class="cbp_tmlabel">
+							<h2>{{nameTitle}}</h2>
+							<p>
+								{{text}}
+							</p>
+						</div>
+                    {{/each}}
+				</ul>
+			</div>
+		</div>
+		</div>

@@ -1,0 +1,228 @@
+/*http://themes.pryanik.co/?theme=milk    */
+
+.color-red {
+    background-color: #e12727;
+}
+
+.color-blue {
+    background-color: #49b4ff;
+}
+
+.color-violet {
+    background-color: #7c90ec;
+}
+
+.color-yellow {
+    background-color: #ffa810;
+}
+
+.color-gray {
+    background-color: #aaaaaa;
+}
+
+.color-green {
+    background-color: #00c012;
+}
+
+.color-beige {
+    background-color: #d1b68f;
+}
+
+.color-facebook {
+    background-color: #486fb0;
+}
+
+.color-twitter {
+    background-color: #5cb5e8;
+}
+
+.color-youtube {
+    background-color: #ea5932;
+}
+
+.gallery {
+    background-color: #eee;
+    padding-top: 30px;
+}
+
+.grid {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.grid li {
+    display: none;
+}
+
+.work figure {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
+.work figure img {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 3px;
+}
+
+.work figcaption {
+    position: absolute;
+    top: 0;
+    z-index: 11;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.work figcaption h3 {
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+}
+
+.work figcaption .divider {
+    width: 70px;
+    height: 2px;
+    margin: 15px auto;
+    -webkit-transition: opacity 0.1s, -webkit-transform 0.1s;
+    transition: opacity 0.1s, transform 0.1s;
+}
+
+.work figcaption p {
+    padding: 0 35px;
+    color: #555;
+    font-size: 13px;
+    -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.work figcaption h3,
+.work figcaption p,
+.work figcaption .divider {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.work figure .button {
+    position: absolute;
+    border: none;
+    text-transform: uppercase;
+    -webkit-transition: opacity 0.2s, -webkit-transform 0.2s, background 0.1s;
+    transition: opacity 0.2s, transform 0.2s, background 0.1s;
+}
+
+.work figcaption,
+.work figcaption h3,
+.work figcaption p,
+.work figcaption .divider .work figure .button {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.work svg {
+    position: absolute;
+    top: -1px;
+    /* fixes rendering issue in FF */
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+}
+
+.work svg path {
+    fill: #fff;
+}
+
+.work figure .pathDefault {
+    opacity: 1;
+}
+
+.work figure .pathHover {
+    opacity: 0;
+}
+
+.work figure:hover .pathDefault {
+    opacity: 0;
+}
+
+.work figure:hover .pathHover {
+    opacity: 1;
+}
+
+.work:hover figcaption h3,
+.work:hover figcaption p,
+.work:hover figcaption .divider {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+}
+
+.work:hover figcaption p,
+.work:hover figcaption .divider {
+    opacity: 0;
+}
+
+.work figcaption p {
+    -webkit-transition-delay: 0.05s;
+    transition-delay: 0.05s;
+}
+
+.work figure .button {
+    bottom: 0;
+    left: 0;
+    padding: 15px;
+    width: 100%;
+    background: rgba(73, 180, 255, 0.8);
+    color: #fff;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 12px;
+    border-radius: 0 0 3px 3px;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+}
+
+.work figure .button:hover {
+    background: rgba(73, 180, 255, 1);
+}
+
+.work figure .button i,
+.btn i {
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.work:hover figure .button {
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.work figcaption h3,
+.work figcaption p {
+    -webkit-transition-timing-function: cubic-bezier(0.250, 0.250, 0.115, 1);
+    /* older webkit */
+    -webkit-transition-timing-function: cubic-bezier(0.250, 0.250, 0.115, 1.445);
+    timing-function: cubic-bezier(0.250, 0.250, 0.115, 1.445);
+}
+
+.work:hover figcaption p {
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+    -webkit-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+}
+
+.gallery .row:last-child {
+    text-align: center;
+    padding-bottom: 30px;
+}

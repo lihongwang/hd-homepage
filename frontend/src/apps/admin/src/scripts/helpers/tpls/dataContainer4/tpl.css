@@ -1,0 +1,109 @@
+.parallax {
+    background-attachment: fixed !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.section-content {
+    padding: 90px 0;
+}
+
+.parallax h1 {
+    color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.section-title,
+.form-group label {
+    color: #222;
+    font-family: 'Raleway', sans-serif;
+}
+
+p.lead {
+    color: #7c7c7c;
+}
+
+.element-line {
+    margin-top: 70px;
+}
+
+.item_left {
+    left: -80px;
+    padding-right: 0px;
+    opacity: 0;
+    position: relative;
+}
+
+.section-title .lead strong,
+.progress .progress-bar,
+.nav-tabs>li>a,
+.parallax-box a:hover,
+.pager .puls>a:hover,
+.pricing-box .pricing-featured li.price-row,
+.pager .pagination li a:hover,
+.widget .widget-tag li a:hover,
+.hi-icon-effect-1 .hi-icon,
+.mybutton a span,
+.mybutton button span,
+.csstransforms3d .mybutton a:hover span::before,
+.csstransforms3d .mybutton button:hover span::before,
+.mybutton2 a span,
+.mybutton2 button span {
+    background: #0098f9;
+}
+
+.parallax-box a {
+    background: #fff;
+    padding: 30px 20px;
+    display: block;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #222;
+}
+
+.parallax-box a:hover i,
+.parallax-box a:hover h4 {
+    color: #fff;
+}
+
+.parallax-box a i {
+    color: #a4a4a4;
+}
+
+.fa-4x {
+    font-size: 4em;
+}
+
+.parallax-box h4 {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 12px 0;
+}
+
+.parallax-box a:hover p,
+.parallax-background-color p {
+    color: #96cef2;
+}
+
+.parallax-box a p {
+    color: #8d8d8d;
+}
+
+.parallax-box p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 18px;
+}

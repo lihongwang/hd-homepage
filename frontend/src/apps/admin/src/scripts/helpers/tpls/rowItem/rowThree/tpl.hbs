@@ -1,0 +1,24 @@
+<div class="container-fluid container-wrap  sectionOverlay">
+    <div class="wrap">
+        {{#each items}}
+        <div class="wpb_column  col-sm-4">
+            <div class="vc_column-inner">
+                <div class="imagebox-full clearfix" style="background-image: url({{image}}); background-position: 50% 50%;">
+                    <div class="overlay"></div>
+                    <div class="text-container" style="height: 150px;max-height: 150px">
+                        <h4 class="title">{{title}}</h4>
+                        <p class="description">{{desc}}</p>
+                    </div>
+                    <div class="shortcode-btn">
+                        <a class="button slide button-small slide-button slide-transition" href="#" target="_self">
+                            <i class="button-icon fa fa-arrow-up"></i>
+                            <span>More Detail</span>
+                        </a>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</div>

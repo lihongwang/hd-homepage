@@ -1,0 +1,50 @@
+{
+    "buildForm": true,
+    "selectRowData": true,
+    "schema": {
+        "type": "object",
+        "properties": {
+            "title": {
+                "type": "string",
+                "title": "Title",
+                "description": "title"
+            },
+            "description": {
+                "type": "string",
+                "title": "description",
+                "format": "text"
+            },
+            "items": {
+                "title": "Banner Items",
+                "type": "array",
+                "items": {
+                    "_contentSelect": true,
+                    "description": "row item",
+                    "type": "object",
+                    "properties": {
+                        "tabName": {
+                            "type": "string",
+                            "title": "tabName",
+                            "description": "tabName"
+                        },
+                        "tabId": {
+                            "type": "string",
+                            "title": "tabId",
+                            "description": "tabId"
+                        },
+                        "title": {
+                            "type": "string",
+                            "title": "Title",
+                            "description": "title"
+                        },
+                        "description": {
+                            "type": "string",
+                            "title": "description",
+                            "format": "text"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,105 @@
+#loader {
+    background-color: #443a8b;
+}
+
+#loader {
+    position: fixed;
+    top: 50px;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #443a8b;
+    z-index: 100000000;
+    opacity: 1;
+    overflow: hidden;
+    text-align: center;
+}
+
+.position-center-center {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+div.ldr {
+    width: 8vmax;
+    height: 8vmax;
+    border-right: 4px solid #fff;
+    border-radius: 100%;
+    -webkit-animation: spinRight 800ms linear infinite;
+    animation: spinRight 800ms linear infinite;
+}
+
+div.ldr:before,
+div.ldr:after {
+    content: '';
+    width: 6vmax;
+    height: 6vmax;
+    display: block;
+    position: absolute;
+    top: calc(50% - 3vmax);
+    left: calc(50% - 3vmax);
+    border-left: 3px solid #fff;
+    border-radius: 100%;
+    -webkit-animation: spinLeft 800ms linear infinite;
+    animation: spinLeft 800ms linear infinite;
+}
+
+div.ldr:after {
+    width: 4vmax;
+    height: 4vmax;
+    top: calc(50% - 2vmax);
+    left: calc(50% - 2vmax);
+    border: 0;
+    border-right: 2px solid #fff;
+    -webkit-animation: none;
+    animation: none;
+}
+
+@-webkit-keyframes spinLeft {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(720deg);
+        transform: rotate(720deg);
+    }
+}
+
+@keyframes spinLeft {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(720deg);
+        transform: rotate(720deg);
+    }
+}
+
+@-webkit-keyframes spinRight {
+    from {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+    to {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes spinRight {
+    from {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+    to {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}

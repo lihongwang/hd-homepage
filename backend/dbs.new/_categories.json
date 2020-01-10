@@ -1,0 +1,36 @@
+{
+  "categories": [
+    {
+      "name": "pages_sub",
+      "type": "pages",
+      "usage": 2,
+      "id": "B1eVHbhH4G",
+      "createdAt": "2018-01-12T03:53:32.068Z",
+      "updatedAt": "2018-01-12T03:53:32.068Z"
+    },
+    {
+      "name": "pages_main",
+      "type": "pages",
+      "usage": 2,
+      "id": "HkgGxsaSVM",
+      "createdAt": "2018-01-12T05:43:06.242Z",
+      "updatedAt": "2018-01-12T05:43:06.242Z"
+    },
+    {
+      "name": "contents_home",
+      "type": "contents",
+      "usage": 2,
+      "id": "S1Y_ryUEG",
+      "createdAt": "2018-01-12T07:36:16.518Z",
+      "updatedAt": "2018-01-12T07:36:16.518Z"
+    },
+    {
+      "name": "contents_test",
+      "type": "contents",
+      "usage": 2,
+      "id": "B1eb9ilq4f",
+      "createdAt": "2018-01-15T09:59:36.932Z",
+      "updatedAt": "2018-01-15T09:59:36.932Z"
+    }
+  ]
+}

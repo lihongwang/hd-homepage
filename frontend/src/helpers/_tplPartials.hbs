@@ -1,0 +1,531 @@
+<div>
+    <script id="homeBanner-partial" type="text/x-handlebars-template">
+        <div class="indexFlash">
+            <ul>
+                {{#each bannerData}}
+                <li class="">
+                    <div class="imgDiv img">
+                        <img src="{{imgDiv}}" alt="">
+                    </div>
+                    <div class="bg"></div>
+                    <div class="box">
+                        <div class="name" style="opacity: 1;">
+                            <span>yunzhi</span>Dvpt.</div>
+                        <div class="line" style="width: 100%;"></div>
+                        <div class="name2" style="opacity: 1;">
+                            <div>{{name2Title}}</div>{{name2Desc}}</div>
+                        <div class="content" style="opacity: 1;">{{content}}</div>
+                        <div class="btn" style="opacity: 1;">
+                            <a href="/" target="_blank" title="了解详情">了解详情</a>
+                            <a href="/" target="_blank" title="联系我们">联系我们</a>
+                        </div>
+                    </div>
+                </li>
+                {{/each}}
+            </ul>
+            <div class="btnDiv">
+                <span class=""></span>
+                <span class="on"></span>
+                <span class=""></span>
+            </div>
+        </div>
+    </script>
+    <script id="homeBanner-form-partial" type="text/x-handlebars-template">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="title">标题</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" name="title" value="{{title}}" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">内容</label>
+            <div class="col-sm-10">
+                <textarea class="editable" id="simplemde" name="content">{{content}}</textarea>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">选择文章</label>
+            <div class="col-sm-10">
+                <button class="btn btn-primary select-content-list" data-type="posts" data-action="public/meet" type="button">点击选择</button>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">已选择的文章</label>
+            <div class="col-sm-10 select-content-results">
+                <ul class="ul-inline"></ul>
+            </div>
+        </div>
+    </script>
+    <script id="homeService-partial" type="text/x-handlebars-template">
+        <div class="wal">
+            <!--wal  our service-->
+            <div class="pageTitle">
+                <h2>our service
+                    <br>服务范围
+                    <a href="/" class="more"></a>
+                </h2>
+                <img src="/assets/images/nimg116.png" alt="" class="img1">
+            </div>
+            <div class="indexPart2">
+                <ul>
+                    {{#each serviceData}}
+                    <li class="li_01">
+                        <div class="box">
+                            <div class="img">
+                                <a href="">
+                                    <img src="{{imgUrl}}" alt="">
+                                </a>
+                            </div>
+                            <div class="name">
+                                <a href="">
+                                    {{name}}</a>
+                            </div>
+                            <div class="name2">
+                                <a href="">
+                                    {{name2}}</a>
+                            </div>
+                            <div class="list">
+                                <dl>
+                                    <dd>{{dd1}}</dd>
+                                    <dd>{{dd2}}</dd>
+                                    <dd>{{dd3}}</dd>
+                                    <dd>{{dd4}}</dd>
+                                    <dd>{{dd5}}</dd>
+                                    <dd>{{dd6}}</dd>
+                                    <dd>{{dd7}}</dd>
+                                    <dd>{{dd8}}</dd>
+                                    <dd>{{dd9}}</dd>
+                                    <dd>{{dd10}}</dd>
+                                    <dd>{{dd11}}</dd>
+                                    <dd>{{dd12}}</dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </li>
+                    {{/each}}
+
+                </ul>
+            </div>
+            <div class="h30"></div>
+            <div class="indexPart3">
+                <ul>
+                    {{#each serviceData}}
+                    <li class="lion">
+                        <dl>
+                            <dd class="dd_01">
+                                <div class="box">
+                                    <div class="name">{{lionName}}</div>
+                                    <p>
+                                        <span>{{lionTitle}}</span>{{lionDesc}}</p>
+                                    <div class="bg" style="background:url({{lionBg}})"></div>
+                                    <div class="bgLayer"></div>
+                                </div>
+                            </dd>
+                        </dl>
+                    </li>
+                    {{/each}}
+
+                </ul>
+                <a href="javascript:;" class="prev"></a>
+                <a href="javascript:;" class="next"></a>
+            </div>
+
+
+            <div class="h30"></div>
+            <!--wal-->
+        </div>
+    </script>
+    <script id="homeService-form-partial" type="text/x-handlebars-template">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="title">标题</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" name="title" value="{{title}}" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">选择服务</label>
+            <div class="col-sm-10">
+                <button class="btn btn-primary select-content-list" data-type="qas" type="button">点击选择</button>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">已选择的服务</label>
+            <div class="col-sm-10 select-content-results">
+                <ul class="ul-inline"></ul>
+            </div>
+        </div>
+    </script>
+    <script id="homeModel-partial" type="text/x-handlebars-template">
+        <div class="f-index-model">
+            <div class="fk-index-wrap">
+                <div class="fk-index-header">
+                    <h2 class="f-hd-title">海量模版</h2>
+                    <p class="f-hd-subDesc">自由添加拖拽、不耗时、支持个性化定制</p>
+                    <ul class="fk-index-tabs" sld-id="modelSld">
+                        <li class="f-tab f-tab-first f-tab-active">电脑端</li>
+                        <li class="f-tab">手机端</li>
+                        <li class="f-tab-activeLine" style="left: 0px; top: 101px; width: 78px; height: 2px;"></li>
+                    </ul>
+                </div>
+                <div class="fk-index-sliderPanel" id="modelSld">
+                    <ul class="f-sldList f-sldList-2" style="left: 0px;">
+                        <li class="f-sldItem">
+                            <div class="f-listWrap">
+                                <ul class="f-list" id="pcCaseList">
+                                    {{#each modelData}}
+                                    <li class="f-item">
+                                        <div class="fk-casePc-formWrap fk-casePc-formWrapHover">
+                                            <div class="f-casePc-form">
+                                                <div class="f-winBg"></div>
+                                                <div class="f-win">
+                                                    <img src="{{pcImg}}" alt="广告设计服务模板网站" class="f-win-img">
+                                                </div>
+                                                <div class="f-winMask">
+                                                    <a href="{{pcHref}}" target="_blank" title="{{pcTitle}}" class="f-link-preview" rel="nofollow">
+                                                        <div class="f-link-previewBg"></div>
+                                                        <div class="f-icon-preview"></div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    {{/each}}
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="f-sldItem">
+                            <div class="f-listWrap f-mobiListWrap">
+                                <ul class="f-list-mobi" id="caseMobiList">
+                                    {{#each modelData}}
+                                    <li class="f-item">
+                                        <div class="fk-caseForm">
+                                            <div class="f-caseWrap">
+                                                <div class="fk-index-mobiArea fk-index-mobiAreaHover">
+                                                    <div class="fk-index-mobiPlaceholder">
+                                                        <div class="fk-index-caseForm">
+                                                            <div class="f-phone-template"></div>
+                                                            <div class="f-screen fk-index-screenHover">
+                                                                <a href="{{mobiHref}}" class="f-screen-link" rel="nofollow">
+                                                                    <img src="{{mobiImg}}" alt="{{mobiAlt}}" class="f-screen-img">
+                                                                </a>
+                                                                <div class="f-screenMask">
+                                                                </div>
+                                                                <div class="f-screen-contentWrap">
+                                                                    <img class="f-qrCode" src="mobi_qrcode.jsp?URL={{mobiHref}}" width="80px" height="80px">
+                                                                    <a class="f-btn-preview" href="{{mobiHref}}" target="_blank" rel="nofollow"><span><i class="fkIcon-preview"></i><span class="f-txt">预览</span></span></a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    {{/each}}
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </script>
+    <script id="homeModel-form-partial" type="text/x-handlebars-template">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="title">标题</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" name="title" value="{{title}}" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">选择文章</label>
+            <div class="col-sm-10">
+                <button class="btn btn-primary select-content-list" data-type="posts" data-action="public/activity" type="button">点击选择</button>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">已选择的文章</label>
+            <div class="col-sm-10 select-content-results">
+                <ul class="ul-inline"></ul>
+            </div>
+        </div>
+    </script>
+    <script id="homeHelper-partial" type="text/x-handlebars-template">
+        <div class="f-index-helper">
+            <div class="fk-index-wrap">
+                <div class="fk-index-header">
+                    <h2 class="f-hd-title">帮助中心</h2>
+                    <ul class="fk-index-tabs" sld-id="model-sld">
+                        <li class="f-tab f-tab-first f-tab-active">
+                            <a class="f-tabLink" href="/">建站帮助</a>
+                        </li>
+                        <li class="f-tab">
+                            <a class="f-tabLink" href="/">新闻资讯</a>
+                        </li>
+                        <li class="f-tab-activeLine" style="left: 0px; top: 101px; width: 72px; height: 2px;"></li>
+                    </ul>
+                    <div class="fk-index-sliderPanel" id="model-sld">
+                        <div class="f-sldList f-sldList-2" style="left: 0px;">
+                            <div class="f-sldItem">
+                                <div class="f-helpListWrap">
+                                    <ul class="f-helpList">
+                                        {{#each helperData}}
+
+                                        <li class="f-helpItem">
+                                            <div class="f-time">
+                                                <div class="f-time-md">{{dateMD}}</div>
+                                                <div class="f-time-y">{{dateY}}</div>
+                                            </div>
+                                            <div class="f-info">
+                                                <h3 class="f-info-title"><a class="f-a" href="/"><span class="f-hot"></span><span class="f-txt">{{title}}</span></a></h3>
+                                                <p class="f-info-intro">{{intro}}</p>
+                                            </div>
+                                        </li>
+                                        {{/each}}
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </script>
+    <script id="homeHelper-form-partial" type="text/x-handlebars-template">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="title">标题</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" name="title" value="{{title}}" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">选择图片</label>
+            <div class="col-sm-10">
+                <button class="btn btn-primary select-content-list" data-type="posts" data-action="public/env" type="button">点击选择</button>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">已选择的图片</label>
+            <div class="col-sm-10 select-content-results">
+                <ul class="ul-inline"></ul>
+            </div>
+        </div>
+    </script>
+    <script id="homeAfterSale-partial" type="text/x-handlebars-template">
+        <div class="app-eighth">
+            <h1>恩赐方的售后服务</h1>
+        </div>
+    </script>
+    <script id="homeAfterSale-form-partial" type="text/x-handlebars-template">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="title">标题</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" name="title" value="{{title}}" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">内容</label>
+            <div class="col-sm-10">
+                <textarea class="editable" id="simplemde" name="content">{{content}}</textarea>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">选择段落内容</label>
+            <div class="col-sm-10">
+                <button class="btn btn-primary select-content-list" data-type="snippets" type="button">点击选择</button>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">已选择的内容</label>
+            <div class="col-sm-10 select-content-results">
+                <ul class="ul-inline"></ul>
+            </div>
+        </div>
+    </script>
+    <script id="homeContact-partial" type="text/x-handlebars-template">
+        <div class="contact-us">
+            <div class="contact-us-con">
+
+                <div class="contact-title">
+                    <h1>把您的需求告诉我们,30分钟获得报价</h1>
+                    <span>您的信任是我们最大的动力！恩赐方竭诚为您服务！</span>
+                </div>
+
+                <div class="row contact-cn">
+
+                    <div class="col-md-6 contact-left">
+                        <div class="contact-left-div">
+                            <input type="text" class="contact-inp-left1" name="user_name" id="user_name" value="" placeholder="您的姓名">
+                            <input type="text" class="contact-inp-right1" id="user_phone" name="user_phone" value="" placeholder="您的手机号"> </div>
+                        <div class="contact-left-div">
+                            <input type="text" class="contact-inp-left2" id="user_wx" name="user_wx" value="" placeholder="您的微信（选填）">
+                            <input type="text" class="contact-inp-right2" id="user_qq" name="user_qq" value="" placeholder="您的QQ（选填）"> </div>
+                        <div class="contact-left-div">
+                            <textarea name="user_need" rows="" cols="" id="user_need" placeholder="您的需求"></textarea>
+                        </div>
+                        <button type="button" id="send">提交留言</button>
+                    </div>
+
+                    <div class="col-md-offset-1 col-md-5 contact-right">
+                        <div class="contact-right-div-1 contact-right-div">
+                            <span><i class="glyphicon glyphicon-earphone"></i></span>
+                            <a>400-869-8021</a>
+                        </div>
+                        <div class="contact-right-div-2 contact-right-div">
+                            <span><i class="glyphicon glyphicon-envelope"></i></span>
+                            <a>service@antiphon168.com</a>
+                        </div>
+                        <div class="contact-right-div-3 contact-right-div">
+                            <span><i class="glyphicon glyphicon-map-marker"></i></span>
+                            <a>广州市珠江新城高德置地冬广场H座26楼</a>
+                        </div>
+                        <div class="contact-right-div-4 contact-right-div">
+                            <span><i class="glyphicon glyphicon-road"></i></span>
+                            <a>5号线猎德站D出口直走500米</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </script>
+    <script id="homeContact-form-partial" type="text/x-handlebars-template">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="title">标题</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" name="title" value="{{title}}" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="file">背景图片</label>
+            <div class="col-sm-10">
+                <input type="file" class="form-control file" name="file" id="file" data-type="provide-cover" />
+                <p class="fieldset info text-right"><span class="text-warning text-info">图片格式只支持gif、jpg或者png！</span></p>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">选择段落内容</label>
+            <div class="col-sm-10">
+                <button class="btn btn-primary select-content-list" data-type="snippets" type="button">点击选择</button>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">已选择的内容</label>
+            <div class="col-sm-10 select-content-results">
+                <ul class="ul-inline"></ul>
+            </div>
+        </div>
+    </script>
+
+
+    <script id="aboutPage-partial" type="text/x-handlebars-template">
+        <div class="mainWrapRight">
+            <div class="wrapRight-con">
+                {{#each snippets}}
+                <div class="ywbjTopTitle">
+                    <span class="">{{title}}</span>
+
+                </div>
+                <div class="content">
+                    {{{content}}}
+                </div>
+                {{/each}}
+            </div>
+        </div>
+    </script>
+    <script id="aboutPage-form-partial" type="text/x-handlebars-template">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="title">标题</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" name="title" value="{{title}}" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">选择段内容</label>
+            <div class="col-sm-10">
+                <button class="btn btn-primary select-content-list" data-type="snippets" data-action="public/about" type="button">点击选择</button>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">已选择的内容</label>
+            <div class="col-sm-10 select-content-results">
+                <ul class="ul-inline"></ul>
+            </div>
+        </div>
+    </script>
+    <script id="aboutContact-partial" type="text/x-handlebars-template">
+        <div class="col-sm-10 col-xs-12 col-clear-padding">
+            <div class="mainWrapRight">
+                <div class="wrapRight-con">
+                    {{#each snippets}}
+                    <div class="ywbjTopTitle">
+                        <span class="">{{title}}</span>
+
+                    </div>
+                    <div class="content">
+                        {{{content}}}
+                    </div>
+                    {{/each}}
+                </div>
+            </div>
+        </div>
+    </script>
+    <script id="aboutContact-form-partial" type="text/x-handlebars-template">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="title">标题</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" name="title" value="{{title}}" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">选择段内容</label>
+            <div class="col-sm-10">
+                <button class="btn btn-primary select-content-list" data-type="snippets" data-action="public/contact" type="button">点击选择</button>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">已选择的内容</label>
+            <div class="col-sm-10 select-content-results">
+                <ul class="ul-inline"></ul>
+            </div>
+        </div>
+    </script>
+
+    <script id="aboutJob-partial" type="text/x-handlebars-template">
+        <div class="col-sm-10 col-xs-12 col-clear-padding">
+            <div class="mainWrapRight">
+                <div class="wrapRight-con">
+                    {{#each snippets}}
+                    <div class="ywbjTopTitle">
+                        <span class="">{{title}}</span>
+                    </div>
+                    <div class="content">
+                        {{{content}}}
+                    </div>
+                    {{/each}}
+                </div>
+            </div>
+        </div>
+    </script>
+    <script id="aboutJob-form-partial" type="text/x-handlebars-template">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="title">标题</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" name="title" value="{{title}}" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">选择段内容</label>
+            <div class="col-sm-10">
+                <button class="btn btn-primary select-content-list" data-type="snippets" data-action="public/job" type="button">点击选择</button>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">已选择的内容</label>
+            <div class="col-sm-10 select-content-results">
+                <ul class="ul-inline"></ul>
+            </div>
+        </div>
+    </script>
+</div>

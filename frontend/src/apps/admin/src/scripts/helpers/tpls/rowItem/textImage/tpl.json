@@ -1,0 +1,18 @@
+{
+    "title": "DISCOVER",
+    "subTitle": "THE WORLD",
+    "desc": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae",
+    "items": [{
+        "title": "Finnmark, Norway",
+        "image": "http://theme.pixflow.net/massive-dynamic/travel/wp-content/uploads/sites/56/2016/05/Z.jpg",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta, mi ut facilisis ullamcorper"
+    }, {
+        "title": "Amakuna",
+        "image": "http://theme.pixflow.net/massive-dynamic/travel/wp-content/uploads/sites/56/2016/05/maxresdefault.jpg",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta, mi ut facilisis ullamcorper"
+    }, {
+        "title": "Santorini",
+        "image": "http://theme.pixflow.net/massive-dynamic/travel/wp-content/uploads/sites/56/2016/05/charisma-homeage-slide1-01c.jpg",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta, mi ut facilisis ullamcorper"
+    }]
+}

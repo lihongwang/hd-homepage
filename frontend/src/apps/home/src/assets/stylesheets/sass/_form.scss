@@ -1,0 +1,38 @@
+.admin-form {
+    textarea {
+        width: 100% !important;
+        overflow-x: hidden;
+    }
+    .keywords,
+    .description {
+        height: 90px;
+    }
+    .link-result .container {
+        width: inherit !important;
+        margin: 0;
+        padding: 0;
+    }
+    .edui-container {
+        width: initial !important;
+        height: 354px;
+        overflow-y: auto;
+        .edui-editor-body {
+            .edui-body-container {
+                height: 300px;
+                min-height: 300px !important;
+            }
+        }
+    }
+    .checkbox {
+        label {
+            padding-left: 0 !important;
+        }
+        input {
+            // published
+            position: initial !important;
+            width: initial !important;
+            height: initial !important;
+            width: initial !important;
+        }
+    }
+}

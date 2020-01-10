@@ -1,0 +1,26 @@
+{
+    "title": "From mobile platforms with the most innovative marketing strategies, our goal is always concrete and tangible:",
+    "text": "Please the customer",
+    "parallax": [{
+            "icon": "fa fa-html5 fa-4x",
+            "title": "HTML5 Validated",
+            "text": " Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        },
+        {
+            "icon": "fa fa-magic fa-4x",
+            "title": "Parallax Effects",
+            "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        },
+        {
+            "icon": "fa fa-css3 fa-4x",
+            "title": "CSS3 Animations",
+            "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        },
+        {
+            "icon": "fa fa-leaf fa-4x",
+            "title": "Retina Ready",
+            "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        }
+
+    ]
+}

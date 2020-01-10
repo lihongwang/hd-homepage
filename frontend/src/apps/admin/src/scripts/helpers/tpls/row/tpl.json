@@ -1,0 +1,45 @@
+{
+    "buildForm": true,
+    "selectRowData": true,
+    "schema": {
+        "type": "object",
+        "properties": {
+            "items": {
+                "title": "Row Items",
+                "type": "array",
+                "items": {
+                    "_contentSelect": true,
+                    "description": "row item",
+                    "type": "object",
+                    "properties": {
+                        "head": {
+                            "type": "string",
+                            "title": "Head",
+                            "description": "head"
+                        },
+                        "title": {
+                            "type": "string",
+                            "title": "Title",
+                            "description": "title"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "demoData": {
+        "items": [{
+            "head": "head1",
+            "title": "title1",
+            "content": "content1"
+        }, {
+            "head": "head2",
+            "title": "title2",
+            "content": "content2"
+        }, {
+            "head": "head3",
+            "title": "title3",
+            "content": "content3"
+        }]
+    }
+}

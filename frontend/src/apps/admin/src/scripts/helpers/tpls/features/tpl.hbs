@@ -1,0 +1,41 @@
+<div class="more-features">
+    <div class="container">
+        <div class="title1 animated fadeInUp visible" data-animation="fadeInUp" data-animation-delay="100">{{title}}</div>
+        <div class="title2 animated fadeInUp visible" data-animation="fadeInUp" data-animation-delay="200">{{desc}}</div>
+        <div class="features">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="left_box">
+                    {{#each leftItems}}
+                        <div class="features1 animated fadeInLeft visible" data-animation="fadeInLeft" data-animation-delay="300">
+                            <div class="ic1">
+                                <img src="{{src}}" alt="">
+                            </div>
+                            <div class="txt1">{{title}}</div>
+                            <div class="txt2">{{desc}}</div>
+                        </div>
+                        {{/each}}
+                    </div>
+                </div>
+                <div class="col-sm-4 col-sm-push-4">
+                    <div class="right_box">
+                    {{#each rightItems}}
+                        <div class="features1 animated fadeInRight visible" data-animation="fadeInRight" data-animation-delay="300">
+                            <div class="ic1">
+                                <img src="{{scr}}" alt="">
+                            </div>
+                            <div class="txt1">{{title}}</div>
+                            <div class="txt2">{{desc}}</div>
+                        </div>
+                        {{/each}}
+                    </div>
+                </div>
+                <div class="col-sm-4 col-sm-pull-4">
+                    <div class="center_box animated fadeInUp visible" data-animation="fadeInUp" data-animation-delay="200">
+                        <img src="{{centerImg}}" alt="" class="img-responsive">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,142 @@
+.section {
+    float: left;
+    width: 100%;
+    background: url(http://demo.lorvent.com/consultancy/images/icons/strech-bar.png) left top no-repeat;
+    background-size: 100% 100%;
+    margin-top: -6px;
+}
+
+.about {
+    background: #03a9f5;
+    padding: 0 15px 90px 0;
+    margin-top: -20px;
+}
+
+.about h2 {
+    font-size: 25px;
+    color: #fff;
+    text-transform: uppercase;
+    background: url(../images/icons/h2-line.png) left bottom no-repeat;
+    padding-top: 80px;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+
+.about p {
+    font-size: 16px;
+    color: #fff;
+    line-height: 26px;
+    padding: 0 30px 88px 0;
+}
+
+p {
+    text-align: justify;
+}
+
+.hvr-bounce-to-right {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+.about-bt {
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid #fff;
+    padding: 9px 10px 9px 15px;
+    margin-bottom: 20%;
+}
+
+a {
+    outline: none !important;
+    text-decoration: none !important;
+}
+
+.hvr-bounce-to-right:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #fe5722;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.about-bt i {
+    padding-left: 20px;
+}
+
+.fa-inverse {
+    color: #ffffff;
+}
+
+.service {
+    background-color: #f1f1f1;
+    margin-top: 14px;
+}
+
+#servicehome {
+    font-size: 25px;
+    color: #0E4971;
+    text-transform: uppercase;
+    background: url(http://demo.lorvent.com/consultancy/images/icons/h2-lineb.png) left bottom no-repeat;
+    padding-top: 66px;
+    margin: 0 0 39px 40px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.serv {
+    margin: 13px 0 35px 45px;
+}
+
+.img-responsive,
+.thumbnail>img,
+.thumbnail a>img,
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.business2 {
+    margin-bottom: 32px;
+}
+
+.newse2 {
+    font-weight: bold;
+    text-align: left;
+    font-size: 18px;
+    line-height: 20px;
+    color: #0E4971;
+    margin-bottom: 24px;
+    margin-top: 16px;
+}
+
+.news6 {
+    text-align: left;
+    margin-bottom: 50px;
+}

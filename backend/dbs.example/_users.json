@@ -1,0 +1,37 @@
+{
+  "users": [
+    {
+      "display": "hudao",
+      "username": "hudao",
+      "password": "$2a$08$yCG375r0YDXcV3xvGb2fiuSOfbwu8hb0fPuOZUbv2ce1ZN6iOJTAy",
+      "isAdmin": true,
+      "isSuperAdmin": true,
+      "isActive": true,
+      "id": "B1epIlp3XM",
+      "createdAt": "2018-01-05T09:07:32.751Z",
+      "updatedAt": "2018-01-05T09:07:32.751Z"
+    },
+    {
+      "display": "delay",
+      "username": "delay",
+      "password": "$2a$08$KFfOzb9tP.ym7Gt3REbE9ukwK9An8L1PBD12Lf.aUJwYQIAS1RmcS",
+      "isAdmin": true,
+      "isSuperAdmin": true,
+      "isActive": true,
+      "id": "HyMaUl63QM",
+      "createdAt": "2018-01-05T09:07:32.796Z",
+      "updatedAt": "2018-01-05T09:07:32.796Z"
+    },
+    {
+      "display": "admin",
+      "username": "admin",
+      "password": "$2a$08$hnHEpo0GWahT/jBx2UoG7.r0DQgN9zmu57a6/zuxaKCimGmTStase",
+      "isAdmin": true,
+      "isSuperAdmin": false,
+      "isActive": true,
+      "id": "SJV6Lgph7z",
+      "createdAt": "2018-01-05T09:07:32.835Z",
+      "updatedAt": "2018-01-05T09:07:32.835Z"
+    }
+  ]
+}

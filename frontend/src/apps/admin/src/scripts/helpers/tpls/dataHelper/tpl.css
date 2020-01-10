@@ -1,0 +1,124 @@
+.f-index-helper {
+    background: #f9fbff;
+    height: 860px
+}
+
+.f-index-helper .fk-index-sliderPanel {
+    width: 1200px;
+    height: 680px
+}
+
+.f-index-helper .fk-index-sliderPanel .f-sldList-2 {
+    width: 3000px
+}
+
+.f-index-helper .fk-index-sliderPanel .f-sldList-2 .f-sldItem {
+    width: 1200px
+}
+
+.f-index-helper .f-tab {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    height: 33px
+}
+
+.f-index-helper .f-tab-active,
+.f-index-helper .f-tab-active .f-tabLink {
+    color: #4975e5
+}
+
+.f-index-helper .f-tabLink {
+    padding-bottom: 15px
+}
+
+.f-helpListWrap {
+    width: 1100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.f-helpList {
+    margin-top: 90px;
+    margin-left: -93px;
+    text-align: center;
+    width: 1500px
+}
+
+.f-helpItem .f-time {
+    text-align: right;
+    float: left;
+    margin-right: 30px
+}
+
+.f-helpItem .f-hot {
+    display: inline-block;
+    *display: inline;
+    _zoom: 1;
+    width: 25px;
+    height: 25px;
+    background: url(/assets/images/hot.gif);
+    vertical-align: middle;
+    margin-right: 10px
+}
+
+.f-helpItem .f-txt {
+    vertical-align: middle
+}
+
+.f-helpItem .f-info {
+    float: left
+}
+
+.f-helpItem .f-time-md,
+.f-helpItem .f-info-title {
+    font-size: 25px;
+    line-height: 1;
+    font-weight: normal;
+    height: 36px;
+    overflow: hidden
+}
+
+.f-helpItem .f-info-title {
+    font-size: 18px;
+    width: 355px;
+    margin-top: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.f-helpItem .f-info-title .f-a {
+    color: #333
+}
+
+.f-helpItem .f-info-title .f-a:hover {
+    color: #2f82ff
+}
+
+.f-helpItem .f-time {
+    width: 80px;
+    margin-left: -20px
+}
+
+.f-helpItem .f-time-y,
+.f-helpItem .f-info-intro {
+    font-size: 14px;
+    color: #999;
+    margin: 0;
+    line-height: 1.8;
+    height: 50px;
+    overflow: hidden
+}
+
+.f-helpItem .f-info {
+    width: 355px;
+    text-align: left
+}
+
+.f-helpItem {
+    margin: 0 93px;
+    float: left;
+    width: 456px;
+    margin-bottom: 60px
+}

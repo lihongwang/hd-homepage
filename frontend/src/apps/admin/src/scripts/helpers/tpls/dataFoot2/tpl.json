@@ -1,0 +1,76 @@
+{
+    "logo": "http://demo.massivedynamic.co/corporate/wp-content/uploads/2016/02/footer-logo2.png",
+    "desc": "Massive Dynamic is created by a team of 12 experienced professional develop and designers.The team has focused on user experience and ease of use in every aspect of this project.professional develop and designers ",
+    "widgetTitle": "LATEST POSTS",
+    "post": [{
+        "href": "/",
+        "title": "Improvement in Love"
+    }, {
+        "href": "/",
+        "title": "Dancing in Crazy Style"
+    }, {
+        "href": "/",
+        "title": "Push Up Fun"
+    }, {
+        "href": "/",
+        "title": "Office Decoration"
+    }, {
+        "href": "/",
+        "title": "Run The Eneregy"
+    }, {
+        "href": "/",
+        "title": "Massive Dynamic"
+    }, {
+        "href": "/",
+        "title": "Green Land Sport Season"
+    }, {
+        "href": "/",
+        "title": "Improvement in Love"
+    }],
+    "contactTitle": "CONTACT US",
+    "address": "2901 Marmora road, Glassgow,",
+    "street": "Seattle, WA 98122-1090",
+    "phone": "Phone:",
+    "phoneNum": "(305) 555-4446",
+    "mail: ": "E-Mail: ",
+    "E-mail": "massive@example.com: ",
+    "webSite: ": "Web Site:  ",
+    "webSiteInfo": "pixflow.net/products/massive-dynamic/ ",
+    "portfolioTitle": "PORTFOLIO",
+    "portfolio": [{
+        "href": "http://theme.pixflow.net/massive-dynamic/corporate/portfolios/practising-from-start/",
+        "bgSrc": "http://theme.pixflow.net/massive-dynamic/corporate/wp-content/uploads/sites/12/2015/12/Envelope-with-Letter-Brand-Mockup-10-80x60.jpg"
+
+    }, {
+        "href": "http://theme.pixflow.net/massive-dynamic/corporate/portfolios/smell-the-greens/",
+        "bgSrc": "http://theme.pixflow.net/massive-dynamic/corporate/wp-content/uploads/sites/12/2015/12/05-2-10-80x60.jpg"
+
+    }, {
+        "href": "http://theme.pixflow.net/massive-dynamic/corporate/portfolios/unlimited-straight/",
+        "bgSrc": "http://theme.pixflow.net/massive-dynamic/corporate/wp-content/uploads/sites/12/2015/12/day089_-_swimming_activity-8-80x60.jpg"
+
+    }, {
+        "href": "http://theme.pixflow.net/massive-dynamic/corporate/portfolios/michelejenkins/",
+        "bgSrc": "http://theme.pixflow.net/massive-dynamic/corporate/wp-content/uploads/sites/12/2015/11/000021683042_Large-4-80x60.jpg"
+
+    }, {
+        "href": "http://theme.pixflow.net/massive-dynamic/corporate/portfolios/william-rock/",
+        "bgSrc": "http://theme.pixflow.net/massive-dynamic/corporate/wp-content/uploads/sites/12/2015/12/034-4-80x60.jpg"
+
+    }, {
+        "href": "http://theme.pixflow.net/massive-dynamic/corporate/portfolios/martin-pharell/",
+        "bgSrc": "http://theme.pixflow.net/massive-dynamic/corporate/wp-content/uploads/sites/12/2015/12/002-4-80x60.jpg"
+
+    }, {
+        "href": "http://theme.pixflow.net/massive-dynamic/corporate/portfolios/salma-ukrain/",
+        "bgSrc": "http://theme.pixflow.net/massive-dynamic/corporate/wp-content/uploads/sites/12/2015/12/leonor_eon_01-4-80x60.jpg"
+
+    }, {
+        "href": "http://theme.pixflow.net/massive-dynamic/corporate/portfolios/mandy-luciana/",
+        "bgSrc": "http://theme.pixflow.net/massive-dynamic/corporate/wp-content/uploads/sites/12/2015/12/leonor_eon_12-4-80x60.jpg"
+
+    }, {
+        "href": "http://theme.pixflow.net/massive-dynamic/corporate/portfolios/ashton-mendez/",
+        "bgSrc": "http://theme.pixflow.net/massive-dynamic/corporate/wp-content/uploads/sites/12/2015/12/032-4-80x60.jpg"
+    }]
+}

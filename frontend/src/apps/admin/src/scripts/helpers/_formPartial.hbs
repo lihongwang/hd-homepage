@@ -1,0 +1,503 @@
+<div>
+    <script id="pages-select-partial" type="text/x-handlebars-template">
+        <div class="form-group page-selector">
+            <label class="col-sm-2 control-label">页面</label>
+            <div class="col-sm-10">
+                <select class="form-control" name="page" id="pageSelect">
+                    {{#each pages}}
+                        {{#ifCond @root.page '==' name}}
+                            <option value="{{name}}" selected=true>{{title}}</option>
+                        {{else}}
+                            <option value="{{name}}">{{title}}</option>
+                        {{/ifCond}}
+                    {{/each}}
+                </select>
+            </div>
+        </div>
+    </script>
+    <script id="category-select-partial" type="text/x-handlebars-template">
+        <div class="form-group category-selector">
+            <label class="col-sm-2 control-label">类别</label>
+            <div class="col-sm-10">
+                <select class="form-control" name="category" id="categorySelect">
+                    {{#each catList}}
+                        <option value="{{id}}">{{display}}</option>
+                    {{/each}}
+                </select>
+            </div>
+        </div>
+    </script>
+    <script id="contents-select-partial" type="text/x-handlebars-template">
+        <div class="form-group category-selector">
+            <label class="col-sm-2 control-label">内容类别</label>
+            <div class="col-sm-10">
+                <select class="form-control" name="contentType" id="contentSelect">
+                    <option value="">--选择--</option>
+                    {{#each selectContents}}
+                        <option value="{{name}}">{{display}}</option>
+                    {{/each}}
+                </select>
+            </div>
+        </div>
+    </script>
+     <script id="sites-form-partial" type="text/x-handlebars-template">
+        <form class="form-horizontal admin-form form col-md-offset-2 col-md-8 col-sm-10 col-xs-12" role="form">
+            <div class="form-group">
+                <div class="col-sm-10">
+                    <input type="hidden" class="form-control" name="id" id="id" value="{{id}}" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="name">标识符</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" name="name" value="{{name}}" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="domain">个性化域名</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" name="domain" value="{{domain}}" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="title">网站标题</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" name="title" value="{{title}}" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="contact">联系电话</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" name="contact" value="{{contact}}" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="keywords">关键字</label>
+                <div class="col-sm-10">
+                    <textarea type="text" class="form-control keywords" name="keywords">{{keywords}}</textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="description">网站描述</label>
+                <div class="col-sm-10">
+                    <textarea type="text" class="form-control description" name="description">{{description}}</textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="footer">页脚内容</label>
+                <div class="col-sm-10">
+                    <textarea type="text" class="form-control" name="footer">{{footer}}</textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="file">网站logo</label>
+                <div class="col-sm-10">
+                    <input type="file" class="form-control file" name="file" id="file" />
+                    <input type="text" readonly="" class="form-control" placeholder="图片格式只支持gif、jpg或者png！">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="file">logo预览</label>
+                <div class="col-sm-10 logo-result">
+                    {{#if src}}
+                        <img class="col-sm-5 col-sm-5 col-xs-12" src="{{src}}" />
+                    {{else}}
+                        <p>没有图片</p>
+                    {{/if}}
+                </div>
+            </div>
+        </form>
+    </script>
+    <script id="posts-form-partial" type="text/x-handlebars-template">
+        <form class="form-horizontal admin-form form" role="form">
+            <div class="form-group">
+                <div class="col-sm-10">
+                    <input type="hidden" class="form-control" name="id" id="id" value="{{id}}" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="title">标题</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" name="title" value="{{title}}" placeholder="请输入页面标题" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="abstract">文章摘要</label>
+                <div class="col-sm-10 textarea abstract">
+                    <textarea class="form-control"  name="abstract">{{abstract}}</textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="content">页面文章</label>
+                <div class="col-sm-10 textarea-editable content">
+                    <textarea class="editable form-control" id="simplemde" name="content">{{content}}</textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="publishedDate">发布时间</label> {{> datepicker-tpl-partial formName='publishedDate'}}
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="published">是否公开</label>
+                <div class="col-sm-10">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" type="checkbox" {{#ifCond checked '||' published}}checked="checked" {{/ifCond}} name="published" value="{{published}}">
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="file">封面图片</label>
+                <div class="col-sm-10">
+                    <input type="file" class="form-control file" name="file" id="file" />
+                    <input type="text" readonly="" class="form-control" placeholder="图片格式只支持gif、jpg或者png！">
+                </div>
+            </div>
+        </form>
+    </script>
+    <script id="photos-form-partial" type="text/x-handlebars-template">
+        <form class="form-horizontal admin-form form" role="form">
+            <div class="form-group">
+                <div class="col-sm-10">
+                    <input type="hidden" class="form-control" name="id" id="id" value="{{id}}" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="name">名称</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" name="name" value="{{name}}" />
+                </div>
+            </div>
+            {{#if needDesc}}
+                <div class="form-group">
+                    <label class="col-sm-2 control-label" for="name">描述</label>
+                    <div class="col-sm-10">
+                        <textarea class="form-control" name="description">{{description}}</textarea>
+                    </div>
+                </div>
+            {{/if}}
+            <div class="form-group is-fileinput">
+                <label class="col-sm-2 control-label" for="file">图片</label>
+                <div class="col-sm-10">
+                    <input type="file" class="form-control file" name="file" id="file" />
+                    <input type="text" readonly="" class="form-control" placeholder="图片格式只支持gif、jpg或者png！">
+                </div>
+            </div>
+            {{#if needLink}}
+                <div class="form-group">
+                    <label class="col-sm-2 control-label" for="link">内容链接</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" name="link" value="{{link}}" />
+                    </div>
+                </div>
+            {{/if}} 
+            {{#if needPageSelect}}
+                {{> page-select-partial}}
+            {{/if}}
+        </form>
+    </script>
+    <script id="category-form-partial" type="text/x-handlebars-template">
+        <form class="form-horizontal admin-form form" role="form">
+            <div class="form-group">
+                <div class="col-sm-10">
+                    <input type="hidden" class="form-control" name="id" id="id" value="{{id}}" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="name">名称</label>
+                <div class="col-sm-10">
+                    {{#if name}}
+                        <p class="form-control-static">{{name}}</p>
+                    {{else}}
+                        {{#if category}}
+                            <span>{{category}}-</span>
+                        {{/if}}
+                        <input type="text" class="form-control" name="name" value="{{name}}" />
+                    {{/if}}
+                </div>
+            </div>
+             <div class="form-group">
+                <label class="col-sm-2 control-label" for="display">中文名称</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" name="display" value="{{display}}" />
+                </div>
+            </div>
+            {{#if category}}
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">分类内容可选</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" type="checkbox" {{#if _contentSelectable}} checked="checked" {{/if}} name="_contentSelectable" value="{{_contentSelectable}}">
+                    </div>
+                </div>
+            {{/if}}
+        </form>
+    </script>
+    <script id="pages-form-partial" type="text/x-handlebars-template">
+        <form class="form-horizontal admin-form form" role="form">
+            <div class="form-group">
+                <div class="col-sm-10">
+                    <input type="hidden" class="form-control" name="id" id="id" value="{{id}}" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="name">名称</label>
+                <div class="col-sm-10">
+                    {{#if name}}
+                        <p class="form-control-static">{{name}}</p>
+                    {{else}}
+                        {{#if parentName}}
+                            <span>{{parentName}}-</span>
+                        {{/if}}
+                        <input type="text" class="form-control" name="name" value="{{name}}" />
+                    {{/if}}
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="title">标题</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" name="title" value="{{title}}" />
+                </div>
+            </div>
+            {{#if isSub}}
+                <div class="form-group parent-page-selector">
+                    <label class="col-sm-2 control-label">父页面</label>
+                    <div class="col-sm-10">
+                        {{#if parentName}}
+                            <p class="form-control-static">{{parentName}}</p>
+                        {{else}}
+                            <select class="form-control" name="parent" id="parentPageSelect">
+                                {{#each pages}}
+                                    {{#ifCond @root.parentId '==' id}} 
+                                        <option value="{{id}}" selected=true>{{title}}</option>
+                                    {{else}}
+                                        <option value="{{id}}">{{title}}</option>
+                                    {{/ifCond}}
+                                {{/each}}
+                            </select>
+                        {{/if}}
+                    </div>
+                </div>
+            {{/if}}
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="name">路由</label>
+                <div class="col-sm-10">
+                    {{#if pathto}}
+                        <p class="form-control-static">{{pathto}}</p>
+                    {{else}}
+                        <input type="text" class="form-control" name="pathto" value="{{pathto}}" />
+                    {{/if}}
+                </div>
+            </div>
+               
+            {{#ifCond isSub '!==' true}}
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">创建后台表</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" type="checkbox" {{#if _hasTable}} checked="checked" {{/if}} name="_hasTable" value="{{_hasTable}}">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">创建后台管理页面</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" type="checkbox" {{#if _hasAdminPage}} checked="checked" {{/if}} name="_hasAdminPage" value="{{_hasAdminPage}}">
+                    </div>
+                </div>
+            {{/ifCond}}
+            
+            <div class="form-group">
+                <label class="col-sm-2 control-label">隐藏</label>
+                <div class="col-sm-10">
+                    <input class="form-control" type="checkbox" {{#ifCond checked '||' published}}checked="checked" {{/ifCond}} name="hide" value="{{hide}}">
+                </div>
+            </div>
+            {{#ifCond isSub '!==' true}}
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">位置</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" type="text" value="{{position}}" name="position">
+                    </div>
+                </div>
+            {{/ifCond}}
+        </form>
+    </script>
+
+    <script id="pages-cog-list-item-partial" type="text/x-handlebars-template">
+        <li class="list-item col-md-12" data-id="{{id}}">
+            <p class="form-control-static">{{name}}</p>
+            <div class="pull-right actions">
+                <span class="btn btn-warning btn-xs remove"><i class="fa fa-remove"></i>移除</span>
+                <span class="btn btn-default btn-xs up"><i class="fa fa-arrow-up"></i>上移</span>
+                <span class="btn btn-default btn-xs down"> <i class="fa fa-arrow-down"></i>下移</span>
+            </div>
+        </li>
+    </script>
+
+    <script id="pages-cog-partial" type="text/x-handlebars-template">
+        <div class="tab-container">
+            <ul class="nav nav-tabs" role="tablist">
+                <li class="active" role="presentation"><a data-toggle="tab" href="#pSContent" aria-expanded="false">页面内容</a></li>
+                {{!-- <li role="presentation"><a data-toggle="tab" href="#pSSub" aria-expanded="false">子页面</a></li> --}}
+            </ul>
+            <div class="tab-content">
+                {{!-- <div class="tab-pane" id="pSSub">
+                    <nav class="navbar navbar-default">
+                        <div class="container-fluid">
+                            <div class="navbar-header">
+                                <h3>子页面列表</h3>
+                            </div>
+                            <div class="navbar-collapse collapse" aria-expanded="false">
+                                <button class="btn btn-default navbar-btn navbar-right select-content-list" data-type="pages" data-action="public/sub" data-search="k,parent,v,{{pageId}}" type="button">
+                                    <i class="fa fa-plus"></i>添加子页面
+                                </button>
+                            </div>
+                        </div>
+                    </nav>
+                    <div class="list-content panel panel-default">
+                        <ul class="row ul-inline lists">
+                            {{#each data.subs}}
+                               {{> pages-cog-list-item-partial}} 
+                            {{/each}}
+                        </ul>
+                    </div>
+                </div> --}}
+                <div class="tab-pane active" id="pSContent">
+                    <nav class="navbar navbar-default">
+                        <div class="container-fluid">
+                            <div class="navbar-header">
+                                <h3>模板内容列表</h3>
+                            </div>
+                            <div class="navbar-collapse collapse" aria-expanded="false">
+                                <button class="btn btn-default select-content-list navbar-btn navbar-right" data-type="contents" data-action="public/{{data.page.name}}" type="button">
+                                    <i class="fa fa-plus"></i>添加模板内容
+                                </button>
+                            </div>
+                        </div>
+                    </nav>
+                    <div class="list-content panel panel-default">
+                        <ul class="form-inline lists ul-inline">
+                            {{#each data.contents}}
+                                {{> pages-cog-list-item-partial}} 
+                            {{/each}}
+                        </ul> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </script>
+    <script id="contents-form-partial" type="text/x-handlebars-template">
+        <form class="form-horizontal admin-form form" role="form">
+            <div class="form-group text-danger">
+                <label class="col-sm-2 control-label">注意</label>
+                <div class="col-sm-10">
+                    <span class="help-block">请先输入名称，然后再选择页面模板，最后再点击保存！</span>
+                </div>
+            </div>
+            <div class="form-group hidden">
+                <div class="col-sm-10">
+                    <input type="hidden" class="form-control" name="id" id="id" value="{{id}}" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="name">名称</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" name="name" value="{{name}}" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="published">是否公开</label>
+                <div class="col-sm-10">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" type="checkbox" {{#ifCond checked '||' published}}checked="checked" {{/ifCond}} name="published" value="{{published}}">
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="selectorLinks">选择模板</label>
+                <div class="col-sm-10">
+                    <button class="btn btn-primary select-content-list" data-type="templates" type="button" data-save=false data-list_selectable="single">点击选择</button>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label">已选择的模板</label>
+                <div class="col-sm-10 select-content-results"> 
+                    <ul class="ul-inline"></ul>
+                </div>
+            </div>
+            <div class="form-group build-form hide">
+                <label class="col-sm-2 control-label" for="selectorLinks">创建form</label>
+                <div class="col-sm-10">
+                    <button class="btn btn-primary" id="buildForm" type="button">创建</button>
+                </div>
+            </div>
+        </form>
+    </script>
+    <script id="templates-form-partial" type="text/x-handlebars-template">
+        <form class="form-horizontal admin-form form" role="form">
+            <div class="form-group">
+                <div class="col-sm-10">
+                    <input type="hidden" class="form-control" name="id" id="id" value="{{id}}" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="name">名称</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" name="name" value="{{name}}" />
+                </div>
+            </div>
+           
+            <div class="form-group">
+                <label class="col-sm-2 control-label">内容</label>
+                    <div class="col-sm-10">
+                        <ul class="nav nav-tabs" id="cTabList">
+                            <li class="active">
+                                <a href="#html" data-toggle="tab" aria-expanded="false" aria-controls="html">HTML</a>
+                            </li>
+                            <li>
+                                <a href="#css" data-toggle="tab" aria-expanded="false" aria-controls="css">CSS</a>
+                            </li>
+                            <li>
+                                <a href="#javascript" data-toggle="tab" aria-expanded="false" aria-controls="javascript">JAVASCRIPT</a>
+                            </li> 
+                            <li>
+                                <a href="#data" data-toggle="tab" aria-expanded="false" aria-controls="json">DATA</a>
+                            </li> 
+                        </ul>
+                        <div class="tab-content" id="embeded">
+                            <div class="tab-pane active" id="html">
+                                <textarea type="hidden" class="form-control" name="html" >{{html}}</textarea>
+                            </div>
+                            <div class="tab-pane" id="css">
+                                <textarea type="hidden" class="form-control" name="css">{{css}}</textarea>
+                            </div>
+                            <div class="tab-pane" id="javascript">
+                                <textarea type="hidden" class="form-control" name="javascript">{{javascript}}</textarea>
+                            </div>
+                            <div class="tab-pane" id="data">
+                                <textarea type="hidden" class="form-control" name="data">{{data}}</textarea>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            <div class="form-group is-fileinput">
+                <label class="col-sm-2 control-label" for="file">封面图片</label>
+                <div class="col-sm-10">
+                    <input type="file" class="form-control file" name="file" id="file" />
+                    <input type="text" readonly="" class="form-control" placeholder="图片格式只支持gif、jpg或者png！">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="file">封面预览</label>
+                <div class="col-sm-10 logo-result">
+                    {{#if src}}
+                        <img class="col-sm-5 col-sm-5 col-xs-12" src="{{src}}" />
+                    {{else}}
+                        <p>没有图片</p>
+                    {{/if}}
+                </div>
+            </div>
+        </form>
+    </script>
+</div>

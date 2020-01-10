@@ -1,0 +1,50 @@
+<section class="service-area black-bg section-padding" id="service">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1 col-sm-12 col-xs-12">
+                    <div class="area-title text-center wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+                        <h2><span>{{title}}</span></h2>
+                        <div class="area-title-border"></div>
+                        <p>{{text}}</p>
+                    </div>
+                </div>
+            </div>
+            <ul class="row no-margin service-menu">
+                {{#each menu}}
+                    
+                    <li class="single-service-tab wow fadeIn {{#if @index}}""{{else}}active{{/if}}" style="visibility: visible; animation-name: fadeIn;">
+                        <a href="{{link}}" data-toggle="tab">
+                            <span class="service-icon">
+                                <i class="{{icon}}"></i>
+                            </span>
+                            <p>{{title}}</p>
+                        </a>
+                    </li>
+                {{/each}}
+            </ul>
+            <div class="row">
+                <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                    <div class="tab-content">
+                        {{#each content}}
+                        <div class="single-service-tab-content tab-pane fade  {{#if @index}}""{{else}}active in{{/if}}" id="{{id}}">
+                            <div class="row">
+                                <div class="col-md-4 col-lg-4 col-md-offset-1 col-lg-offset-1 col-sm-12 col-xs-12">
+                                    <div class="service-left-image">
+                                        <div class="image-one custom_animated animate_service_img"><img src="{{src}}" alt=""></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-6 col-md-offset-1 col-lg-offset-1 col-sm-12 col-xs-12">
+                                    <div class="service-content custom_animated animate_service_content">
+                                        <h3>{{title}}</h3>
+                                        <p>{{text}}</p>
+                                        <a href="{{link}}" class="readmore">{{linkTitle}}</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                         {{/each}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>

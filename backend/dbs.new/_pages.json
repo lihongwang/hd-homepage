@@ -1,0 +1,106 @@
+{
+  "pages": [
+    {
+      "name": "posts",
+      "pathto": "/posts",
+      "title": "posts",
+      "position": "2",
+      "hide": false,
+      "id": "HyM4ZhWNf",
+      "category": "pages_main",
+      "createdAt": "2018-01-09T03:04:10.375Z",
+      "updatedAt": "2018-01-09T03:04:10.375Z"
+    },
+    {
+      "id": "rk-NBWnSEz",
+      "name": "sub1",
+      "title": "主页子页面一",
+      "type": "_sub_",
+      "pathto": "/home/sub1",
+      "hide": false,
+      "position": "2",
+      "category": "pages_sub",
+      "createdAt": "2018-01-12T03:53:32.188Z",
+      "updatedAt": "2018-01-12T03:53:32.188Z"
+    },
+    {
+      "id": "B1-fljpHEG",
+      "name": "home",
+      "title": "主页",
+      "pathto": "/home",
+      "hide": false,
+      "position": "1",
+      "category": "pages_main",
+      "createdAt": "2018-01-12T05:43:06.319Z",
+      "updatedAt": "2018-01-16T03:48:16.636Z",
+      "subs": [],
+      "contents": [
+        "SkiJUeo4z",
+        "B1UkIyIVf",
+        "rJnPseqNG",
+        "BkjOoeqVz"
+      ]
+    },
+    {
+      "id": "BkfSgl9Vz",
+      "name": "services",
+      "title": "服务",
+      "pathto": "/services",
+      "hide": false,
+      "position": "3",
+      "category": "pages_main",
+      "createdAt": "2018-01-15T09:11:22.049Z",
+      "updatedAt": "2018-01-15T09:44:19.445Z",
+      "subs": [],
+      "contents": []
+    },
+    {
+      "id": "r14m-gqEf",
+      "name": "templates",
+      "title": "模板",
+      "pathto": "/templates",
+      "hide": false,
+      "position": "3",
+      "createdAt": "2018-01-15T09:15:08.134Z",
+      "updatedAt": "2018-01-15T09:15:08.134Z"
+    },
+    {
+      "id": "rynkOx9VM",
+      "name": "test",
+      "title": "test",
+      "pathto": "/test",
+      "hide": false,
+      "position": "4",
+      "category": "pages_main",
+      "createdAt": "2018-01-15T09:44:03.856Z",
+      "updatedAt": "2018-01-15T09:59:55.049Z",
+      "subs": [],
+      "contents": [
+        "SyWWcilqEG"
+      ]
+    },
+    {
+      "name": "views",
+      "pathto": "/views",
+      "title": "views",
+      "type": "_main_",
+      "notUC": true,
+      "id": "S1KQG66VM",
+      "createdAt": "2018-01-18T06:43:45.478Z",
+      "updatedAt": "2018-01-18T06:43:45.478Z"
+    },
+    {
+      "parent": "S1KQG66VM",
+      "hide": true,
+      "title": "views-show",
+      "name": "views-show",
+      "pathto": "/views/views/:id",
+      "type": "_sub_",
+      "notUC": true,
+      "parentName": "views",
+      "id": "rJ57MTaNM",
+      "createdAt": "2018-01-18T06:43:45.550Z",
+      "updatedAt": "2018-01-18T06:43:45.550Z"
+    }
+  ]
+}

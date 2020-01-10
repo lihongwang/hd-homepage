@@ -1,0 +1,268 @@
+.black-bg {
+    background: #363636;
+    color: #fff;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block;
+}
+
+.black-bg {
+    background: #363636;
+    color: #fff;
+}
+
+element.style {
+    visibility: visible;
+    animation-name: fadeIn;
+}
+
+.area-title {
+    margin-bottom: 50px;
+}
+
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+
+.area-title h2 {
+    font-size: 36px;
+    letter-spacing: 1px;
+    line-height: 1;
+    position: relative;
+    text-transform: uppercase;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+}
+
+Style Attribute {
+    visibility: visible;
+    animation-name: fadeIn;
+}
+
+.area-title h2 span {
+    color: #20c89e;
+    font-weight: 700;
+}
+
+.area-title h2 {
+    font-size: 36px;
+    letter-spacing: 1px;
+    line-height: 1;
+    position: relative;
+    text-transform: uppercase;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+}
+
+.contact-area .area-title-border:before,
+.service-area .area-title-border:before,
+.contact-area .area-title-border:after,
+.service-area .area-title-border:after,
+.contact-area .area-title-border,
+.service-area .area-title-border {
+    background: #fff;
+}
+
+.area-title-border {
+    background: #464646 none repeat scroll 0 0;
+    height: 1px;
+    margin: 0 auto 40px;
+    position: relative;
+    width: 190px;
+}
+
+.area-title p {
+    margin-bottom: 0;
+}
+
+.row.no-margin.service-menu {
+    margin-bottom: 60px;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.single-service-tab.active {
+    border-color: #20c89e;
+}
+
+.single-service-tab {
+    border-bottom: 1px solid;
+    position: relative;
+    text-align: center;
+    float: left;
+    width: 25%;
+    list-style: none;
+}
+
+.single-service-tab a {
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+a {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.single-service-tab.active a .service-icon {
+    background: #20c89e none repeat scroll 0 0;
+    border-color: #20c89e;
+    color: #fff;
+}
+
+.single-service-tab .service-icon {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid;
+    border-radius: 50%;
+    color: #20c89e;
+    display: block;
+    font-size: 60px;
+    height: 130px;
+    margin: 0 auto 20px;
+    padding-top: 25px;
+    width: 130px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+
+/* .fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+} */
+
+.single-service-tab a p {
+    margin-bottom: 20px;
+}
+
+.single-service-tab.active a {
+    color: #20c89e;
+}
+
+.animate_service_img {
+    -webkit-animation: animate_service_img;
+    animation: animate_service_img;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+img {
+    border: 0;
+}
+
+.animate_service_content {
+    -webkit-animation: animate_service_content;
+    animation: animate_service_content;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+}
+
+a.readmore {
+    background: #20c89e none repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-top: 40px;
+    padding: 13px;
+    text-align: center;
+    text-transform: capitalize;
+    width: 200px;
+}
+
+a {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.single-service-tab.active::after {
+    border-top-color: #20c89e;
+    opacity: 1;
+}
+
+.single-service-tab::after {
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 20px solid;
+    content: "";
+    height: 0;
+    left: 50%;
+    margin-left: -25px;
+    position: absolute;
+    width: 0;
+    opacity: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}

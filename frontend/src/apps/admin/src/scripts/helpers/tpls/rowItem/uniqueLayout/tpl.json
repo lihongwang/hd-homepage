@@ -1,0 +1,17 @@
+{
+    "title": "3 UNIQUE HOME PAGE LAYOUTS",
+    "desc": "Check It Below",
+    "items": [{
+        "img": "http://onin.infinitelayout.com/images/h-1.jpg",
+        "href": "/",
+        "text": "Sample Portflio Title 1"
+    }, {
+        "img": "http://onin.infinitelayout.com/images/h-2.jpg",
+        "href": "/",
+        "text": "Slider Background"
+    }, {
+        "img": "http://onin.infinitelayout.com/images/h-3.jpg",
+        "href": "/",
+        "text": "Slider Background"
+    }]
+}

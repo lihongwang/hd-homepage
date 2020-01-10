@@ -1,0 +1,49 @@
+<div  class="container-fluid container-wrap  sectionOverlay">
+    <!-- Set background image -->
+    <div class="container wrap clearfix">
+        <div class="wpb_column  col-sm-3">
+            <div class="vc_column-inner">
+                    <div class="md-text-container">
+                        <div class="md-text">
+                            <div class="md-text-title">{{title}}
+                            <br>{{subTitle}}</div>
+                            <div class="md-text-content">
+                                <p>{{desc}}</p>
+                            </div>
+                            <div class="md-text-button">
+                                <div  class="shortcode-btn">
+                                    <a class="button fill-rectangle " href="/" target="_self">
+                                        <span>Explore The Tours </span>
+                                    </a>
+                                </div>
+                                <!-- End wrap button -->
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        {{#each items}}
+        <div class="wpb_column  col-sm-3">
+            <div class="vc_column-inner">
+                    <div class="imagebox-full clearfix" style="background-image: url({{image}}); background-position: 50% 50%;">
+                        <div class="overlay"></div>
+                        <div class="text-container" style="height: 150px;max-height: 150px">
+                            <h4 class="title" >{{title}}</h4>
+                            <p class="description">{{desc}}</p>
+                        </div>
+                            <div class="shortcode-btn">
+                                <a class="button slide button-small slide-button slide-transition" href="#" target="_self">
+                                    <i class="button-icon fa fa-angle-right"></i>
+                                    <span>More info </span>
+                                </a>
+                            </div>
+                        <!-- End wrap button -->
+                        <div class="clearfix"></div>
+                    </div>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+    <!-- End wrap -->
+</div>

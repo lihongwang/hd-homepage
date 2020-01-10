@@ -1,0 +1,42 @@
+.admin-form {
+    textarea {
+        width: 100% !important;
+        overflow-x: hidden;
+    }
+    .keywords,
+    .description {
+        height: 90px;
+    }
+    .link-result .container {
+        width: inherit !important;
+        margin: 0;
+        padding: 0;
+    }
+    .edui-container {
+        width: initial !important;
+        height: 354px;
+        overflow-y: auto;
+        .edui-editor-body {
+            .edui-body-container {
+                height: 300px;
+                min-height: 300px !important;
+            }
+        }
+    }
+    //websit info begin
+    .tab-pane textarea {
+        border-left: 1px solid #ccc;
+        border-right: 1px solid #ccc;
+    }
+    //websit info end
+    //Template begin
+    .checkbox {
+        margin-top: 10px !important;
+    }
+    //Template end
+    .checkbox {
+        label {
+            padding-left: 0 !important;
+        }
+    }
+}

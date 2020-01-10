@@ -1,0 +1,199 @@
+.pricing-table {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: transparent;
+}
+
+.pricing-table ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.pricing-table {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: transparent;
+}
+
+.pricing-header-row-1 {
+    background-color: #323A45;
+}
+
+.pricing-header-row-1 {
+    text-align: center;
+    height: 75px;
+    padding: 5px 0 12px;
+    -webkit-border-radius: 6px 6px 0px 0px;
+    -moz-border-radius: 6px 6px 0px 0px;
+    border-radius: 6px 6px 0px 0px;
+}
+
+a,
+li {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.pricing-table h4 {
+    color: #fff;
+    margin-bottom: -4px;
+    margin-top: 13px;
+    font-size: 18px;
+    text-transform: uppercase!important;
+    letter-spacing: 1px;
+    font-weight: 700!important;
+}
+
+h4 {
+    font-size: 16px;
+    line-height: 25px!important;
+    margin-bottom: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 300;
+    letter-spacing: -0.25px;
+    font-family: 'Lato', sans-serif;
+}
+
+span {
+    font-weight: 700;
+}
+
+.pricing-table small {
+    text-transform: uppercase;
+    font-size: 9px;
+}
+
+.pricing-header-row-1 small {
+    color: #fff;
+}
+
+.pricing-header-row-2 {
+    text-align: center;
+    height: 90px;
+    margin-top: 0px;
+    padding: 10px 0;
+    border-top: none;
+    background: #E9E6E1!important;
+}
+
+.pricing-table h3 {
+    color: #2BA6CB;
+}
+
+.price {
+    font: 40px 'Lato', sans serif;
+    font-weight: 700;
+    margin: 13px 0 5px;
+    text-align: center;
+    color: #555;
+}
+
+h3 {
+    font-size: 18px;
+    line-height: 25px!important;
+}
+
+.pricing-content-row-odd {
+    background-color: #eee;
+    color: #555;
+}
+
+.pricing-content-row-odd {
+    font-size: 14px;
+    padding: 8px 0;
+    background: #f0eee9!important;
+}
+
+.pricing-content-row-even {
+    background-color: #E7E7E7;
+    color: #555;
+}
+
+.pricing-content-row-even {
+    font-size: 14px;
+    padding: 8px 0;
+    background: #E9E6E1!important;
+}
+
+span {
+    font-weight: 700;
+}
+
+.pricing-table:before {
+    background: url(http://www.spiralpixelthemes.co.uk/flatinew/flati/img/red_ribbon.png) 0 0 no-repeat;
+}
+
+.pricing-table:before {
+    background-size: 82px 82px;
+    content: "";
+    height: 82px;
+    position: absolute;
+    right: 6px;
+    top: 6px;
+    width: 82px;
+}
+
+.pricing-footer {
+    background-color: #323A45;
+}
+
+.pricing-footer {
+    text-align: center;
+    height: 65px;
+    padding: 20px 0 0;
+    -webkit-border-radius: 0px 0px 6px 6px;
+    -moz-border-radius: 0px 0px 6px 6px;
+    border-radius: 0px 0px 6px 6px;
+}
+
+a,
+li {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.btn:visited,
+.btn:focus {
+    color: #fff;
+}
+
+.pricing-table .btn-pricing {
+    color: #fff;
+    padding: 0 10px;
+    margin-top: -9px;
+    background: rgba(255, 255, 255, 0.2);
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+a,
+a:visited {
+    text-decoration: none!important;
+}
+
+.btn {
+    border: 0;
+    -webkit-transition: background-color .4s ease-in;
+    -moz-transition: background-color .4s ease-in;
+    -o-transition: background-color .4s ease-in;
+    transition: background-color .4s ease-in;
+}
+
+.pricing-table h5 {
+    font-weight: 400;
+}
+
+h5 {
+    font-size: 15px;
+    line-height: 22px!important;
+    margin-bottom: 10px;
+}

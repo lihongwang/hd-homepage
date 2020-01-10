@@ -1,0 +1,49 @@
+'use strict';
+const Model = require("./_Base").Model,
+    path = require('path'),
+    _ = require('lodash'),
+    fs = require('fs');
+
+exports.<%=Name%> = class <%=Name%> extends Model {
+    static list(sortKey = "updatedAt", direction = "asc") {
+        return Model.list("<%=name%>", sortKey, direction);
+    }
+    static findBy(args) {
+        return Model.findBy("<%=name%>", args);
+    }
+    static findAll(args) {
+        return Model.findAll("<%=name%>", args);
+    }
+    static findByReg(args) {
+        return Model.findByReg("<%=name%>", args);
+    }
+    static where(key, value, chainAble) {
+        return Model.where("<%=name%>", key, value, chainAble);
+    }
+    static format(chain, keys) {
+        if (keys) {
+            return chain.map(function(p) {
+                let obj = {};
+                keys.forEach(function(key) {
+                    obj[key] = p[key];
+            });
+                return obj;
+            });
+        } else {
+            return chain.map(function(p) {
+                return {
+                    id: p.id
+                };
+            });
+        }
+    }
+    static create(args) {
+        return Model.create("<%=name%>", args);
+    }
+    static update(args) {
+        return Model.update("<%=name%>", "id", args);
+    }
+    static delete(args) {
+        return Model.delete("<%=name%>", args);
+    }
+}

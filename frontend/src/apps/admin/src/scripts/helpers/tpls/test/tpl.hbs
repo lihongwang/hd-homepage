@@ -1,0 +1,26 @@
+<section class="white_section section_gap" id="about">
+    <div class="container">
+      <div class="heading">
+        <h1><span>Welcome to</span> Trio</h1>
+      </div>
+      <div class="row sec_top_gp">
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 noPaddLeft welcome">
+          <h1 class="welcome_heading font-light">We craft inspiring trendy digital experiences.</h1>
+        </div>
+        <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7 welcomr_text">
+          <p>Nullam at ligula at velit adipiscing malesuada et venenatis enim. Praesent lacinia volutpat imperdiet. Integer ultricies aliquam auctor. Etiam gravida sagittis ipsum nec dictum. Nunc pretium est quis placerat congue. Nam dui lectus, pretium get elit id, interdum ultricies neque.Nullatum. Nunc pretium est quis placerat congue. Nam dui lectus, pretium get elit id, interdum ultricies neque.</p>
+          <p>Nullam at ligula at velit adipiscing malesuada et venenatis enim. Praesent lacinia volutpat imperdiet. Integer ultricies aliquam auctor. Etiam gravida sagittis ipsum nec dictum. Nunc pretium est quis placerat congue. Nam dui lectus, pretium get elit id, interdum ultricies neque.</p>
+        </div>
+      </div>
+      <div class="row sec_top_gp">
+		  {{#each aboutRow}}
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          <div class="welcome_listing"> <span><i class="{{icon}}"></i></span>
+            <h3>{{title}}</h3>
+            <p>{{text}}</p>
+          </div>
+        </div>
+		{{/each}}
+      </div>
+    </div>
+  </section>

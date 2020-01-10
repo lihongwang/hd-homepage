@@ -1,0 +1,42 @@
+<section id="home" class="parallax-section" style="background-position: 50% 0px;">
+<!-- http://themes.khaitawng.com/Hermosa/index.html -->
+     <!-- OVERLAY -->
+     <div class="overlay"></div>
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-12 col-sm-12">
+                    <h1>hey there,</h1>
+                    <div class="element">I am Developer.</div>
+                    <!-- BUTTON -->
+                    <a href="#portfolio" class="smoothScroll btn btn-default section-btn">MY PORTFOLIO</a>
+               </div>
+
+          </div>
+     </div>
+</section>
+<div id="sticky-wrapper" class="sticky-wrapper" style="height: 74px;"><div class="navbar navbar-default navbar-static-top" role="navigation">
+     <div class="container">
+
+          <!-- NAVBAR HEADER -->
+          <div class="navbar-header">
+               <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
+               </button>
+               <!-- lOGO TEXT HERE -->
+               <a href="index.html" class="navbar-brand">Her<strong>mo</strong>sa</a>
+          </div>
+
+          <!-- NAVIGATION LINKS -->
+          <div class="collapse navbar-collapse">
+               <ul class="nav navbar-nav navbar-right">
+               {{#each page}}
+                    <li><a class="smoothScroll" href="{{link}}{{title}}">{{title}}</a></li>
+                    {{/each}}
+               </ul>
+          </div>
+
+     </div>
+</div></div>

@@ -1,0 +1,253 @@
+.container-wrap {
+    padding-top: 110px;
+    padding-bottom: 100px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.container-wrap:after {
+    background: rgb(241, 241, 241);
+    background: -webkit-gradient(linear, 90deg, color-stop(0.00%, rgb(241, 241, 241)), color-stop(100.00%, rgba(255, 255, 255, 0)));
+    background: -webkit-linear-gradient(90deg, rgb(241, 241, 241) 0.00%, rgba(255, 255, 255, 0) 100.00%);
+    background: -o-linear-gradient(90deg, rgb(241, 241, 241) 0.00%, rgba(255, 255, 255, 0) 100.00%);
+    background: -ms-linear-gradient(90deg, rgb(241, 241, 241) 0.00%, rgba(255, 255, 255, 0) 100.00%);
+    background: linear-gradient(0deg, rgb(241, 241, 241) 0.00%, rgba(255, 255, 255, 0) 100.00%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='rgb(241, 241, 241)', endColorstr='rgba(255,255,255,0)', GradientType=0);
+}
+
+.shortcode-btn .button-small.slide {
+    height: 40px;
+    width: 40px;
+}
+
+.md-text-container {
+    justify-content: flex-start;
+    text-align: left;
+    display: flex;
+}
+
+.md-text-container .md-text-title {
+    font-size: 30px;
+    line-height: 33px;
+    letter-spacing: 3px;
+    margin-bottom: 24px;
+    color: rgb(42, 50, 64);
+    transition: all .3s cubic-bezier(0.215, 0.61, 0.355, 1);
+    font-family: PT Sans;
+    font-style: bold;
+    font-weight: 700;
+}
+
+.md-text-container .md-text-content {
+    margin-bottom: 24px;
+}
+
+.md-text-container .md-text-content p {
+    color: rgb(137, 137, 137);
+    font-size: 15px;
+}
+
+.md-text-container .md-text-content * {
+    line-height: 23px;
+    font-family: PT Sans;
+    font-style: regular;
+}
+
+.shortcode-btn {
+    display: inline-block;
+    backface-visibility: hidden;
+    padding: 1px;
+    white-space: nowrap;
+}
+
+.imagebox-full:hover .description {
+    opacity: 1;
+}
+
+.imagebox-full {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 55px 19% 39px 8%;
+}
+
+.imagebox-full .overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.imagebox-full .text-container,
+.imagebox-full .title,
+.imagebox-full .text-container,
+.imagebox-full .title,
+.imagebox-full .text-container,
+.imagebox-full .title,
+.imagebox-full .text-container,
+.imagebox-full .title,
+.imagebox-full .text-container,
+.imagebox-full .title {
+    margin-bottom: 10px;
+}
+
+.imagebox-full .text-container {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    margin-bottom: 35px;
+}
+
+.imagebox-full:hover .title {
+    padding-top: 0;
+}
+
+.imagebox-full .title {
+    padding-top: 125px;
+}
+
+.imagebox-full .title,
+.imagebox-full .description {
+    max-width: 570px;
+}
+
+.shortcode-btn {
+    display: inline-block;
+    backface-visibility: hidden;
+    padding: 1px;
+    white-space: nowrap;
+}
+
+.imagebox-full .shortcode-btn a.button {
+    border: 2px solid;
+    position: relative;
+}
+
+.shortcode-btn .button-small.slide span {
+    opacity: 0;
+}
+
+.shortcode-btn .button-small.slide:hover span {
+    opacity: 1;
+    color: #333;
+}
+
+.wpb_column:hover .description {
+    opacity: 1;
+}
+
+.wpb_column .description {
+    opacity: 0;
+}
+
+.imagebox-full .title,
+.imagebox-full .description {
+    color: #ffffff;
+}
+
+.imagebox-full .slide:hover {
+    background-color: transparent;
+}
+
+.shortcode-btn .slide {
+    color: #fff;
+    border: 2px solid;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.shortcode-btn .slide:hover .button-icon {
+    transform: rotate(360deg);
+}
+
+.shortcode-btn .slide .button-icon {
+    transition: all .8s;
+}
+
+.shortcode-btn .button-icon {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.shortcode-btn .slide.slide-transition {
+    transition: width .4s, background .4s;
+}
+
+.shortcode-btn .slide .button-icon {
+    font-size: 18px;
+    transition: all .8s;
+}
+
+.shortcode-btn .button-icon {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.shortcode-btn .button-small.slide .button-icon {
+    width: 38px;
+    display: inline-block;
+    height: 40px;
+    padding-left: 15px;
+    line-height: 38px;
+}
+
+.shortcode-btn .slide,
+.shortcode-btn .button-small.slide {
+    text-align: left;
+}
+
+.shortcode-btn .button-small.slide {
+    height: 40px;
+    width: 40px;
+}
+
+.shortcode-btn .button-small.slide span {
+    opacity: 0;
+}
+
+.shortcode-btn .button-small.slide:hover span {
+    opacity: 1;
+    color: #2d2d2d;
+}
+
+.shortcode-btn .slide:hover i {
+    color: #2d2d2d;
+}
+
+.shortcode-btn .slide:hover {
+    border-radius: 50px;
+    background-color: #fff;
+    width: 124px;
+    text-decoration: none;
+}
+
+.shortcode-btn {
+    display: inline-block;
+    backface-visibility: hidden;
+    padding: 1px;
+    white-space: nowrap;
+}
+
+.shortcode-btn .fill-rectangle {
+    padding: 18px 38px;
+}
+
+.fill-rectangle:hover {
+    background-color: rgb(42, 50, 64);
+    color: rgb(255, 255, 255);
+    border: none;
+}
+
+.fill-rectangle {
+    background-color: rgb(177, 136, 87);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+}

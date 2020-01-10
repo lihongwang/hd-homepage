@@ -1,0 +1,619 @@
+ul,
+li {
+    list-style: none;
+}
+
+.fk-index-wrap {
+    width: 1200px;
+    margin: 0 auto
+}
+
+.fk-index-header {
+    padding-top: 97px;
+    padding-bottom: 100px;
+    text-align: center
+}
+
+.fk-index-header .f-hd-title {
+    font-size: 50px;
+    color: #333;
+    font-weight: normal
+}
+
+.fk-index-header .f-hd-subDesc {
+    font-size: 16px;
+    margin: 0;
+    padding-top: 30px;
+    color: #999
+}
+
+.fk-index-header .f-hd-title,
+.fk-index-header .f-hd-subDesc {
+    line-height: 1
+}
+
+.fk-index-main .f-main-list {
+    text-align: center
+}
+
+.fk-index-main .f-main-item {
+    display: inline-block;
+    margin: 0 69px 110px 69px;
+    width: 146px;
+    *display: inline;
+    _zoom: 1;
+    position: relative;
+    height: 207px
+}
+
+.fk-casePc-formWrap .f-winBg {
+    width: 536px;
+    height: 352px;
+    position: absolute;
+    left: -7px;
+    top: 0;
+    z-index: 0;
+    background: url(/image/v2/home_ico.png?v=201711061220) no-repeat -893px -15px
+}
+
+.fk-casePc-formWrap .f-win {
+    position: absolute;
+    left: 0;
+    top: 20px;
+    width: 100%;
+    height: 314px;
+    overflow: hidden
+}
+
+.fk-casePc-formWrap .f-winMask {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    border-radius: 6px 6px 0 0;
+    background: #000
+}
+
+.fk-casePc-formWrap .f-link-preview {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    margin: 100px auto;
+    cursor: pointer;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -32px;
+    margin-top: -32px
+}
+
+.fk-casePc-formWrap .f-link-previewBg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 64px;
+    height: 64px;
+    z-index: 0;
+    background: #fff;
+    opacity: .4;
+    filter: alpha(opacity=40)
+}
+
+.fk-casePc-formWrap .f-icon-preview {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 24px;
+    width: 24px;
+    margin-left: -12px;
+    margin-top: -12px;
+    background: url(/image/v2/home_ico.png?v=201711061220) -274px -14px no-repeat;
+    z-index: 1
+}
+
+.fk-casePc-formWrap {
+    width: 518px;
+    height: 334px;
+    position: relative
+}
+
+.fk-casePc-formWrap .f-casePc-form {
+    width: 518px;
+    height: 334px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -259px;
+    margin-top: -167px
+}
+
+.fk-casePc-formWrap .f-casePc-form .f-win-img {
+    width: 100%;
+    height: auto
+}
+
+.fk-casePc-formWrapUnHover .f-winMask,
+.fk-casePc-formWrapHover .f-winMask {
+    opacity: 0;
+    filter: alpha(opacity=0)
+}
+
+.fk-casePc-formWrapHover .f-winMask {
+    transition: opacity .3s
+}
+
+.fk-casePc-formWrapHover:hover .f-winMask {
+    opacity: .6;
+    filter: alpha(opacity=60)
+}
+
+.fk-casePc-formWrapHover {
+    transition: transform .3s;
+    transform: translateZ(0)
+}
+
+.fk-casePc-formWrapHover:hover {
+    transform: scale(1.02, 1.02) translateZ(0)
+}
+
+.fk-index-caseForm {
+    width: 220px;
+    padding: 0 18px;
+    margin-right: 44px;
+    height: 585px;
+    overflow: hidden;
+    position: relative
+}
+
+.fk-index-caseForm .f-phone-template {
+    z-index: 0
+}
+
+.fk-index-caseForm .f-screen {
+    position: absolute;
+    width: 198px;
+    height: 354px;
+    width: 200px;
+    height: 356px;
+    left: 27px;
+    top: 40px;
+    overflow: hidden
+}
+
+.fk-index-caseForm .f-screen-link {
+    display: block;
+    width: 100%;
+    height: 100%
+}
+
+.fk-index-caseForm .f-screen-img {
+    width: 100%;
+    height: auto;
+    min-height: 100%
+}
+
+.fk-index-caseForm .f-screenMask {
+    height: 100%;
+    background: #000;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    overflow: hidden
+}
+
+.fk-index-caseForm .f-qrCode {
+    width: 134px;
+    height: 134px;
+    position: absolute;
+    left: 50%;
+    margin-left: -75px;
+    border: 8px solid #fff;
+    border-radius: 3px;
+    overflow: hidden;
+    outline: 0;
+    background: #fff
+}
+
+.fk-index-caseForm .f-qrCode .f-qrCodeImg {
+    width: 134px;
+    height: 134px;
+    outline: 0
+}
+
+.fk-index-caseForm .f-btn-preview {
+    display: block;
+    height: 38px;
+    width: 110px;
+    border-radius: 19px;
+    line-height: 36px;
+    margin: 0 auto;
+    padding: 0;
+    background: #2f82ff;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    margin-left: -55px;
+    top: 250px;
+    font-size: 14px
+}
+
+.fk-index-caseForm .f-btn-preview .f-txt,
+.fk-index-caseForm .f-btn-preview .fkIcon-preview {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1
+}
+
+.fk-index-caseForm .f-screen-contentWrap {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    overflow: hidden
+}
+
+.fk-index-screenHover .f-screenMask,
+.fk-index-screenUnHover .f-screenMask {
+    opacity: 0;
+    filter: alpha(opacity=0)
+}
+
+.fk-index-screenHover .f-screenMask {
+    transition: opacity .3s
+}
+
+.fk-index-screenHover .f-qrCode,
+.fk-index-screenUnHover .f-qrCode {
+    top: -151px
+}
+
+.fk-index-screenHover .f-qrCode {
+    transition: top .3s
+}
+
+.fk-index-screenHover .f-btn-preview,
+.fk-index-screenUnHover .f-btn-preview {
+    filter: alpha(opacity=0);
+    opacity: 0
+}
+
+.fk-index-screenHover .f-btn-preview {
+    transition: opacity .3s
+}
+
+.fk-index-screenHover:hover .f-screenMask {
+    filter: alpha(opacity=60);
+    opacity: .6;
+    transform: scale(1)
+}
+
+.fk-index-screenHover:hover .f-btn-preview {
+    filter: alpha(opacity=100);
+    opacity: 1;
+    transform: scale(0.953)
+}
+
+.fk-index-screenHover:hover .f-qrCode {
+    top: 75px
+}
+
+.fk-index-mobiArea {
+    width: 220px;
+    height: 452px;
+    position: relative
+}
+
+.fk-index-mobiPlaceholder {
+    width: 220px;
+    height: 452px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -110px;
+    margin-top: -226px
+}
+
+.fk-index-mobiPlaceholder .fk-index-caseForm {
+    position: absolute;
+    left: -16px;
+    height: 470px
+}
+
+.fk-index-mobiAreaHover .fk-index-mobiPlaceholder {
+    transform-origin: center center;
+    transition: transform .3s
+}
+
+.fk-index-mobiAreaHover:hover .fk-index-mobiPlaceholder {
+    transform: scale(1.05, 1.05)
+}
+
+.fk-caseForm {
+    width: 220px;
+    height: 583px
+}
+
+.fk-caseForm .f-link {
+    color: #333
+}
+
+.fk-caseForm .f-caseTtitle {
+    padding-top: 26px;
+    font-size: 16px;
+    font-weight: 1;
+    color: #333
+}
+
+.fk-caseForm .f-caseProp {
+    margin: 0;
+    padding-top: 12px;
+    height: 70px;
+    color: #b1b1b1;
+    font-size: 14px;
+    width: 105%
+}
+
+.fk-caseForm .f-caseInfo {
+    padding: 0 0 0 15px
+}
+
+.fk-index-tabs {
+    padding-top: 68px;
+    font-size: 0;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    position: relative
+}
+
+.fk-index-tabs .f-tab {
+    padding-bottom: 15px;
+    width: 70px;
+    margin-left: 70px;
+    color: #333;
+    font-size: 18px;
+    padding: 0 12px 15px 12px;
+    line-height: 1;
+    width: auto;
+    cursor: pointer;
+    float: left;
+}
+
+.fk-index-tabs .f-tab-first,
+.fk-index-tabs .f-tab:first-child {
+    margin-left: 0
+}
+
+.fk-index-tabs .f-tab-activeLine {
+    position: absolute;
+    height: 2px;
+    background: #4975e5;
+    display: block;
+    width: 0
+}
+
+.fk-index-tabs .f-tabLink {
+    color: #333;
+    display: block
+}
+
+.fk-index-sliderPanel {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    overflow: hidden
+}
+
+.fk-index-sliderPanel .f-sldList {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden
+}
+
+.fk-index-sliderPanel .f-sldList .f-sldItem {
+    height: 100%;
+    width: 100%;
+    float: left;
+    text-align: left;
+    position: relative
+}
+
+.fk-index-sliderPanel .f-sldList-2 {
+    width: 200%
+}
+
+.fk-index-sliderPanel .f-sldList-3 {
+    width: 300%
+}
+
+.fk-index-sliderPanel .f-sldList-2 .f-sldItem {
+    width: 50%
+}
+
+.fk-index-sliderPanel .f-sldList-3 .f-sldItem {
+    width: 33.3333333333%
+}
+
+.fk-index-sliderPanel .f-sldImg {
+    width: 100%;
+    height: 100%;
+    display: block
+}
+
+.fk-index-guestWinSld-sliderPanel .f-sldList-3 .f-sldItem {
+    width: 740px
+}
+
+.f-index-model {
+    background: #fff;
+    min-height: 1387px
+}
+
+.f-index-model .fk-index-sliderPanel .f-sldList-2 {
+    width: 3000px
+}
+
+.f-index-model .fk-index-sliderPanel .f-sldItem {
+    width: 1200px
+}
+
+.f-index-model .fk-index-header {
+    padding-bottom: 0
+}
+
+.f-index-model .f-listWrap {
+    width: 1150px;
+    margin: 0 auto
+}
+
+.f-index-model .f-list {
+    margin-left: -55px;
+    overflow: hidden;
+    width: 1500px;
+    padding-top: 100px
+}
+
+.f-index-model .f-item {
+    float: left;
+    width: 520px;
+    height: 336px;
+    margin: 0 55px;
+    margin-bottom: 100px;
+    position: relative
+}
+
+.f-index-model .f-list-mobi .f-item {
+    width: 220px;
+    height: 530px;
+    margin: 0 40px
+}
+
+.f-index-model .f-list-mobi {
+    margin-left: -40px;
+    width: 110%;
+    width: 1400px;
+    overflow: hidden;
+    padding-top: 100px
+}
+
+.f-index-model .f-mobiListWrap {
+    width: 1120px;
+    margin: 0 auto
+}
+
+.f-index-model .fk-index-sliderPanel {
+    height: 872px;
+    padding-bottom: 100px
+}
+
+.fk-index-main,
+.f-index-model,
+.f-index-helper {
+    position: relative;
+    z-index: 0;
+    padding-top: 2px;
+    margin-top: -2px
+}
+
+.fk-numberBar {
+    position: relative;
+    z-index: 2;
+    margin-top: 671px;
+    background: #fff;
+    padding-bottom: 1
+}
+
+.ellipsis {
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    -moz-text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden
+}
+
+.head {
+    height: 100%
+}
+
+.fk-caseForm .f-phone-template {
+    position: absolute;
+    left: -2px;
+    top: 0;
+    width: 260px;
+    height: 470px;
+    background: url(/image/v2/home_ico.png?v=201711102043) -880px -689px no-repeat;
+    z-index: -1
+}
+
+.fkIcon-preview {
+    display: inline-block;
+    vertical-align: middle;
+    height: 24px;
+    width: 24px;
+    background: url(/image/v2/home_ico.png?v=201711102043) -274px -14px no-repeat;
+    margin-right: 3px
+}
+
+.fk-index-mobiArea {
+    width: 220px;
+    height: 452px;
+    position: relative
+}
+
+.fk-index-mobiPlaceholder {
+    width: 220px;
+    height: 452px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -110px;
+    margin-top: -226px
+}
+
+.fk-index-mobiPlaceholder .fk-index-caseForm {
+    position: absolute;
+    left: -16px;
+    height: 470px
+}
+
+.fk-index-mobiAreaHover .fk-index-mobiPlaceholder {
+    transform-origin: center center;
+    transition: transform .3s
+}
+
+.fk-index-mobiAreaHover:hover .fk-index-mobiPlaceholder {
+    transform: scale(1.05, 1.05)
+}
+
+.fk-caseForm {
+    width: 220px;
+    height: 583px
+}
+
+.fk-caseForm .f-link {
+    color: #333
+}
+
+.fk-caseForm .f-caseProp {
+    margin: 0;
+    padding-top: 12px;
+    height: 70px;
+    color: #b1b1b1;
+    font-size: 14px;
+    width: 105%
+}
+
+.fk-caseForm .f-caseInfo {
+    padding: 0 0 0 15px
+}

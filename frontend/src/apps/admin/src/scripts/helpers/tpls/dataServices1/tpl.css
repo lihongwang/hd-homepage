@@ -1,0 +1,122 @@
+.block-page {
+    padding: 80px 0;
+    position: relative;
+    background: #fff;
+}
+
+.block-page li {
+    line-height: 30px;
+}
+
+.block-page li .fa {
+    color: #fff;
+    line-height: 20px;
+    width: 20px;
+    height: 20px;
+    background: #3DB93D;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.container-medium {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 940px;
+}
+
+.color-dark {
+    color: #323232;
+}
+
+.devider {
+    height: 1px;
+    border-top: 4px double #ebebeb;
+    margin: 40px 0;
+    position: relative;
+}
+
+.devider i {
+    position: absolute;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    left: 50%;
+    margin-left: -25px;
+    top: -25px;
+    background: #ffffff;
+    font-size: 2em;
+    color: #ebebeb;
+}
+
+.left-icon {
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1) !important;
+    -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.1) !important;
+    -moz-box-shadow: 0 0 6px rgba(0, 0, 0, 0.1) !important;
+    -o-box-shadow: 0 0 6px rgba(0, 0, 0, 0.1) !important;
+    -ms-box-shadow: 0 0 6px rgba(0, 0, 0, 0.1) !important;
+    -webkit-border-radius: 4px !important;
+    -moz-border-radius: 4px !important;
+    -ms-border-radius: 4px !important;
+    -o-border-radius: 4px !important;
+    border-radius: 4px !important;
+    border: 4px double #ebebeb;
+    display: block;
+    text-align: center;
+    padding: 10px
+}
+
+.icon {
+    font-size: 4em;
+    display: block;
+    text-align: center;
+    background: #ffffff;
+    color: #282828;
+    padding-bottom: 20px;
+}
+
+.color-dark {
+    color: #323232;
+}
+
+.white-space-10 {
+    height: 10px;
+}
+
+.white-space-20 {
+    height: 20px;
+}
+
+.btn-flat-solid.primary-btn {
+    color: #ffffff;
+    background-color: #e74c3c;
+}
+
+.btn-flat-solid.btn-xs {
+    padding: 8px;
+    min-width: 80px;
+    font-size: 10px;
+}
+
+.btn-flat-solid {
+    font-family: 'Open Sans';
+    -webkit-border-radius: 3px !important;
+    -moz-border-radius: 3px !important;
+    -ms-border-radius: 3px !important;
+    -o-border-radius: 3px !important;
+    border-radius: 3px !important;
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 12px;
+    min-width: 115px;
+    letter-spacing: 1px;
+    padding: 13px;
+}

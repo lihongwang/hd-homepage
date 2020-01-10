@@ -1,0 +1,65 @@
+.fuelux {
+    .repeater .repeater-canvas {
+        min-height: 180px;
+        overflow-x: hidden !important;
+        //template begin
+        .spacer {
+            display: none;
+        }
+        .item-con {
+            .item .img-fluid {
+                height: 200px;
+            }
+            .actions {
+                li {
+                    list-style: none;
+                    float: left;
+                }
+            }
+        }
+        //template end
+        //表格内容管理 begin
+        .actions-column-wrapper {
+            .btn-group {
+                margin: 0;
+            }
+            .dropdown-toggle {
+                padding: 0;
+            }
+            table.table-actions tr td {
+                background-color: transparent !important;
+            }
+        }
+        tbody tr:nth-child(2n) {
+            background-color: #f4f3f3;
+        }
+        tbody tr:hover {
+            background-color: #eee;
+        }
+        //表格内容管理 end
+    }
+    .repeater-footer {
+        .form-group {
+            margin-top: 0;
+            padding-bottom: 0;
+            .form-control {
+                padding-bottom: 0;
+            }
+        }
+        .input-group-btn .btn {
+            padding: 5px 20px;
+        }
+        .is-empty {
+            display: none;
+        }
+    }
+    .modal .modal-footer button.pull-left {
+        padding-left: 16px;
+        padding-right: 16px;
+        left: 0;
+    }
+}
+
+.r-list-action {
+    display: block;
+}

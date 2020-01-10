@@ -1,0 +1,51 @@
+{
+    "items": [{
+        "src": "http://milk.pryanik.co/img/work3.png",
+        "pathDesc": "Created with Snap",
+        "title": "Yellowcard",
+        "class": "color-red",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    }, {
+        "src": "http://milk.pryanik.co/img/work5.png",
+        "pathDesc": "Created with Snap",
+        "title": "Darkspace",
+        "class": "color-blue",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    }, {
+        "src": "http://milk.pryanik.co/img/work2.png",
+        "pathDesc": "Created with Snap",
+        "title": "Yellowcard",
+        "class": "color-violet",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    }, {
+        "src": "http://milk.pryanik.co/img/work4.png",
+        "pathDesc": "Created with Snap",
+        "title": "Yellowcard",
+        "class": "color-yellow",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    }, {
+        "src": "http://milk.pryanik.co/img/work6.png",
+        "pathDesc": "Created with Snap",
+        "title": "Yellowcard",
+        "class": "color-gray",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    }, {
+        "src": "http://milk.pryanik.co/img/work1.png",
+        "pathDesc": "Created with Snap",
+        "title": "Yellowcard",
+        "class": "color-green",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    }, {
+        "src": "http://milk.pryanik.co/img/work7.png",
+        "pathDesc": "Created with Snap",
+        "title": "Yellowcard",
+        "class": "color-beige",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    }, {
+        "src": "http://milk.pryanik.co/img/work8.png",
+        "pathDesc": "Created with Snap",
+        "title": "Yellowcard",
+        "class": "color-red",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    }]
+}

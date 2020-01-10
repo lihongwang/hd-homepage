@@ -1,0 +1,135 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Responsive Onepage Bootstrap Template. 
+    Template URI: http://infinitelayout.com
+    Description: This is html5 template
+    Author: InfiniteLayout
+    Author URI: http://infinitelayout.com
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+    
+    CSS INDEX
+    ===================
+	
+    1. Theme Default CSS (body, link color, section etc)
+
+-----------------------------------------------------------------------------------*/
+
+::-moz-selection {
+    background: #33A8F3;
+    text-shadow: none;
+    color: #fff;
+}
+
+::selection {
+    background: #33A8F3;
+    text-shadow: none;
+    color: #fff;
+}
+
+.item-text {
+    margin: 25px 0 5px;
+}
+
+a.theme-btn {
+    border-radius: 2px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 20px;
+    min-width: 150px;
+    padding: 10px 30px;
+    text-shadow: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.single-item:hover a.theme-btn {
+    background-color: #ffbb00;
+    color: #ffffff !important;
+}
+
+a.theme-btn:hover {
+    background-color: #67A225;
+    color: #ffffff !important;
+}
+
+.theme-btn {
+    border: 1px solid #ffbb00;
+    color: #333
+}
+
+.section-title-area {
+    padding: 70px 0;
+}
+
+.section-title {
+    color: #333333;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.section-dis {
+    color: #434343;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.image-bg {
+    display: block;
+    height: 350px;
+    position: relative;
+    width: 100%
+}
+
+.image-bg .image-shop-scroll {
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    top: 0px;
+    transition: all 4s ease-out 0s;
+    width: 100%;
+}
+
+.image-bg:hover .image-shop-scroll {
+    background-position: center 100% !important;
+}
+
+.section-content {
+    border-bottom: 1px solid #ededed;
+    padding-bottom: 70px;
+}
+
+.section-content:last-child {
+    border-bottom: 0px solid #ededed;
+    padding-bottom: 0px;
+}
+
+.section-content .col-md-4:nth-child(-n+3) .single-item {
+    margin-top: 0;
+}
+
+.image-shop-scroll::before {
+    background: #000 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 50%;
+    opacity: 0.2;
+    position: absolute;
+    top: 0;
+    width: 0;
+    transition: .3s;
+}
+
+.single-item:hover .image-shop-scroll::before {
+    left: 0;
+    width: 100%;
+}

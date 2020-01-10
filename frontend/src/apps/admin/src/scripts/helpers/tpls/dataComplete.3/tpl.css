@@ -1,0 +1,109 @@
+#main>section {
+    padding: 100px 0;
+    position: relative;
+}
+
+.polyblue-bg {
+    background: url(scr/assets/images/polygonblue-bg.jpg) no-repeat center top;
+    background-size: cover;
+}
+
+.container {
+    width: 1200px;
+}
+
+section>.container {
+    text-align: center;
+}
+
+.dark {
+    color: #fff;
+    background: #212121;
+}
+
+.visible {
+    opacity: 1;
+}
+
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.circle-stat.circliful {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.circle-stat.circliful:before {
+    position: absolute;
+    content: '';
+    display: inline-block;
+    width: 140px;
+    height: 140px;
+    border: 3px solid #fff;
+    z-index: 0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    left: 15px;
+    top: 15px;
+}
+
+.circle-stat.circliful canvas {
+    position: relative;
+    z-index: 1;
+}
+
+.circular .text {
+    position: absolute;
+    font-size: 36px;
+    font-weight: 300;
+    letter-spacing: 0.2em;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 63px;
+}
+
+.circular .text {
+    position: absolute;
+    font-size: 36px;
+    font-weight: 300;
+    letter-spacing: 0.2em;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 63px;
+}
+
+p.caption {
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    margin-bottom: 0;
+}
+
+.dark a,
+.dark p {
+    color: #c7d3e2;
+}
+
+p {
+    font-family: 'ProximaNova', Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: none;
+    font-size: 18px;
+    line-height: 30px;
+}

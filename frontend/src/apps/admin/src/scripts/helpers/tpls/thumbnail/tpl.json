@@ -1,0 +1,29 @@
+{
+    "buildForm": true,
+    "selectRowData": true,
+    "schema": {
+        "type": "object",
+        "properties": {
+            "items": {
+                "title": "Row Items",
+                "type": "array",
+                "items": {
+                    "description": "row item",
+                    "type": "object",
+                    "properties": {
+                        "head": {
+                            "type": "string",
+                            "title": "Head",
+                            "description": "head"
+                        },
+                        "title": {
+                            "type": "string",
+                            "title": "Title",
+                            "description": "title"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

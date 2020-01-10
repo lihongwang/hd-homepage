@@ -1,0 +1,117 @@
+<div class="container common-box blog-detail" role="main">
+    <div class="row">
+        <div class="col-md-10 ml-auto mr-auto">
+            <div class="blog-banner common-module">
+                <img src="{{bannerSrc}}" class="fill" alt="img dis"> </div>
+            <h1>{{title}}</h1>
+
+            <!--Blogs Info-->
+            <div class="info">
+                <ul>
+                    <li class="date">{{date}} </li>
+                    <li class="auther">{{auther}}</li>
+                    <li class="views">
+                        <b>{{viewsCount}}</b> Views</li>
+                    <li class="comment">
+                        <b>{{commentCount}}</b> Comments</li>
+                </ul>
+            </div>
+
+            <article class="common-module">{{{html}}}</article>
+
+            <!--Social Share-->
+            <div class="share common-module">
+                <h4>Share:</h4>
+                <a href="#facebook" rel="nofollow" target="_blank">
+                    <i class="fa fa-facebook"></i>
+                </a>
+                <a href="#twitter" rel="nofollow" target="_blank">
+                    <i class="fa fa-twitter"></i>
+                </a>
+                <a href="#pinterest" rel="nofollow" target="_blank">
+                    <i class="fa fa-pinterest-p"></i>
+                </a>
+                <a href="#instagram" rel="nofollow" target="_blank">
+                    <i class="fa fa-instagram"></i>
+                </a>
+            </div>
+
+            <!--Comments-->
+            <div class="comments-module common-module">
+                <h3 class="module-title">Comments ({{commentCount}})</h3>
+                <ul>
+                    <!--Comment item 01-->
+                    {{#each commentItems}}
+                    <li class="clearfix">
+
+                        <div class="item-wrap">
+                            <div class="intro-img">
+                                <img src="images/clients/client-01.jpg" alt="img dis">
+                            </div>
+                            <div class="intro-text">
+                                <div class="item-title">
+                                    <h4>{{title}}</h4>
+                                    <span class="date"> {{date}}</span>
+                                </div>
+                                <p>{{text}}</p>
+                                <a href="#" class="reply">
+                                    <i class="fa fa-reply"></i> Reply</a>
+                            </div>
+                        </div>
+
+                        <!--Comment child-->
+                        <ul class="child">
+                            <!--Comment child item 01-->
+                            {{#each commentChild}}
+                            <li class="clearfix">
+                                <div class="item-wrap">
+                                    <div class="intro-img">
+                                        <img src="{{src}}" alt="img dis">
+                                    </div>
+                                    <div class="intro-text">
+                                        <div class="item-title">
+                                            <h4>{{title}}</h4>
+                                            <span class="date">{{date}}</span>
+                                        </div>
+                                        <p>{{text}}</p>
+                                        <a href="#" class="reply">
+                                            <i class="fa fa-reply"></i> Reply</a>
+                                    </div>
+                                </div>
+                            </li>
+                            {{/each}}
+                        </ul>
+                    </li>
+                    {{/each}}
+                </ul>
+            </div>
+
+            <!-- Comment reply from -->
+            <div class="common-module">
+                <h3 class="module-title">Leave a Reply</h3>
+                <form class="reply-form" novalidate="">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Name*" id="replier_name" required="" data-validation-required-message="Please enter your Full Name.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Email*" id="replier_email" required="" data-validation-required-message="Please enter your email address.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" placeholder="Comment*" id="replier_comment" rows="6" required="" data-validation-required-message="Please write your comment"></textarea>
+                        <p class="help-block text-danger"></p>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-md">submit</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>

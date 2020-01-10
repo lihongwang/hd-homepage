@@ -1,0 +1,175 @@
+{
+  "photos": [
+    {
+      "id": "HJ7zC8ZLf",
+      "name": "背景-手机",
+      "category": "photos_slides",
+      "file": {
+        "fieldname": "file",
+        "originalname": "smartphone-1957743_1280.jpg",
+        "encoding": "7bit",
+        "mimetype": "image/jpeg",
+        "destination": "/Users/vitoli/uZone/webServer/hd-homepage/public/upload/slides",
+        "filename": "1517542922637-smartphone-1957743_1280.jpg",
+        "path": "/upload/slides/1517542922637-smartphone-1957743_1280.jpg",
+        "size": 115639
+      },
+      "uniqName": "背景-手机_",
+      "createdAt": "2018-02-02T03:42:02.830Z",
+      "updatedAt": "2018-02-02T03:44:05.907Z",
+      "src": "/upload/slides/1517542922637-smartphone-1957743_1280.jpg"
+    },
+    {
+      "id": "rJ5408WUM",
+      "name": "背景-图案",
+      "category": "photos_slides",
+      "file": {
+        "fieldname": "file",
+        "originalname": "banner-1732847_1280.jpg",
+        "encoding": "7bit",
+        "mimetype": "image/jpeg",
+        "destination": "/Users/vitoli/uZone/webServer/hd-homepage/public/upload/slides",
+        "filename": "1517542961702-banner-1732847_1280.jpg",
+        "path": "/upload/slides/1517542961702-banner-1732847_1280.jpg",
+        "size": 133086
+      },
+      "uniqName": "背景-图案_photos_slides",
+      "createdAt": "2018-02-02T03:42:41.824Z",
+      "updatedAt": "2018-02-02T03:42:41.824Z",
+      "src": "/upload/slides/1517542961702-banner-1732847_1280.jpg"
+    },
+    {
+      "id": "Hk9BALWIz",
+      "name": "背景-表格",
+      "category": "photos_slides",
+      "file": {
+        "fieldname": "file",
+        "originalname": "chart-2785962_1280.jpg",
+        "encoding": "7bit",
+        "mimetype": "image/jpeg",
+        "destination": "/Users/vitoli/uZone/webServer/hd-homepage/public/upload/slides",
+        "filename": "1517542978157-chart-2785962_1280.jpg",
+        "path": "/upload/slides/1517542978157-chart-2785962_1280.jpg",
+        "size": 364072
+      },
+      "uniqName": "背景-表格_photos_slides",
+      "createdAt": "2018-02-02T03:42:58.320Z",
+      "updatedAt": "2018-02-02T03:42:58.320Z",
+      "src": "/upload/slides/1517542978157-chart-2785962_1280.jpg"
+    },
+    {
+      "id": "S1a8CUbUM",
+      "name": "背景-电脑",
+      "category": "photos_slides",
+      "file": {
+        "fieldname": "file",
+        "originalname": "home-office-336373_1280.jpg",
+        "encoding": "7bit",
+        "mimetype": "image/jpeg",
+        "destination": "/Users/vitoli/uZone/webServer/hd-homepage/public/upload/slides",
+        "filename": "1517542996927-home-office-336373_1280.jpg",
+        "path": "/upload/slides/1517542996927-home-office-336373_1280.jpg",
+        "size": 122169
+      },
+      "uniqName": "背景-电脑_photos_slides",
+      "createdAt": "2018-02-02T03:43:17.288Z",
+      "updatedAt": "2018-02-02T03:43:17.288Z",
+      "src": "/upload/slides/1517542996927-home-office-336373_1280.jpg"
+    },
+    {
+      "id": "SJXO08WIG",
+      "name": "背景-光",
+      "category": "photos_slides",
+      "file": {
+        "fieldname": "file",
+        "originalname": "light-681196_1280.jpg",
+        "encoding": "7bit",
+        "mimetype": "image/jpeg",
+        "destination": "/Users/vitoli/uZone/webServer/hd-homepage/public/upload/slides",
+        "filename": "1517543018696-light-681196_1280.jpg",
+        "path": "/upload/slides/1517543018696-light-681196_1280.jpg",
+        "size": 44856
+      },
+      "uniqName": "背景-光_photos_slides",
+      "createdAt": "2018-02-02T03:43:38.834Z",
+      "updatedAt": "2018-02-02T03:43:38.834Z",
+      "src": "/upload/slides/1517543018696-light-681196_1280.jpg"
+    },
+    {
+      "id": "B1rKCIWUz",
+      "name": "背景-星空",
+      "category": "photos_slides",
+      "file": {
+        "fieldname": "file",
+        "originalname": "milky-way-2881461_1280.jpg",
+        "encoding": "7bit",
+        "mimetype": "image/jpeg",
+        "destination": "/Users/vitoli/uZone/webServer/hd-homepage/public/upload/slides",
+        "filename": "1517543036500-milky-way-2881461_1280.jpg",
+        "path": "/upload/slides/1517543036500-milky-way-2881461_1280.jpg",
+        "size": 421934
+      },
+      "uniqName": "背景-星空_photos_slides",
+      "createdAt": "2018-02-02T03:43:56.685Z",
+      "updatedAt": "2018-02-02T03:43:56.685Z",
+      "src": "/upload/slides/1517543036500-milky-way-2881461_1280.jpg"
+    },
+    {
+      "id": "r12fFFZLz",
+      "name": "电脑",
+      "category": "photos_details",
+      "file": {
+        "fieldname": "file",
+        "originalname": "computer-3036166_640.jpg",
+        "encoding": "7bit",
+        "mimetype": "image/jpeg",
+        "destination": "/Users/vitoli/uZone/webServer/hd-homepage/public/upload/details",
+        "filename": "1517553939743-computer-3036166_640.jpg",
+        "path": "/upload/details/1517553939743-computer-3036166_640.jpg",
+        "size": 20958
+      },
+      "uniqName": "电脑_photos_details",
+      "createdAt": "2018-02-02T06:45:39.921Z",
+      "updatedAt": "2018-02-02T06:45:39.921Z",
+      "src": "/upload/details/1517553939743-computer-3036166_640.jpg"
+    },
+    {
+      "id": "SkF7YYb8f",
+      "name": "手机",
+      "category": "photos_details",
+      "file": {
+        "fieldname": "file",
+        "originalname": "smartphone-1957740_640.jpg",
+        "encoding": "7bit",
+        "mimetype": "image/jpeg",
+        "destination": "/Users/vitoli/uZone/webServer/hd-homepage/public/upload/details",
+        "filename": "1517553952622-smartphone-1957740_640.jpg",
+        "path": "/upload/details/1517553952622-smartphone-1957740_640.jpg",
+        "size": 29995
+      },
+      "uniqName": "手机_photos_details",
+      "createdAt": "2018-02-02T06:45:52.937Z",
+      "updatedAt": "2018-02-02T06:45:52.937Z",
+      "src": "/upload/details/1517553952622-smartphone-1957740_640.jpg"
+    },
+    {
+      "id": "Hy9EFYWUf",
+      "name": "多终端",
+      "category": "photos_details",
+      "file": {
+        "fieldname": "file",
+        "originalname": "mockup-654585_640.jpg",
+        "encoding": "7bit",
+        "mimetype": "image/jpeg",
+        "destination": "/Users/vitoli/uZone/webServer/hd-homepage/public/upload/details",
+        "filename": "1517553969673-mockup-654585_640.jpg",
+        "path": "/upload/details/1517553969673-mockup-654585_640.jpg",
+        "size": 39333
+      },
+      "uniqName": "多终端_photos_details",
+      "createdAt": "2018-02-02T06:46:09.785Z",
+      "updatedAt": "2018-02-02T06:46:09.785Z",
+      "src": "/upload/details/1517553969673-mockup-654585_640.jpg"
+    }
+  ]
+}

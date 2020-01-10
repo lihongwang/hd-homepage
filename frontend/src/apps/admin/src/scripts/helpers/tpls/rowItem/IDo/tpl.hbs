@@ -1,0 +1,27 @@
+<section id="section_work" class="light_background">
+    <div class="container">
+        <div class="col-xs-12 section_heading">
+            <h2 class="section_title">{{title}}</h2>
+            <p class="section_subtitle">{{subtitle}}</p>
+        </div>
+        <div class="services">
+            {{#each items}}
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="service_wrap">
+                    <div class="service_icon">
+                        <i class="fa fa-magic"></i>
+                    </div>
+                    <h4 class="service_title">{{title}}</h4>
+                    <p>{{desc}}</p>
+                </div>
+            </div>
+            {{/each}}
+            <div class="clearfix"></div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+            <a class="btn btn_cta scroll" href="#section_portfolio">CHECK MY PORTFOLIO</a>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</section>

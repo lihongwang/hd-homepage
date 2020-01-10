@@ -1,0 +1,48 @@
+{
+
+    "pricingTable": [{
+            "title": "SHARED",
+            "fromTtitle": "FROM",
+            "pricTtile": "$25",
+            "pricTtile1": "PER MONTH",
+            "title1": "50 MB storage",
+            "bigTitle2": "5 GB",
+            "title2": "Bandwidth",
+            "title3": "1 Domain",
+            "title4": "3 Subdomains",
+            "title5": "24/7/365 support",
+            "link": "#",
+            "bontonTitle": "SING up"
+
+        },
+        {
+            "title": "RESELLER",
+            "fromTtitle": "FROM",
+            "pricTtile": "$15",
+            "pricTtile1": "PER MONTH",
+            "title1": "3 GB storage",
+            "bigTitle2": "30 GB",
+            "title2": "Bandwidth",
+            "title3": "30 hosted websites",
+            "title4": "Free cPanel",
+            "title5": "24/7/365 support",
+            "link": "#",
+            "bontonTitle": "SING up"
+        },
+        {
+            "title": "SHARED",
+            "fromTtitle": "FROM",
+            "pricTtile": "$20",
+            "pricTtile1": "PER MONTH",
+            "title1": "10 GB storage",
+            "bigTitle2": "100 GB",
+            "title2": "Bandwidth",
+            "title3": "Free SSL Cert",
+            "title4": "Dedicated IP",
+            "title5": "PCI Compliant",
+            "link": "#",
+            "bontonTitle": "SING up"
+        }
+    ]
+
+}

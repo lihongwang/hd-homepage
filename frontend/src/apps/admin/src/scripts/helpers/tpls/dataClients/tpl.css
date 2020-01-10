@@ -1,0 +1,106 @@
+.page-section-white {
+    padding-top: 60px;
+    width: 100%;
+    float: left;
+    background-color: #FBFBFB;
+    -webkit-animation: toRightFromLeft 0.9s forwards;
+    -moz-animation: toRightFromLeft 0.9s forwards;
+    animation: toRightFromLeft 0.9s forwards;
+}
+
+.container,
+.navbar-static-top .container,
+.navbar-fixed-top .container,
+.navbar-fixed-bottom .container {
+    width: 1170px;
+}
+
+.padbottom30 {
+    padding-bottom: 30px !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #4aaaa5;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    color: #999;
+}
+
+.row {
+    margin-left: -30px;
+}
+
+.row:before,
+.row:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+
+ul.clientslist {
+    width: 100%;
+    float: left;
+    padding: 0px 0px 30px 0px;
+}
+
+ul.clientslist li:hover {
+    margin: -10px 1% 30px 1%;
+    /* filter: url(data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter i…=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale); */
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+ul.clientslist li {
+    width: 16% !important;
+    height: auto;
+    display: inline-block;
+    float: left;
+    list-style: none;
+    list-style-image: none;
+    margin: 0px 1% 20px 1%;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    padding: 0px 1%;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    /* filter: url(data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter i…0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale); */
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+}
+
+ul.clientslist li img {
+    padding: 8px 0px 0px 0px;
+    width: 100%;
+    height: auto;
+}

@@ -1,0 +1,39 @@
+<div id="six-parallax" class="parallax" style="background-image: url(&quot;https://alpinehtml.milkshakethemes.com/images/separator6.jpg&quot;); position: relative; background-position: 50% 21px;" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
+			<div class="parallax-overlay">
+				<div class="section-content">
+					<div class="container text-center">
+
+						<!-- Parallax title -->
+						<h1>{{title}}</h1>
+						<p class="lead">
+							{{text}}
+						</p>
+						<!-- Parallax title -->
+
+						<!-- Parallax content -->
+						<div class="parallax-content">
+							<div class="row">
+{{#each parallax}}
+								<!-- Item box -->
+								<div class="col-md-3 col-sm-3 col-xs-12">
+									<div class="element-line">
+										<div class="item_left" style="opacity: 1; left: 0px;">
+											<div class="parallax-box">
+												<a href="#"> <i class="{{icon}}"></i> <h4>{{title}}</h4>
+												<p>
+													{{text}}
+												</p> </a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Item box -->
+{{/each}}
+							</div>
+						</div>
+						<!-- Parallax content -->
+
+					</div>
+				</div>
+			</div>
+		</div>

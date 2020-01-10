@@ -1,0 +1,33 @@
+<section class="utilhub">
+	<div class="container">
+		<div class="page-header clearfix  animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: softFadeInUp;">
+			<h2>{{title1}}</h2>
+			<div class="lead">
+				{{text1}}
+			</div>
+		</div>
+		<!--end page-header -->
+
+		<div class="row  animated" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: softFadeInUp;">
+			<div class="col-md-12 block text-center">
+				<!-- gallery -->
+				<div id="gallery" class="clearfix">
+					{{#each gallery}}
+					<div class="col-xs-6 col-md-3">
+						<a class="thumbnail" class="thumbnail">
+							<img src="{{src}}" alt="">
+						</a>
+					</div>
+					{{/each}}
+				</div>
+				<!-- end gallery -->
+				<small class="text-muted">{{title3}}</small>
+			</div>
+			<div class="col-md-12 block">
+				<p class="text">{{text2}}</p>
+			</div>
+		</div>
+		<!-- end row -->
+	</div>
+	<!-- end container -->
+</section>

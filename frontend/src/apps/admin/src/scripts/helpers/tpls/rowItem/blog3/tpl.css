@@ -1,0 +1,94 @@
+/* https: //devitems.com/html/minimax-preview/minimax/blog-3-column.html */
+
+.blog-area a:focus,
+.blog-area a:hover {
+    color: #888888;
+    text-decoration: none;
+}
+
+.blog-part {
+    margin-bottom: 60px
+}
+
+.blog-area li {
+    list-style: none;
+}
+
+.blog-area {
+    padding: 100px 0
+}
+
+.blog-img img {
+    width: 100%;
+}
+
+.blog-info {
+    margin-top: 17px;
+}
+
+.blog-area .blog-meta>span {
+    padding-right: 15px;
+}
+
+.blog-meta span {
+    color: #666666;
+    text-transform: capitalize;
+    transition: all .3s ease 0s;
+}
+
+.blog-meta i {
+    color: #464646;
+    font-size: 14px;
+    padding-right: 10px;
+}
+
+.blog-info h3 {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 15px 0 20px;
+    text-transform: uppercase;
+}
+
+.blog-info>p {
+    color: #666;
+}
+
+.blog-info>a {
+    border: 1px solid #464646;
+    color: #464646;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 14px;
+    padding: 8px 30px;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+}
+
+.blog-area .page {
+    display: inline-block;
+    text-align: center;
+}
+
+.blog-area .page li {
+    float: left;
+    margin-right: 15px;
+}
+
+.blog-area .page a {
+    border: 1px solid #c1c1c1;
+    display: inline-block;
+    height: 40px;
+    line-height: 37px;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    width: 40px;
+}
+
+.blog-area .page a:hover,
+.blog-area .page li.active a {
+    background-color: #464646;
+    color: #fff;
+    border: 1px solid #464646;
+}

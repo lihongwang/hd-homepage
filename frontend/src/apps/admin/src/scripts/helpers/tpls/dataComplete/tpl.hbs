@@ -1,0 +1,22 @@
+<section class="light" id="about">
+            <div class="container">
+                <div class="sub-title">{{subTitle}}</div>
+                <h2>{{title}}</h2>
+                <div class="content">
+                    <div class="row bottom-border">
+                        {{#each solidRow}}
+                        <div class="col-md-4 col-sm-6 pull-right">
+                            <div class="text-right">
+                                <img src="{{src}}" alt="Wireframe 1" class="img-responsive">
+                            </div>
+                        </div>
+                        <div class="col-md-8 col-sm-6">
+                            <h3>{{title}}</h3>
+                            <div class="sub-title">{{subTitle}}</div>
+                            <p>{{text}}</p>
+                        </div>
+                    </div>
+                  {{/each}}
+                </div>
+            </div>
+        </section>

@@ -1,0 +1,44 @@
+<div class="f-index-helper">
+    <div class="fk-index-wrap">
+        <div class="fk-index-header">
+            <h2 class="f-hd-title">{{title}}</h2>
+            <ul class="fk-index-tabs" sld-id="model-sld">
+                <li class="f-tab f-tab-first f-tab-active">
+                    <a class="f-tabLink" href="/">建站帮助</a>
+                </li>
+                <li class="f-tab">
+                    <a class="f-tabLink" href="/">新闻资讯</a>
+                </li>
+                <li class="f-tab-activeLine" style="left: 40px; top: 101px; width: 72px; height: 2px;"></li>
+            </ul>
+            <div class="fk-index-sliderPanel" id="model-sld">
+                <div class="f-sldList f-sldList-2" style="left: 0px;">
+                    <div class="f-sldItem">
+                        <div class="f-helpListWrap">
+                            <ul class="f-helpList">
+                                {{#each items}}
+                                <li class="f-helpItem">
+                                    <div class="f-time">
+                                        <div class="f-time-md">{{dateMD}}</div>
+                                        <div class="f-time-y">{{dateY}}</div>
+                                    </div>
+                                    <div class="f-info">
+                                        <h3 class="f-info-title">
+                                            <a class="f-a" href="/">
+                                                <span class="f-hot"></span>
+                                                <span class="f-txt">{{title}}</span>
+                                            </a>
+                                        </h3>
+                                        <p class="f-info-intro">{{intro}}</p>
+                                    </div>
+                                </li>
+                                {{/each}}
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

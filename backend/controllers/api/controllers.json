@@ -1,0 +1,42 @@
+{
+  "users": {
+    "module": "api/UsersController",
+    "uploadPath": "users"
+  },
+  "pages": {
+    "module": "api/PagesController",
+    "uploadPath": "pages"
+  },
+  "sites": {
+    "module": "api/SitesController",
+    "uploadPath": "sites"
+  },
+  "templates": {
+    "module": "api/TemplatesController",
+    "uploadPath": "templates"
+  },
+  "snippets": {
+    "module": "api/SnippetsController",
+    "uploadPath": "snippets"
+  },
+  "categories": {
+    "module": "api/CategoriesController",
+    "uploadPath": "categories"
+  },
+  "photos": {
+    "module": "api/PhotosController",
+    "uploadPath": "photos"
+  },
+  "contents": {
+    "module": "api/ContentsController",
+    "uploadPath": "contents"
+  },
+  "posts": {
+    "module": "api/PostsController",
+    "uploadPath": "posts"
+  },
+  "messages": {
+    "module": "api/MessagesController",
+    "uploadPath": "messages"
+  }
+}

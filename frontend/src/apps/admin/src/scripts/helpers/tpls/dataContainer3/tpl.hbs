@@ -1,0 +1,35 @@
+<div class="container">
+   
+    <div class="row">
+     <div class="col-sm-12 text-center mb-5 wow zoomIn" style="visibility: visible; animation-name: zoomIn;">
+       <h2 class="section-title">
+        {{title}}
+       </h2>
+     </div>
+    </div>        
+    <div class="row portfolio" style="position: relative; height: 1105.08px;">  
+        {{#each container}}  
+      <div class="col-md-6 col-lg-4 portfolio-item cat1 cat5">
+        <div class="portfolio-block">
+          <img src="{{src}}" alt="">
+          <div class="portfolio-overlay">
+           <div class="portfolio-btn-action">
+             <a href="{{imglink}}">
+               <span class="icon {{icon1}}"></span>
+             </a>
+             <a src="{{src1}}" class="popup-img">
+               <span class="icon {{icon2}}"></span>
+             </a>
+           </div> 
+           <div class="portfolio-desc">
+            <h4>{{title}}</h4>
+            <p>{{text}}</p>
+           </div>
+          </div>
+        </div> 
+      </div> 
+     {{/each}}
+                                 
+    </div> 
+    
+  </div>

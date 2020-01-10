@@ -1,0 +1,63 @@
+    .footer-area {
+        padding: 0;
+        margin: 0;
+        background: #212635;
+        font-size: 14px;
+        color: #999;
+    }
+    
+    .footer-area .footer-top {
+        padding: 70px 0;
+        margin: 0;
+    }
+    
+    .footer-area p {
+        margin: 0 0 10px;
+        text-align: left;
+    }
+    
+    .footer-area p span {
+        display: block;
+        margin-top: 7px;
+    }
+    
+    .footer-area ul {
+        /* padding-left: 0; */
+    }
+    
+    .footer-area li {
+        list-style: none;
+        text-align: left;
+        line-height: 30px;
+    }
+    
+    .footer-area .footer-logo {
+        width: 150px;
+        display: block;
+        margin-bottom: 7px;
+    }
+    
+    .footer-area .fa {
+        display: inline-block;
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        transform: translate(0, 0);
+    }
+    
+    .footer-area #baiduMap {
+        height: 190px;
+    }
+    
+    .footer-area a {
+        color: #999;
+        text-decoration: none;
+    }
+    
+    @media (max-width: 767px) {
+        .footer-area .footer-top {
+            padding: 30px 0;
+        }
+    }

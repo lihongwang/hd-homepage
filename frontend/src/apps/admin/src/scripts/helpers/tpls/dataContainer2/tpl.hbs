@@ -1,0 +1,17 @@
+<section id="service" class="service-area section-padding">
+        <div class="container">
+            <div class="row">
+                {{#each container}}
+                <!-- START SINGLE SERVICE DESIGN AREA -->
+                <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-delay="0.2s" style="visibility: visible; animation-delay:0.2s; animation-name: fadeInDown;">
+                    <div class="single-service">
+                        <div class="service-icon"><i class="{{icon}}" aria-hidden="true"></i>
+                        </div>
+                        <h4>{{title}} </h4>
+                        <p>{{text}} </p>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        </div>
+    </section>

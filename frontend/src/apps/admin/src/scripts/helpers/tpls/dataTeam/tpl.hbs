@@ -1,0 +1,63 @@
+<section class="pt-medium pb-medium rollover effect-sarah">
+				<div class="container">
+
+					<div class="row">
+						<div class="col-md-12 text-center heading animated-invisible animated fadeInUp animated-visible" data-nekoanim="fadeInUp" data-nekodelay="10" style="animation-delay: 10ms;">
+							<h1><span>{{title1}}</span>{{title2}}</h1>
+						</div>
+					</div>
+
+
+					<div class="row-fw clearfix">
+                        {{#each team}}
+						<div class="col-sm-6 col-md-4 no-padding animated-invisible animated fadeIn animated-visible" data-nekoanim="fadeIn" data-nekodelay="100" style="animation-delay: 100ms;">
+							<article class="text-center">
+								<figure class="dark-color">
+									<img src="{{src}}" alt="" class="responsive">
+									<figcaption>
+										<div class="rollover-content">
+
+											<div class="description light-text">
+
+												<h2>
+													{{title}}
+												</h2>
+
+												<p>
+													{{text}}
+												</p>
+
+												<ul class="social-icons main-color circle">
+													<li>
+														<a href="#" class="rss " title="rss"><i class="fa fa-rss"></i></a>
+													</li>
+													<li>
+														<a href="#" class="facebook" title="facebook"><i class="fa fa-facebook-f"></i></a>
+													</li>
+													<li>
+														<a href="#" class="twitter" title="weibo"><i class="fa fa-weibo"></i></a>
+													</li>
+													<li>
+														<a href="#" class="gplus" title="weixin"><i class="fa fa-weixin"></i></a>
+													</li>
+												</ul>
+
+											</div>
+										</div>
+									</figcaption>
+
+								</figure>
+								<div class="pt-small">
+									<h2><small>{{smallTiltle}}</small><br>
+										{{nameTitle}}<br>
+										<small class="text-main-color"><strong>{{positionTitle}}</strong></small>
+									</h2>
+								</div>
+							</article>
+						</div>
+                       {{/each}}
+
+					</div><!-- row -->
+
+				</div><!-- container -->
+			</section>

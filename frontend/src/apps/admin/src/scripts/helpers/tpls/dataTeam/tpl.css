@@ -1,0 +1,594 @@
+.pt-medium {
+    padding-top: 96px;
+}
+
+.pt-medium {
+    padding-top: 48px;
+}
+
+.pb-medium {
+    padding-bottom: 96px;
+}
+
+.container,
+.container-fluid {
+    padding-right: 22px;
+    padding-left: 22px;
+}
+
+.container {
+    width: 1170px;
+}
+
+.container,
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+*,
+ :after,
+ :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.row {
+    margin-right: -22px;
+    margin-left: -22px;
+}
+
+.heading {
+    margin-bottom: 62px;
+    position: relative;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+
+.animated-visible {
+    opacity: 1;
+}
+
+[class^="col"] h3:first-child,
+[class^="col"] h4:first-child,
+[class^="col"] h5:first-child,
+[class^="col"] h6:first-child {
+    margin-top: 0;
+}
+
+h1 {
+    letter-spacing: 2px;
+    z-index: 5;
+    position: relative;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+h1 {
+    margin: .67em 0;
+}
+
+h1 span {
+    margin-bottom: 3px;
+    font-size: 15px;
+}
+
+h1 span,
+h2 span {
+    display: block;
+    letter-spacing: normal;
+    opacity: 0.8;
+    font-weight: bold;
+}
+
+*,
+ :after,
+ :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.no-padding {
+    padding: 0!important;
+}
+
+.fadeIn {
+    animation-name: fadeIn;
+}
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.animated-visible {
+    opacity: 1;
+}
+
+.text-center {
+    text-align: center;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block;
+}
+
+.rollover figure {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+
+.dark-color {
+    background-color: #111;
+    color: #fcfcfc;
+}
+
+figure {
+    margin: 0;
+}
+
+.rollover.effect-sarah figure>img {
+    max-width: none;
+    width: calc(120%);
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
+    -webkit-transform: translate3d(-13%, 0, 0);
+    transform: translate3d(-13%, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+img {
+    vertical-align: middle;
+}
+
+img {
+    border: 0;
+}
+
+.rollover.effect-sarah figure figcaption {
+    text-align: left;
+}
+
+.rollover figure figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    padding: 2em;
+}
+
+.rollover.effect-sarah figure .description {
+    padding: 1em 0;
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+}
+
+.rollover.effect-sarah figure h1,
+.rollover.effect-sarah figure h2,
+.rollover.effect-sarah figure h3,
+.rollover.effect-sarah figure h4,
+.rollover.effect-sarah figure h5,
+.rollover.effect-sarah figure h6 {
+    position: relative;
+    overflow: hidden;
+    padding: 0.5em 0;
+    margin-bottom: 0.5em;
+}
+
+[class^="col"] h1:first-child,
+[class^="col"] h2:first-child,
+[class^="col"] h3:first-child,
+[class^="col"] h4:first-child,
+[class^="col"] h5:first-child,
+[class^="col"] h6:first-child {
+    margin-top: 0;
+}
+
+.rollover figure figcaption h1,
+.rollover figure figcaption h2,
+.rollover figure figcaption h3,
+.rollover figure figcaption h4,
+.rollover figure figcaption h5,
+.rollover figure figcaption h6 {
+    margin: 0;
+    line-height: 25px !important;
+}
+
+.main-color h1,
+.light-main-color h1,
+.dark-main-color h1,
+.dark-color h1,
+.main-color h2,
+.light-main-color h2,
+.dark-main-color h2,
+.dark-color h2,
+.main-color h3,
+.light-main-color h3,
+.dark-main-color h3,
+.dark-color h3,
+.main-color h4,
+.light-main-color h4,
+.dark-main-color h4,
+.dark-color h4,
+.main-color h5,
+.light-main-color h5,
+.dark-main-color h5,
+.dark-color h5,
+.main-color h6,
+.light-main-color h6,
+.dark-main-color h6,
+.dark-color h6,
+.main-color .lead,
+.light-main-color .lead,
+.dark-main-color .lead,
+.dark-color .lead {
+    color: inherit;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 0.5em;
+}
+
+p {
+    margin-bottom: 16px;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+ul.social-icons.main-color,
+ul.social-icons.dark-main-color,
+ul.social-icons.light-main-color,
+ul.social-icons.dark-color,
+ul.social-icons.light-color {
+    background: transparent;
+}
+
+ul.social-icons {
+    padding: 0;
+    margin: 0;
+}
+
+.main-color {
+    background-color: #b39964;
+    color: #fff;
+}
+
+ul.social-icons li {
+    display: inline-block;
+}
+
+.main-color {
+    background-color: #b39964;
+    color: #fff;
+}
+
+ul.social-icons.squared.main-color a.rss,
+ul.social-icons.circle.main-color a.rss,
+ul.social-icons.rounded.main-color a.rss,
+ul.social-icons.squared.main-color a.facebook,
+ul.social-icons.circle.main-color a.facebook,
+ul.social-icons.rounded.main-color a.facebook,
+ul.social-icons.squared.main-color a.twitter,
+ul.social-icons.circle.main-color a.twitter,
+ul.social-icons.rounded.main-color a.twitter,
+ul.social-icons.squared.main-color a.gplus,
+ul.social-icons.circle.main-color a.gplus,
+ul.social-icons.rounded.main-color a.gplus,
+ul.social-icons.squared.main-color a.dribbble,
+ul.social-icons.circle.main-color a.dribbble,
+ul.social-icons.rounded.main-color a.dribbble,
+ul.social-icons.squared.main-color a.linkedin,
+ul.social-icons.circle.main-color a.linkedin,
+ul.social-icons.rounded.main-color a.linkedin {
+    background-color: #b39964;
+    border-color: #aa8e53;
+}
+
+ul.social-icons.squared a,
+ul.social-icons.circle a,
+ul.social-icons.rounded a {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+ul.social-icons a {
+    background: none;
+}
+
+ul.social-icons a {
+    font-size: 14px;
+    display: inline-block;
+}
+
+.main-color a,
+.main-color a:hover,
+.main-color a:focus {
+    color: #eee8dc;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+    outline: none;
+}
+
+a {
+    color: #428bca;
+    text-decoration: none;
+}
+
+ul.social-icons.squared.main-color a.rss i,
+ul.social-icons.circle.main-color a.rss i,
+ul.social-icons.rounded.main-color a.rss i,
+ul.social-icons.squared.main-color a.facebook i,
+ul.social-icons.circle.main-color a.facebook i,
+ul.social-icons.rounded.main-color a.facebook i,
+ul.social-icons.squared.main-color a.twitter i,
+ul.social-icons.circle.main-color a.twitter i,
+ul.social-icons.rounded.main-color a.twitter i,
+ul.social-icons.squared.main-color a.gplus i,
+ul.social-icons.circle.main-color a.gplus i,
+ul.social-icons.rounded.main-color a.gplus i,
+ul.social-icons.squared.main-color a.dribbble i,
+ul.social-icons.circle.main-color a.dribbble i,
+ul.social-icons.rounded.main-color a.dribbble i,
+ul.social-icons.squared.main-color a.linkedin i,
+ul.social-icons.circle.main-color a.linkedin i,
+ul.social-icons.rounded.main-color a.linkedin i {
+    color: #fff;
+}
+
+ul.social-icons.squared a i[class^="icon-"],
+ul.social-icons.circle a i[class^="icon-"],
+ul.social-icons.rounded a i[class^="icon-"],
+ul.social-icons.squared a i[class*=" icon-"],
+ul.social-icons.circle a i[class*=" icon-"],
+ul.social-icons.rounded a i[class*=" icon-"] {
+    margin-right: 0;
+}
+
+i[class^="icon-"],
+i[class*=" icon-"] {
+    margin-right: 5px;
+    line-height: 1;
+}
+
+.pt-small {
+    padding-top: 16px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 0.5em;
+}
+
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small,
+h1 .small,
+h2 .small,
+h3 .small,
+h4 .small,
+h5 .small,
+h6 .small {
+    color: inherit;
+}
+
+h1 small,
+.h1 small,
+h2 small,
+.h2 small,
+h3 small,
+.h3 small,
+h1 .small,
+.h1 .small,
+h2 .small,
+.h2 .small,
+h3 .small,
+.h3 .small {
+    font-size: 65%;
+}
+
+.h1 .small,
+.h1 small,
+.h2 .small,
+.h2 small,
+.h3 .small,
+.h3 small,
+.h4 .small,
+.h4 small,
+.h5 .small,
+.h5 small,
+.h6 .small,
+.h6 small,
+h1 .small,
+h1 small,
+h2 .small,
+h2 small,
+h3 .small,
+h3 small,
+h4 .small,
+h4 small,
+h5 .small,
+h5 small,
+h6 .small,
+h6 small {
+    font-weight: 400;
+    line-height: 1;
+    color: #777;
+}
+
+h1.text-main-color,
+h2.text-main-color,
+h1 span.text-main-color,
+h2 span.text-main-color,
+h3.text-main-color,
+h4.text-main-color,
+h5.text-main-color,
+h6.text-main-color,
+p.text-main-color,
+p.lead.text-main-color,
+blockquote.text-main-color,
+cite.text-main-color,
+h1 .text-main-color,
+h2 .text-main-color,
+h1 span .text-main-color,
+h2 span .text-main-color,
+h3 .text-main-color,
+h4 .text-main-color,
+h5 .text-main-color,
+h6 .text-main-color,
+p .text-main-color,
+p.lead .text-main-color,
+blockquote .text-main-color,
+cite .text-main-color {
+    color: #b39964;
+}
+
+h1.text-main-color,
+h2.text-main-color,
+h1 span.text-main-color,
+h2 span.text-main-color,
+h3.text-main-color,
+h4.text-main-color,
+h5.text-main-color,
+h6.text-main-color,
+p.text-main-color,
+p.lead.text-main-color,
+blockquote.text-main-color,
+cite.text-main-color,
+h1 .text-main-color,
+h2 .text-main-color,
+h1 span .text-main-color,
+h2 span .text-main-color,
+h3 .text-main-color,
+h4 .text-main-color,
+h5 .text-main-color,
+h6 .text-main-color,
+p .text-main-color,
+p.lead .text-main-color,
+blockquote .text-main-color,
+cite .text-main-color {
+    font-weight: inherit;
+}
+
+h1 small,
+.h1 small,
+h2 small,
+.h2 small,
+h3 small,
+.h3 small,
+h1 .small,
+.h1 .small,
+h2 .small,
+.h2 .small,
+h3 .small,
+.h3 .small {
+    font-size: 65%;
+}
+
+.h1 .small,
+.h1 small,
+.h2 .small,
+.h2 small,
+.h3 .small,
+.h3 small,
+.h4 .small,
+.h4 small,
+.h5 .small,
+.h5 small,
+.h6 .small,
+.h6 small,
+h1 .small,
+h1 small,
+h2 .small,
+h2 small,
+h3 .small,
+h3 small,
+h4 .small,
+h4 small,
+h5 .small,
+h5 small,
+h6 .small,
+h6 small {
+    font-weight: 400;
+    line-height: 1;
+    color: #777;
+}
+
+.rollover.effect-sarah figure:hover>img {
+    opacity: 0.4;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.rollover.effect-sarah figure:hover .description {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.rollover.effect-sarah figure:hover .description {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}

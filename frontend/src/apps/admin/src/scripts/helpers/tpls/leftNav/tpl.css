@@ -1,0 +1,314 @@
+/*http://theme.pixflow.net/massive-dynamic/portfolio-design-agency/portfolio/*/
+
+header[class *="side-"] {
+    width: 14%;
+    float: left;
+}
+
+header:not(.header-clone)>.color-overlay {
+    border-right: 1px solid;
+    border-right-color: rgba(0, 0, 0, 0.3);
+}
+
+header .color-overlay,
+header.side-modern .footer .info .footer-content .copyright,
+header.side-modern .footer .info .footer-content .footer-socials,
+header.side-modern .search-form input[type="text"] {
+    background-color: rgb(255, 255, 255);
+}
+
+header .color-overlay,
+footer .color-overlay {
+    height: inherit;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    background-size: 400% 100%;
+}
+
+header .texture-overlay,
+footer .texture-overlay {
+    height: inherit;
+    position: absolute;
+    width: 100%;
+    z-index: -2;
+    top: 0;
+    left: 0;
+}
+
+header.side-classic>.bg-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+header .bg-image {
+    height: inherit;
+    position: absolute;
+    width: 100%;
+    z-index: -3;
+    top: 0;
+    left: 0;
+    background-position: center;
+    background-size: cover;
+    backface-visibility: hidden;
+}
+
+header .content {
+    margin-right: auto;
+    margin-left: auto;
+    height: inherit;
+}
+
+header.side-classic.standard-mode div.content.side .logo {
+    padding: 0 30px;
+    text-align: center;
+}
+
+header div.content.side.style-center .logo {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header.side-classic .logo {
+    width: 100%;
+}
+
+header.left .logo,
+header.right .logo {
+    height: auto;
+}
+
+header.side-classic div.content.side.style-center nav {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+}
+
+header .content nav.navigation {
+    display: inline-table;
+    float: left;
+}
+
+header.side-classic.standard-mode nav>ul {
+    margin-top: 25px;
+    list-style: none;
+    padding-left: 0;
+}
+
+header.side-classic.standard-mode nav>ul>li {
+    margin-bottom: 17px;
+}
+
+header.side-classic.standard-mode nav ul>li a {
+    padding: 2px 30px;
+}
+
+header.side-classic nav span {
+    vertical-align: middle;
+}
+
+header.side-classic .style-center nav .menu-title {
+    letter-spacing: 2px;
+}
+
+header.side-classic nav>ul>li>a span.menu-title {
+    display: block;
+    margin-left: 0;
+}
+
+header.side-classic.standard-mode .style-center nav>ul>li>a .menu-title span {
+    display: inline-block;
+}
+
+header.side-classic div.footer {
+    position: absolute;
+    bottom: 0;
+}
+
+header.side-classic.standard-mode .style-center div.footer .footer-content {
+    text-align: center;
+}
+
+header.side-classic.standard-mode div.footer .footer-content {
+    margin-bottom: 40px;
+    padding: 0 30px;
+}
+
+header.side-classic.standard-mode .style-center div.footer ul,
+header.side-classic.standard-mode .style-right div.footer ul {
+    display: block;
+    padding-left: 0;
+}
+
+header.side-classic.standard-mode div.footer ul,
+header.side-classic.standard-mode div.footer ul li {
+    border: none;
+}
+
+header.side-classic.standard-mode .style-center div.footer ul li {
+    display: inline-block;
+    float: none;
+}
+
+header.side-classic.standard-mode div.footer ul li {
+    margin: 0 15px 0 0;
+    width: auto;
+    padding: 0;
+    height: auto;
+}
+
+header.side-classic div.footer ul li a,
+header.side-classic .icons-pack li a {
+    cursor: pointer;
+    display: inline-block;
+    height: 100%;
+    left: 0;
+    line-height: 50px;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+}
+
+header.side-classic div.footer ul li a {
+    position: initial;
+}
+
+header.side-classic div.footer.footer .footer-content .copyright p {
+    font-size: 14px;
+}
+
+header.side-classic.standard-mode div.footer .footer-content .copyright p {
+    line-height: 1.4em;
+}
+
+header a,
+header .navigation a,
+header .navigation,
+.gather-overlay .menu a,
+header.side-classic div.footer .footer-content .copyright p {
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: 0.00px;
+    line-height: 1.5em;
+}
+
+.right {
+    margin-left: 14%;
+}
+
+.portfolio-multisize-5a65a5a5b553f .overlay-background {
+    background-color: rgba(0, 0, 0, 0.28);
+}
+
+.portfolio.inside .item-meta {
+    position: absolute;
+    left: 30px;
+    bottom: 35px;
+    max-width: 210px;
+}
+
+.portfolio.inside .item .overlay-background,
+.portfolio.inside .item .item-title,
+.portfolio.inside .item .md-post-like {
+    opacity: 0;
+}
+
+.portfolio.inside .item:hover .overlay-background,
+.portfolio.inside .item:hover .item-title,
+.portfolio.inside .item:hover .md-post-like {
+    opacity: 1;
+}
+
+.portfolio.inside .item-meta .overlay-background {
+    background: transparent;
+}
+
+.portfolio.inside .overlay-background {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 300ms;
+}
+
+.portfolio.inside .item:hover .item-category {
+    margin-left: 0;
+    opacity: .8;
+}
+
+.portfolio.inside .overlay-background {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 300ms;
+}
+
+.portfolio.inside .like-count {
+    font-size: 14px;
+}
+
+.portfolio.inside .like-heart {
+    font-size: 18px;
+    display: block;
+    opacity: .6;
+    transition: opacity 300ms;
+}
+
+.portfolio-multisize-5a65a5a5b553f .item-title a,
+.portfolio-multisize-5a65a5a5b553f .item-category,
+.portfolio-multisize-5a65a5a5b553f .like-heart,
+.portfolio-multisize-5a65a5a5b553f .like-count {
+    color: rgb(255, 255, 255);
+}
+
+.portfolio.inside .md-post-like {
+    position: absolute;
+    left: 30px;
+    top: 25px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 300ms 100ms;
+}
+
+.md_text_style-5a66f7f4c0e89 .md-text-title {
+    font-size: 79px;
+    line-height: 72px;
+    letter-spacing: -2px;
+    margin-bottom: 8px;
+    transition: all .3s cubic-bezier(0.215, 0.61, 0.355, 1);
+    font-family: Poppins;
+    font-style: bold;
+    font-weight: 600;
+    color: rgb(30, 30, 30);
+}
+
+.md_text_style-5a66f7f4c1215 .md-text-title {
+    font-size: 79px;
+    line-height: 72px;
+    letter-spacing: -2px;
+    margin-bottom: 8px;
+    transition: all .3s cubic-bezier(0.215, 0.61, 0.355, 1);
+    font-family: Poppins;
+    font-style: bold;
+    font-weight: 600;
+}
+
+.sc-separator {
+    height: 10px;
+    border-radius: 10px;
+    width: 12%;
+    background: rgb(234, 25, 130);
+}

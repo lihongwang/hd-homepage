@@ -1,0 +1,85 @@
+{
+    "title": "海量模版",
+    "subDesc": "自由添加拖拽、不耗时、支持个性化定制",
+    "fItems": [{
+        "bgSrc": "http://d1.faiusr.com/2/AAEIABACGAAg-q6RzwUoxKvwpwcwhgQ4nQU.jpg",
+        "alt": "广告设计服务模板网站",
+        "link": "http://fkgg15.faisco.cn/",
+        "title": "使用的主题编号：T4001"
+    }, {
+        "bgSrc": "http://d1.faiusr.com/2/AAEIABACGAAgs-ORzwUouMbs6gQwhgQ4qQQ.jpg",
+        "alt": "旅游商城模板素材",
+        "link": "http://fkly08.faisco.cn/",
+        "title": "使用的主题编号：T1078"
+    }, {
+        "bgSrc": "http://d1.faiusr.com/2/AAEIABACGAAg8P6bzwUosKHd3QQwhgQ44go.jpg",
+        "alt": "简洁学校网页制作模板",
+        "link": "http://fkjy33.faisco.cn/",
+        "title": "使用的主题编号：T807"
+    }, {
+        "bgSrc": "http://d1.faiusr.com/2/AAEIABACGAAgsNybzwUooK7cuAcwhgQ4swo.jpg",
+        "alt": "蓝色教育培训机构网站模板",
+        "link": "http://fkschool36.faisco.cn/",
+        "title": "使用的主题编号：T1013"
+    }],
+    "mfItems": [{
+            "link": "http://fkgg22.faisco.cn/",
+            "bgSrc": "http://d1.faiusr.com/2/AAEIABACGAAg5Iqj0QUo1MexrgcwyAE45AI.jpg",
+            "alt": "餐饮酒店手机网页模板",
+            "link1": "http://fkgg22.faisco.cn/",
+            "bg1Src": "mobi_qrcode.jsp?URL=http://fkgg22.faisco.cn/"
+        },
+        {
+            "link": "http://fkgg22.faisco.cn/",
+            "bgSrc": "http://d1.faiusr.com/2/AAEIABACGAAgytPH0QUoyu-t5QcwyAE45AI.jpg",
+            "alt": "美容免费手机网站模板素材",
+            "link1": "http://fkgg22.faisco.cn/",
+            "bg1Src": "mobi_qrcode.jsp?URL=http://fkfz69.faisco.cn/"
+        },
+        {
+            "link": "http://fkgg22.faisco.cn/",
+            "bgSrc": "http://d1.faiusr.com/2/AAEIABACGAAg7ZzC0QUokrPsrQYwyAE45AI.jpg",
+            "alt": "宠物移动端模板网站",
+            "link1": "http://fkgg22.faisco.cn/",
+            "bg1Src": "mobi_qrcode.jsp?URL=http://fkjxsb22.faisco.cn/"
+        },
+        {
+            "link": "http://fkgg22.faisco.cn/",
+            "bgSrc": "",
+            "alt": "",
+            "link1": "http://fkgg22.faisco.cn/",
+            "bg1Src": "mobi_qrcode.jsp?URL=http://fkjxsb22.faisco.cn/"
+        }, {
+            "link": "http://fkgg22.faisco.cn/",
+            "bgSrc": "http://d1.faiusr.com/2/AAEIABACGAAglbCHzwUotMOk1gIwyAE45AI.jpg",
+            "alt": "蓝色科技手机网站制作",
+            "link1": "http://fkgg22.faisco.cn/",
+            "bg1Src": "mobi_qrcode.jsp?URL=http://fkjxsb22.faisco.cn/"
+        }, {
+            "link": "http://fkgg22.faisco.cn/",
+            "bgSrc": "http://d1.faiusr.com/2/AAEIABACGAAgubLC0QUo1b-VsQIwyAE45AI.jpg",
+            "alt": "互联网经典手机端模板",
+            "link1": "http://fkgg22.faisco.cn/",
+            "bg1Src": "mobi_qrcode.jsp?URL=http://fkjxsb22.faisco.cn/"
+        }, {
+            "link": "http://fkgg22.faisco.cn/",
+            "bgSrc": "http://d1.faiusr.com/2/AAEIABACGAAglt6bzwUonuvIpQIwyAE45AI.jpg",
+            "alt": "购物商城个性移动网站模板素材",
+            "link1": "http://fkgg22.faisco.cn/",
+            "bg1Src": "mobi_qrcode.jsp?URL=http://fkjxsb22.faisco.cn/"
+        }, {
+            "link": "http://fkgg22.faisco.cn/",
+            "bgSrc": "http://d1.faiusr.com/2/AAEIABACGAAg0YWhzwUo0MiJgAUwyAE45AI.jpg",
+            "alt": "服装外贸免费手机模板网站",
+            "link1": "http://fkgg22.faisco.cn/",
+            "bg1Src": "mobi_qrcode.jsp?URL=http://fkjxsb22.faisco.cn/"
+        }, {
+            "link": "http://fkgg22.faisco.cn/",
+            "bgSrc": "http://d1.faiusr.com/2/AAEIABACGAAgtMDC0QUo9PPFjAIwyAE45AI.jpg",
+            "alt": "体育大气红色手机网站建设",
+            "link1": "http://fkgg22.faisco.cn/",
+            "bg1Src": "mobi_qrcode.jsp?URL=http://fkjxsb22.faisco.cn/"
+        }
+    ]
+
+}

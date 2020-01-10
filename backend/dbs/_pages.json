@@ -1,0 +1,119 @@
+{
+  "pages": [
+    {
+      "id": "H1-quBFKSz",
+      "name": "home",
+      "site": "hudaokeji",
+      "title": "首页",
+      "pathto": "/",
+      "_hasAdminPage": false,
+      "hide": false,
+      "position": "1",
+      "category": "pages_main",
+      "uniqName": "home_pages_main",
+      "createdAt": "2018-01-27T04:52:01.842Z",
+      "updatedAt": "2018-02-09T08:58:38.709Z",
+      "subs": "",
+      "contents": [
+        "B1PB88WLz",
+        "HkA6xKbIG",
+        "Sky_zyo8M",
+        "S1boiH_Sz"
+      ]
+    },
+    {
+      "id": "HyzbjWqrz",
+      "name": "about",
+      "site": "hudaokeji",
+      "title": "关于我们",
+      "pathto": "/about",
+      "_hasAdminPage": false,
+      "hide": false,
+      "position": "4",
+      "category": "pages_main",
+      "uniqName": "about_pages_main",
+      "createdAt": "2018-01-27T14:21:46.306Z",
+      "updatedAt": "2018-02-02T09:04:02.097Z",
+      "contents": [
+        "B1ADtsbUz",
+        "BJrryLOrG"
+      ],
+      "subs": ""
+    },
+    {
+      "id": "Sy9GoWqrf",
+      "name": "technical",
+      "site": "hudaokeji",
+      "title": "技术平台",
+      "pathto": "/technical",
+      "_hasAdminPage": false,
+      "hide": false,
+      "position": "3",
+      "category": "pages_main",
+      "uniqName": "technical_pages_main",
+      "createdAt": "2018-01-27T14:22:09.660Z",
+      "updatedAt": "2018-02-01T10:05:06.895Z",
+      "contents": [
+        "HyZy8sBuBz",
+        "HkJDsrOrz",
+        "HysDsHuHf"
+      ],
+      "subs": ""
+    },
+    {
+      "id": "Hy7riZ9Hz",
+      "name": "development",
+      "site": "hudaokeji",
+      "title": "网站系统开发",
+      "pathto": "/development",
+      "_hasAdminPage": false,
+      "hide": false,
+      "position": "2",
+      "category": "pages_main",
+      "uniqName": "development_pages_main",
+      "createdAt": "2018-01-27T14:22:51.470Z",
+      "updatedAt": "2018-02-09T10:01:47.958Z",
+      "contents": [
+        "BkQBprdHf",
+        "r1-n_2HOrG",
+        "SyIb6BOBG",
+        "HJRRnHuSM",
+        "BJwz6BdBz"
+      ],
+      "subs": ""
+    },
+    {
+      "id": "Bkm5n5HUz",
+      "name": "contact",
+      "site": "hudaokeji",
+      "title": "联系我们",
+      "pathto": "/contact",
+      "_hasAdminPage": false,
+      "hide": false,
+      "position": "5",
+      "category": "pages_main",
+      "uniqName": "contact_pages_main",
+      "createdAt": "2018-02-05T08:57:47.266Z",
+      "updatedAt": "2018-02-05T09:00:05.657Z",
+      "subs": "",
+      "contents": [
+        "rkGy65rUf",
+        "r1xG6qSIM"
+      ]
+    },
+    {
+      "id": "B1uzztcIz",
+      "name": "messages",
+      "title": "留言板",
+      "pathto": "/messages",
+      "_hasTable": true,
+      "_hasAdminPage": true,
+      "hide": true,
+      "position": "6",
+      "category": "pages_main",
+      "uniqName": "messages_pages_main",
+      "createdAt": "2018-02-09T02:06:07.979Z",
+      "updatedAt": "2018-02-09T02:06:07.979Z"
+    }
+  ]
+}

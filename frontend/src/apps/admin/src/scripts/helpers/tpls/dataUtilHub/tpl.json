@@ -1,0 +1,13 @@
+{
+    "title1": "UtilHub-互联网操作系统",
+    "text1": "UtilHub-互联网操作系统，组件化的SAAS型中间件系统平台，快速开发企业级大型网站系统和应用。",
+    "text2": "UtilHub基于WEB标准技术,创造了一个组件化的新型云计算技术平台FaaS(Frontend as a Service)。FaaS将互联网上的各种WEB服务和资源统合于同一平台(我们称之为互联网操作系统),并通过封装成其上的WEB前端组件,以云服务的方式提供给系统(包括网站)运营及开发用户分享使用。",
+    "gallery": [
+        { "src": "http://demo.amviro.com/creative/images/gallery/thumb1.jpg" },
+        { "src": "http://demo.amviro.com/creative/images/gallery/thumb2.jpg" },
+        { "src": "http://demo.amviro.com/creative/images/gallery/thumb3.jpg" },
+        { "src": "http://demo.amviro.com/creative/images/gallery/thumb8.jpg" }
+
+    ],
+    "btnTitle": "UtilHub的运用"
+}

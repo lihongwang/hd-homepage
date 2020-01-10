@@ -1,0 +1,46 @@
+<div class="container-fluid container-wrap sectionOverlay">
+    <div class="container clearfix ">
+        <div class="vc_column_container col-sm-6">
+            <div class="vc_column-inner row">
+                {{#each imgItem}}
+                <div class="col-sm-6 call-to-action {{class}}">
+                    <div class="content clearfix" style="background-image: url({{img}})">
+                        <h4 class="title">{{title}}</h4>
+                        <div class="shortcode-btn  ">
+                            <a class="button slide button-small slide-button slide-transition" href="#" target="_self">
+                                <i class="button-icon fa fa-angle-right"></i>
+                                <span>More info </span>
+                            </a>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        </div>
+        <div class="vc_column_container col-sm-6">
+            <div class="vc_column-inner ">
+                <div class="md-text-container">
+                    <div class="md-text">
+                        <div class="md-text-title">{{title}}<br>{{address}}</div>
+                        <div class="md-text-content">
+                            <p>{{subtitle}}</p>
+                        </div>
+                    </div>
+                    <div class="vc_column_container">
+                        <div class="list-compass ">
+                            <ul class="row">
+                                {{#each customCompass}}
+                                <li class="col-md-4">
+                                    <span class="fa fa-compass"></span>
+                                    <p>{{address}}</p>
+                                </li>
+                                {{/each}}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,31 @@
+<section class="Preview_page mar-top50">
+    <div class="container">
+        <div class="row">
+            <div class="all_heading positionR">
+                <h1>{{title}} </h1>
+                <h2> <span>{{desc}}</span></h2>
+            </div>
+        </div>
+    </div>
+    <div class="demo_pages mar-top50">
+        {{#each items}}
+        <div class="col-md-3 col-sm-4 col-xs-12 mar-bottom50">
+            <div class="page_images">
+                <a href="{{href}}" target="_blank">
+                    <figure class="effect-bubba positionR">
+                        <img src="{{src}}" alt="">
+                        <figcaption>
+                            <span class="icon fa fa-link"></span>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+            <div class="demo-name text-center pad-top20">
+                <h4>
+                    <a href="{{href}}">{{title}}</a>
+                </h4>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</section>

@@ -1,0 +1,21 @@
+<section class="portfolio-main for-home-page" id="portfolio">
+    
+    	<!-- Start: portfolio Area -->
+        <div class="portfolio-items">
+            <ul class="portfolio-content clearfix">
+                 {{#each portfolio}}
+            	<li class="portfolio-items web-design animated fadeIn visible" data-animation="fadeIn" data-animation-delay="100">
+                	<div class="port-image">
+                    	<span class="mask">
+                        	<a href="{{imgLink}}" class="zoom"><i class="glyphicon glyphicon-zoom-in"></i></a>
+                        	<a href="{{contentLink}}"><i class="glyphicon glyphicon-link"></i></a>
+                        </span>
+                    	<img src="{{src}}" alt="">
+                    </div>
+                </li>
+                {{/each}}
+            </ul>
+        </div>
+    	<!-- End: portfolio Area -->
+        
+    </section>

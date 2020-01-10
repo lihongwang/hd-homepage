@@ -1,0 +1,72 @@
+/* https: //qbootstrap.com/demos/fist/ */
+
+.qbootstrap-bg-section {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.qbootstrap-heading {
+    margin-bottom: 5em;
+}
+
+.qbootstrap-heading h2 {
+    font-size: 30px;
+    margin-bottom: 40px;
+    line-height: 1.5;
+    color: #000;
+    text-transform: uppercase;
+    position: relative;
+    font-weight: 700;
+}
+
+.qbootstrap-heading p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #828282;
+}
+
+.qbootstrap-blog {
+    margin-bottom: 60px;
+}
+
+.qbootstrap-blog .blog-text {
+    margin-bottom: 0;
+    position: relative;
+    background: #fff;
+    padding: 30px;
+}
+
+.qbootstrap-blog .blog-text h3 a {
+    color: black;
+}
+
+.qbootstrap-blog a img {
+    width: 100%;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.qbootstrap-blog .blog-text {
+    margin-bottom: 0;
+    position: relative;
+    background: #fff;
+    padding: 30px;
+}
+
+.qbootstrap-blog .blog-text span {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.qbootstrap-blog p {
+    margin-bottom: 20px;
+}
+
+.qbootstrap-blog .btn-primary {
+    background: #FC345C;
+    color: #fff !important;
+    border: 2px solid #FC345C;
+}

@@ -1,0 +1,120 @@
+.portfolio-main.for-home-page .portfolio-items {
+    padding: 0;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.portfolio-main.for-home-page .portfolio-content {
+    min-height: inherit;
+}
+
+.portfolio-content {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    min-height: 725px;
+}
+
+.portfolio-content li {
+    padding: 0;
+    margin: 0;
+    width: 25%;
+    float: left;
+}
+
+.visible {
+    visibility: visible;
+}
+
+.port-image {
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+.port-image .mask {
+    padding: 28% 0 0;
+    margin: 0;
+    position: absolute;
+    display: table-cell;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background: rgba(0, 0, 0, .9);
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: all .5s ease 0s;
+    -moz-transition: all .5s ease 0s;
+    -ms-transition: all .5s ease 0s;
+    transition: all .5s ease 0s;
+}
+
+.portfolio-content li img {
+    width: 100%;
+}
+
+.port-image:hover .mask {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all .5s ease 0s;
+    -moz-transition: all .5s ease 0s;
+    -ms-transition: all .5s ease 0s;
+    transition: all .5s ease 0s;
+    text-align: center;
+}
+
+.port-image .mask {
+    padding: 28% 0 0;
+    margin: 0;
+    position: absolute;
+    display: table-cell;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background: rgba(0, 0, 0, .9);
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: all .5s ease 0s;
+    -moz-transition: all .5s ease 0s;
+    -ms-transition: all .5s ease 0s;
+    transition: all .5s ease 0s;
+}
+
+.port-image .mask a {
+    padding: 20px 0 0;
+    margin: 0 15px;
+    color: #fff;
+    font-size: 36px;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    background: #1e9fb4;
+    display: inline-table;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+}
+
+a,
+a:active,
+a:hover,
+a:link,
+a:visited {
+    outline: 0;
+    -webkit-transition: all .5s ease 0s;
+    -moz-transition: all .5s ease 0s;
+    -ms-transition: all .5s ease 0s;
+    transition: all .5s ease 0s;
+    text-decoration: none;
+}

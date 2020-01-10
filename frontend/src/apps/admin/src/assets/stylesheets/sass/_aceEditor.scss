@@ -1,0 +1,13 @@
+#embeded {
+    .tab-pane {
+        height: 400px;
+    }
+}
+
+.fullscreen {
+    #embeded {
+        .tab-pane {
+            height: 600px;
+        }
+    }
+}

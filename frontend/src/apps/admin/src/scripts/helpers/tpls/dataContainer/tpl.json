@@ -1,0 +1,26 @@
+{
+    "title": "Welcome To Alfie.",
+    "text": "At vero eos et accusamus et iusto odio dignissimos",
+    "buttons": [{
+            "icon": "fa fa-youtube inverse-background",
+            "title": "Video Tutorials",
+            "text": "We have created lots of YouTube videos just so you can achieve everything we have to offer within the Alfie WordPress Theme!"
+        },
+        {
+            "icon": "fa  fa-arrows-h yellow-background",
+            "title": "Responsive Design",
+            "text": "Developed to look good no matter what platform or device you are viewing the website on, go a head, try shrinking your browser!"
+        },
+        {
+            "icon": "fa fa-html5 red-background",
+            "title": "Html Compliant",
+            "text": "Developed with high level of coding and care to provide everyone with a Html5 compliant markup for this amazing website template!"
+        },
+        {
+            "icon": "fa fa-css3 blue-background",
+            "title": "CSS3 Transitions",
+            "text": "We have incorporated a few nice subtle animations which finishes this template off, and gives it a really professional finish!"
+        }
+    ]
+
+}

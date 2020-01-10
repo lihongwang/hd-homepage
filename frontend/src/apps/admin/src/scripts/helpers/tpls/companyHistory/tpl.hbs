@@ -1,0 +1,82 @@
+<section id="history" class="main-content">
+        <!-- Parallax Overlay -->
+		<div class="parallax-overlay">
+            <!-- Toons -->
+            <div class="toons toons2" style="background-position: 50% -66px;">
+                <!-- Content -->
+                <div class="content">
+                
+                        <!--White Title-->
+                        <div class="section-title-white animated fadeInUp visible" data-animation="fadeInUp" data-animation-delay="300">
+                           <h1>{{title}}</h1>
+                           <div class="seperator"><span class="white_line"></span></div>
+                        </div>
+                        <!--End White Title-->
+                
+                        <!-- History Timeline -->
+                        <ul class="history-timeline list-unstyled pretty-lightbox-b">
+                            
+                            <!-- History Year -->
+                            {{#each year}}
+                            <li class="year">{{year}}2013</li>
+                            
+                            <!-- Item -->
+                            {{#each yearHistory}}
+                            <li class="timeline-item animated fadeInRight visible" data-animation="fadeInRight" data-animation-delay="50">
+                                <div class="timeline-image">
+                                   <a class="" href={{href}}" data-rel="prettyPhoto[gallery]">
+                                      <span class="image-overlay"></span>
+                                      <span class="image-zoom"><i class="fa fa-search"></i></span>
+                                      <img src="{{rightSrc}}" title="" alt="">
+                                   </a>
+                                </div>
+                                <h4>{{rightTitle}}</h4>
+                                <div class="article">
+                                    {{rightText}}
+                                </div>
+                                <span class="date"><i class="fa fa-calendar-o"></i>{{rightDate}}</span>
+                                <a class="read-more" href="#">Read More</a>
+                            </li>
+                            <!-- End Item -->
+                            
+                            <!-- Item -->
+                            <li class="timeline-item animated fadeInLeft visible" data-animation="fadeInLeft" data-animation-delay="50">
+                                <div class="timeline-image">
+                                   <a class="" href="{{href}}" data-rel="prettyPhoto[gallery]">
+                                      <span class="image-overlay"></span>
+                                      <span class="image-zoom"><i class="fa fa-search"></i></span>
+                                      <img src="{{lefttSrc}}" title="" alt="">
+                                   </a>
+                                </div>
+                                <h4>{{leftTitle}}</h4>
+                                <div class="article">
+                                    {{leftText}}
+                                </div>
+                                <span class="date"><i class="fa fa-calendar-o"></i>{{leftDate}}</span>
+                                <a class="read-more" href="#">Read More</a>
+                            </li>
+                            <!-- End Item -->
+                            {{/each}}
+
+                            
+                            <div class="clear"></div>
+                            
+                            {{/each}}
+
+                            
+                            <div class="clear"></div>
+                            <a class="load-more" href="#">Load More</a>
+                            <div class="clear"></div>
+                            
+                        </ul>
+                        <!-- End History Timeline -->
+                        
+                </div>
+                <!-- End Content -->
+                <span class="pattern1"></span>
+                
+            </div>
+            <!-- End Toons -->
+		</div>	
+        <!-- End Parallax Overlay -->
+	</section>

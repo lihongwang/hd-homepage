@@ -1,0 +1,39 @@
+{
+    "menuItems": [{
+        "href": "/",
+        "item": "Home"
+    }, {
+        "href": "/",
+        "item": "About"
+
+    }, {
+        "href": "/",
+        "item": "Pages"
+    }, {
+        "href": "/",
+        "item": "Blog"
+    }, {
+        "href": "/",
+        "item": "Gallery"
+    }, {
+        "href": "/",
+        "item": "Contacts"
+    }],
+    "cellItem": [{
+        "text": "1",
+        "title": "WELCOME",
+        "desc": "We hope that you will appreciate our services and opportunities."
+    }, {
+        "text": "2",
+        "title": "QUALIFIED COACHES",
+        "desc": "Our coaches have years of experience in various types of fitness and sports."
+    }, {
+        "text": "3",
+        "title": "INDIVIDUAL APPROACH",
+        "desc": "Every client of Intense has a personalized program of training and nutrition."
+    }, {
+        "text": "4",
+        "title": "MODERN FITNESS EQUIPMENT",
+        "desc": "We cooperate with leading fitness equipment."
+    }]
+}

@@ -1,0 +1,55 @@
+{
+    "title": "OUR BEST SERVICE",
+    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "menu": [{
+            "link": "#service_one",
+            "icon": "fa fa-lightbulb-o",
+            "title": "creative idea"
+        },
+        {
+            "link": "#service_two",
+            "icon": "fa fa-laptop",
+            "title": "Web Design"
+        },
+        {
+            "link": "#service_three",
+            "icon": "fa fa-mobile",
+            "title": "App Design"
+        },
+        {
+            "link": "#service_four",
+            "icon": "fa fa-gamepad",
+            "title": "Game Design"
+        }
+    ],
+    "content": [{
+            "id": "service_one",
+            "src": "http://quomodotheme.website/html/cagency/img/service/creative_idea.jpg",
+            "title": "Creative Web design",
+            "text": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.There are many variations of passages of Lorem Ipsum available, but the majority have suffered.",
+            "linkTitle": "portfolio"
+        },
+        {
+            "id": "service_two",
+            "src": "http://quomodotheme.website/html/cagency/img/service/web_development.jpg",
+            "title": "Creative Web Development",
+            "text": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.There are many variations of passages of Lorem Ipsum available, but the majority have suffered.",
+            "linkTitle": "portfolio"
+        },
+        {
+            "id": "service_three",
+            "src": "http://quomodotheme.website/html/cagency/img/service/app_design.jpg",
+            "title": "Awesome App Design",
+            "text": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.There are many variations of passages of Lorem Ipsum available, but the majority have suffered.",
+            "linkTitle": "portfolio"
+        },
+        {
+            "id": "service_four",
+            "src": "http://quomodotheme.website/html/cagency/img/service/game_design.jpg",
+            "title": "Expert Game Design",
+            "text": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.There are many variations of passages of Lorem Ipsum available, but the majority have suffered.",
+            "linkTitle": "portfolio"
+        }
+    ]
+
+}

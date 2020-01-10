@@ -1,0 +1,76 @@
+{
+  "photos": [
+    {
+      "id": "SkccwARNf",
+      "name": "1",
+      "file": {
+        "fieldname": "file",
+        "originalname": "IMG_0013.JPG",
+        "encoding": "7bit",
+        "mimetype": "image/jpeg",
+        "destination": "/Users/vitoli/uZone/webServer/hd-homepage/public/upload/photos",
+        "filename": "1516328850339-IMG_0013.JPG",
+        "path": "/upload/photos/1516328850339-IMG_0013.JPG",
+        "size": 183143
+      },
+      "uniqName": "1_",
+      "createdAt": "2018-01-19T02:27:30.507Z",
+      "updatedAt": "2018-01-19T02:27:30.507Z",
+      "src": "/upload/photos/1516328850339-IMG_0013.JPG"
+    },
+    {
+      "id": "HyujwACNG",
+      "name": "2",
+      "file": {
+        "fieldname": "file",
+        "originalname": "IMG_0024.JPG",
+        "encoding": "7bit",
+        "mimetype": "image/jpeg",
+        "destination": "/Users/vitoli/uZone/webServer/hd-homepage/public/upload/photos",
+        "filename": "1516328864160-IMG_0024.JPG",
+        "path": "/upload/photos/1516328864160-IMG_0024.JPG",
+        "size": 154559
+      },
+      "uniqName": "2_",
+      "createdAt": "2018-01-19T02:27:44.258Z",
+      "updatedAt": "2018-01-19T02:27:44.258Z",
+      "src": "/upload/photos/1516328864160-IMG_0024.JPG"
+    },
+    {
+      "id": "Skp2DAREM",
+      "name": "3",
+      "file": {
+        "fieldname": "file",
+        "originalname": "IMG_0025.JPG",
+        "encoding": "7bit",
+        "mimetype": "image/jpeg",
+        "destination": "/Users/vitoli/uZone/webServer/hd-homepage/public/upload/photos",
+        "filename": "1516328884416-IMG_0025.JPG",
+        "path": "/upload/photos/1516328884416-IMG_0025.JPG",
+        "size": 205127
+      },
+      "uniqName": "3_",
+      "createdAt": "2018-01-19T02:28:04.633Z",
+      "updatedAt": "2018-01-19T02:28:04.633Z",
+      "src": "/upload/photos/1516328884416-IMG_0025.JPG"
+    },
+    {
+      "id": "BJ_aw0ANG",
+      "name": "4",
+      "file": {
+        "fieldname": "file",
+        "originalname": "IMG_0027.PNG",
+        "encoding": "7bit",
+        "mimetype": "image/png",
+        "destination": "/Users/vitoli/uZone/webServer/hd-homepage/public/upload/photos",
+        "filename": "1516328896147-IMG_0027.PNG",
+        "path": "/upload/photos/1516328896147-IMG_0027.PNG",
+        "size": 712436
+      },
+      "uniqName": "4_",
+      "createdAt": "2018-01-19T02:28:16.272Z",
+      "updatedAt": "2018-01-19T02:28:16.272Z",
+      "src": "/upload/photos/1516328896147-IMG_0027.PNG"
+    }
+  ]
+}

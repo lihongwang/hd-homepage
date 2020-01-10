@@ -1,0 +1,51 @@
+{
+    "infoTitle": "COMPANY INFO",
+    "text1": "Sed ut odio a massa finibus scelerisque. Ut sed magna quis sapien aliquam sagittis sed vel leo. Proin tincidunt in turpis ut tincidunt. Quisque pulvinar, libero quis aliquam consectetur, augue elit malesuada mauris, et convallis tortor magna eget purus.",
+    "text2": "Nulla hendrerit facilisis dolor, eu blandit lectus. Quisque ullamcorper fermentum ligula.",
+    "linkTitle": "USEFUL LINKS",
+    "wrap-1": [{
+        "link": "/",
+        "title": "Neptune Endless"
+    }, {
+        "link": "/",
+        "title": "Neptune Endless"
+    }, {
+        "link": "/",
+        "title": "Neptune Endless"
+    }, {
+        "link": "/",
+        "title": "Neptune Endless"
+    }, {
+        "link": "/",
+        "title": "Neptune Endless"
+    }],
+    "wrap-2": [{
+        "link": "/",
+        "title": "Late Tombstone"
+    }, {
+        "link": "/",
+        "title": " Digital Monkey"
+    }, {
+        "link": "/",
+        "title": "Drill Gloomy"
+    }, {
+        "link": "/",
+        "title": "Gutsy Coffin"
+    }, {
+        "link": "/",
+        "title": "Pure Hook"
+    }],
+    "contactTitle": "联系方式",
+    "contacText": "乘车路线：231路、5路、6路、209等到火炬大道东口下车，泰豪动漫园2楼",
+    "mapText": "江西省南昌市高新区火炬大街918号泰豪软件园南区综合楼二楼",
+    "phoneText": "(0791) 88269604",
+    "emilText": "hr@hudaokeji.com",
+    "facebookLink": "/",
+    "twitterLink": "/",
+    "behanceLink": "/",
+    "linkedinLink": "/",
+    "googleLink": "/",
+    "rssLink": "/"
+
+
+}

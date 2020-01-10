@@ -1,0 +1,290 @@
+/*http://theme.pixflow.net/massive-dynamic/travel/#*/
+
+.call-to-action .content .title {
+    margin-bottom: 12px;
+    max-width: 70%;
+}
+
+.shortcode-btn .slide {
+    border: 2px solid;
+}
+
+.shortcode-btn .slide {
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.shortcode-btn .slide:hover .button-icon {
+    transform: rotate(360deg);
+}
+
+.shortcode-btn .slide .button-icon {
+    transition: all .8s;
+}
+
+.shortcode-btn .button-icon {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.shortcode-btn .slide.slide-transition {
+    transition: width .4s, background .4s;
+}
+
+.shortcode-btn .slide .button-icon {
+    font-size: 18px;
+    transition: all .8s;
+}
+
+.shortcode-btn .button-icon {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.shortcode-btn .button-small.slide .button-icon {
+    width: 38px;
+    display: inline-block;
+    height: 40px;
+    padding-left: 15px;
+    line-height: 38px;
+}
+
+.shortcode-btn .button-standard.slide,
+.shortcode-btn .button-small.slide {
+    text-align: left;
+}
+
+.shortcode-btn .button-small.slide {
+    height: 40px;
+    width: 40px;
+}
+
+.shortcode-btn .button-small.slide span {
+    opacity: 0;
+}
+
+.shortcode-btn .button-small.slide:hover span {
+    opacity: 1;
+    color: #333;
+}
+
+.shortcode-btn .slide:hover {
+    border-radius: 50px;
+    background-color: #2d2d2d;
+    width: 124px;
+}
+
+.shortcode-btn {
+    display: inline-block;
+    backface-visibility: hidden;
+    padding: 1px;
+    white-space: nowrap;
+}
+
+.call-to-action .button-parent {
+    display: inline-block;
+}
+
+.call-to-action .content {
+    height: 200px;
+    padding: 47px 20px 0;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+.call-to-action {
+    margin-bottom: 30px;
+}
+
+.call-to-action .title {
+    color: rgb(255, 255, 255);
+}
+
+.slide-button.slide {
+    color: rgb(255, 255, 255);
+}
+
+.slide-button.slide span {
+    color: rgb(44, 44, 44);
+}
+
+.slide-button.slide:hover .button-icon {
+    color: rgb(44, 44, 44);
+}
+
+.slide-button.slide:hover {
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+}
+
+div.vc_column_container>.vc_column-inner {
+    padding-right: 15px;
+}
+
+div.vc_column_container {}
+
+.md-text-container .md-text-title {
+    color: rgb(42, 50, 64);
+}
+
+.md-text-container {
+    text-align: left;
+}
+
+.md-text-container .md-text-title * {
+    line-height: 34px;
+    font-family: PT Sans;
+    font-style: bold;
+    font-weight: 700;
+}
+
+.md-text-container .md-text-title {
+    font-size: 31px;
+    line-height: 34px;
+    letter-spacing: 3px;
+    margin-bottom: 27px;
+    transition: all .3s cubic-bezier(0.215, 0.61, 0.355, 1);
+    font-family: PT Sans;
+    font-style: bold;
+    font-weight: 700;
+}
+
+.md-text-container .md-text-title:not(.title-slider):hover {
+    letter-spacing: 3px;
+}
+
+.md-text-container .md-text-title-separator {
+    margin-bottom: 10px;
+    width: 110px;
+    border-top: 5px solid rgb(0, 255, 153);
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.md-text-container .md-text-content {
+    margin-bottom: 31px;
+}
+
+.md-text-container .md-text-content p {
+    color: rgb(136, 136, 136);
+    font-size: 15px;
+}
+
+.md-text-container .md-text-content * {
+    line-height: 24px;
+    font-family: PT Sans;
+    font-style: regular;
+}
+
+.md-text-container .md-text-content div,
+.md-text-container .md-text-content span,
+.md-text-container .md-text-content a,
+.md-text-container .md-text-content p,
+.md-text-container .md-text-content i {
+    font-weight: 400;
+}
+
+.list-compass ul {
+    padding-left: 0;
+}
+
+.list-compass ul>li span {
+    color: rgb(177, 136, 87);
+    border-color: rgb(177, 136, 87);
+}
+
+.list-compass li p {
+    display: inline-block;
+}
+
+.list-compass li,
+.list-compass li p {
+    color: rgb(140, 140, 140);
+    list-style: none;
+}
+
+.list-5a6ec72f7bb46 ul>li span {
+    color: rgb(177, 136, 87);
+    border-color: rgb(177, 136, 87);
+}
+
+.list-5a6ec72f7bb46 li,
+.list-5a6ec72f7bb46 li p {
+    color: rgb(140, 140, 140);
+}
+
+.list-5a6ec72f7bb46 li:hover,
+.list-5a6ec72f7bb46 li:hover p,
+.list-5a6ec72f7bb46 ol>li:hover:before {
+    color: rgb(177, 136, 87);
+}
+
+.list-5a6ec72f7bf47 ul>li span {
+    color: rgb(177, 136, 87);
+    border-color: rgb(177, 136, 87);
+}
+
+.list-5a6ec72f7bf47 li,
+.list-5a6ec72f7bf47 li p {
+    color: rgb(140, 140, 140);
+}
+
+.list-5a6ec72f7bf47 li:hover,
+.list-5a6ec72f7bf47 li:hover p,
+.list-5a6ec72f7bf47 ol>li:hover:before {
+    color: rgb(177, 136, 87);
+}
+
+.sectionOverlay {
+    margin-bottom: 0;
+}
+
+.rowInnerCustom {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 25px;
+    padding-bottom: 45px;
+    padding-right: 0px;
+    padding-left: 10px;
+}
+
+.rowInnerCustom::after {
+    background-color: rgba(255, 255, 255, 0)
+}
+
+.container-wrap {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 120px 0 100px;
+}
+
+.container-wrap:after {
+    background: rgb(241, 241, 241);
+    background: -webkit-gradient(linear, 90deg, color-stop(0.00%, rgb(241, 241, 241)), color-stop(100.00%, rgba(255, 255, 255, 0)));
+    background: -webkit-linear-gradient(90deg, rgb(241, 241, 241) 0.00%, rgba(255, 255, 255, 0) 100.00%);
+    background: -o-linear-gradient(90deg, rgb(241, 241, 241) 0.00%, rgba(255, 255, 255, 0) 100.00%);
+    background: -ms-linear-gradient(90deg, rgb(241, 241, 241) 0.00%, rgba(255, 255, 255, 0) 100.00%);
+    background: linear-gradient(0deg, rgb(241, 241, 241) 0.00%, rgba(255, 255, 255, 0) 100.00%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='rgb(241, 241, 241)', endColorstr='rgba(255,255,255,0)', GradientType=0);
+}
+
+.list-shortcode ul li span {
+    padding-right: 16px;
+    font-size: 16px;
+}
+
+.list-shortcode ul li p,
+.list-shortcode ol li p {
+    line-height: 1.4em;
+}
+
+.list-shortcode ul li p {
+    display: inline-block;
+    font-size: 14px;
+    width: calc(100% - 50px);
+}

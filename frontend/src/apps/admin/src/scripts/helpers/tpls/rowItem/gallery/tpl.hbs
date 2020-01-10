@@ -1,0 +1,32 @@
+<div class="gallery" id="masonry">
+        <!--CONTENT GRID-->
+        <div class="container">
+            <div class="row">
+                <ul class="grid" style="position: relative; height: 958px;">
+                {{#each items}}
+                    <li class="col-md-3 col-sm-6" style="display: inline-block; ">
+                        <a class="work branding inspiration illustration" href="slider-work.html" data-path-to="m 0,0 0,87.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+                            <figure>
+                                <img src="{{src}}">
+                                <svg preserveAspectRatio="none" viewBox="0 0 175 419">
+                                <path class="pathDefault" d="M0,0C0,0,0,171.14385,0,171.14385C24.580441,186.61523,55.897012,195.90157,90,195.90157C124.10299,195.90157,155.41956,186.61523,180,171.14385C180,171.14385,180,0,180,0C180,0,0,0,0,0C0,0,0,0,0,0"></path>
+                                <path class="pathHover" d="M0,0C0,0,0,87.7775,0,87.7775C24.580441,90.90319000000001,55.897012,79.578083,90,79.578083C124.10299,79.578083,155.41956,90.90319000000001,180,87.7775C180,87.7775,180,0,180,0C180,0,0,0,0,0C0,0,0,0,0,0"></path>
+                                <desc>{{pathDesc}}</desc><defs></defs></svg>
+                                <figcaption>
+                                    <h3>{{title}}</h3>
+                                    <div class="divider {{class}}"></div>
+                                    <p>{{desc}}</p>
+                                    <div class="button"><i class="fa fa-eye"></i>View</div>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    {{/each}}
+                </ul>
+            </div>
+            <div class="row">
+                <a href="" class="btn btn-default" id="load-more"><i class="fa fa-cloud-download"></i>Load more</a>
+            </div>
+        </div>
+        <!--END CONTENT GRID-->
+    </div>

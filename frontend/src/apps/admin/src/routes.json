@@ -1,0 +1,258 @@
+{
+  "home": {
+    "pathto": "/",
+    "data": {
+      "name": "home",
+      "navName": "首页"
+    },
+    "controller": {
+      "type": "scripts/routes/home/HomeController"
+    }
+  },
+  "categories": {
+    "pathto": "/categories",
+    "data": {
+      "name": "categories",
+      "navName": "分类管理"
+    },
+    "controller": {
+      "type": "scripts/routes/categories/CategoriesController"
+    },
+    "subs": [
+      "categories-pages",
+      "categories-contents",
+      "categories-posts",
+      "categories-photos"
+    ]
+  },
+  "pages": {
+    "pathto": "/pages",
+    "data": {
+      "name": "pages",
+      "navName": "页面管理"
+    },
+    "controller": {
+      "type": "scripts/routes/pages/PagesController"
+    },
+    "subs": [
+      "pages-main",
+      "pages-sub"
+    ]
+  },
+  "templates": {
+    "pathto": "/templates",
+    "data": {
+      "name": "templates",
+      "navName": "模板管理"
+    },
+    "controller": {
+      "type": "scripts/routes/templates/TemplatesController"
+    }
+  },
+  "posts": {
+    "pathto": "/posts",
+    "data": {
+      "name": "posts",
+      "navName": "文章管理"
+    },
+    "controller": {
+      "type": "scripts/routes/posts/PostsController"
+    }
+  },
+  "photos": {
+    "pathto": "/photos",
+    "data": {
+      "name": "photos",
+      "navName": "图片管理"
+    },
+    "controller": {
+      "type": "scripts/routes/photos/PhotosController"
+    },
+    "subs": [
+      "photos-slides",
+      "photos-details"
+    ]
+  },
+  "contents": {
+    "pathto": "/contents",
+    "data": {
+      "name": "contents",
+      "navName": "页面内容管理"
+    },
+    "controller": {
+      "type": "scripts/routes/contents/ContentsController"
+    },
+    "subs": [
+      "contents-home",
+      "contents-services",
+      "contents-about",
+      "contents-contact",
+      "contents-development",
+      "contents-technical"
+    ]
+  },
+  "categories-pages": {
+    "sub": true,
+    "pathto": "/categories/pages",
+    "data": {
+      "name": "categories-pages",
+      "navName": "页面"
+    },
+    "controller": {
+      "type": "scripts/routes/categories/PagesController"
+    }
+  },
+  "categories-contents": {
+    "sub": true,
+    "pathto": "/categories/contents",
+    "data": {
+      "name": "categories-contents",
+      "navName": "内容"
+    },
+    "controller": {
+      "type": "scripts/routes/categories/ContentsController"
+    }
+  },
+  "pages-main": {
+    "sub": true,
+    "pathto": "/pages/main",
+    "data": {
+      "name": "pages-main",
+      "navName": "一级页面"
+    },
+    "controller": {
+      "type": "scripts/routes/pages/MainController"
+    }
+  },
+  "contents-home": {
+    "sub": true,
+    "pathto": "/contents/home",
+    "data": {
+      "name": "contents-home",
+      "navName": "主页内容管理"
+    },
+    "controller": {
+      "type": "scripts/routes/contents/HomeController"
+    }
+  },
+  "contents-services": {
+    "sub": true,
+    "pathto": "/contents/services",
+    "data": {
+      "name": "contents-services",
+      "navName": "服务"
+    },
+    "controller": {
+      "type": "scripts/routes/contents/ServicesController"
+    }
+  },
+  "contents-about": {
+    "sub": true,
+    "pathto": "/contents/about",
+    "data": {
+      "name": "contents-about",
+      "navName": "关于我们"
+    },
+    "controller": {
+      "type": "scripts/routes/contents/AboutController"
+    }
+  },
+  "contents-contact": {
+    "sub": true,
+    "pathto": "/contents/contact",
+    "data": {
+      "name": "contents-contact",
+      "navName": "联系我们"
+    },
+    "controller": {
+      "type": "scripts/routes/contents/ContactController"
+    }
+  },
+  "contents-development": {
+    "sub": true,
+    "pathto": "/contents/development",
+    "data": {
+      "name": "contents-development",
+      "navName": "系统开发"
+    },
+    "controller": {
+      "type": "scripts/routes/contents/DevelopmentController"
+    }
+  },
+  "contents-technical": {
+    "sub": true,
+    "pathto": "/contents/technical",
+    "data": {
+      "name": "contents-technical",
+      "navName": "技术平台"
+    },
+    "controller": {
+      "type": "scripts/routes/contents/TechnicalController"
+    }
+  },
+  "pages-sub": {
+    "sub": true,
+    "pathto": "/pages/sub",
+    "data": {
+      "name": "pages-sub",
+      "navName": "子页面"
+    },
+    "controller": {
+      "type": "scripts/routes/pages/SubController"
+    }
+  },
+  "categories-posts": {
+    "sub": true,
+    "pathto": "/categories/posts",
+    "data": {
+      "name": "categories-posts",
+      "navName": "文章"
+    },
+    "controller": {
+      "type": "scripts/routes/categories/PostsController"
+    }
+  },
+  "categories-photos": {
+    "sub": true,
+    "pathto": "/categories/photos",
+    "data": {
+      "name": "categories-photos",
+      "navName": "图片"
+    },
+    "controller": {
+      "type": "scripts/routes/categories/PhotosController"
+    }
+  },
+  "photos-slides": {
+    "sub": true,
+    "pathto": "/photos/slides",
+    "data": {
+      "name": "photos-slides",
+      "navName": "轮播图"
+    },
+    "controller": {
+      "type": "scripts/routes/photos/SlidesController"
+    }
+  },
+  "photos-details": {
+    "sub": true,
+    "pathto": "/photos/details",
+    "data": {
+      "name": "photos-details",
+      "navName": "细节图片"
+    },
+    "controller": {
+      "type": "scripts/routes/photos/DetailsController"
+    }
+  },
+  "messages": {
+    "pathto": "/messages",
+    "data": {
+      "name": "messages",
+      "navName": "留言板"
+    },
+    "controller": {
+      "type": "scripts/routes/messages/MessagesController"
+    }
+  }
+}

@@ -1,0 +1,336 @@
+/*http://templates.entheosweb.com/template_number/live_demo.asp?TemplateID=59064*/
+
+.moto-container_header {
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: #1d1d1b;
+    border-style: none;
+    border-color: #fff;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-radius: 0;
+}
+
+.moto-cell {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.moto-widget-image {
+    font-size: 0;
+}
+
+.moto-widget-image .moto-widget-image-link {
+    position: relative;
+    text-align: center;
+    transition: all .5s;
+    display: inline-block;
+}
+
+.moto-widget-image .moto-widget-image-link .moto-widget-image-picture {
+    will-change: -webkit-transform;
+    will-change: transform;
+    transition: .5s;
+}
+
+.moto-widget-image .moto-widget-image-picture {
+    width: 100%;
+    max-width: 100%;
+}
+
+.moto-text_system_1 {
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 25px;
+    line-height: 0.8;
+    letter-spacing: 0px;
+    text-decoration: none;
+    font-style: normal;
+}
+
+.moto-spacing-left-small {
+    padding-left: 10px;
+}
+
+.moto-spacing-bottom-medium {
+    padding-bottom: 23px;
+}
+
+.moto-text_system_2 {
+    font-weight: 300;
+    font-style: normal;
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 2.1;
+    letter-spacing: 0px;
+}
+
+.moto-text_system_2 a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.moto-widget-menu .moto-widget-menu-list {
+    list-style: none;
+    display: inline-block;
+}
+
+.moto-widget-menu .moto-widget-menu-list>.moto-widget-menu-item {
+    text-align: left;
+}
+
+.moto-widget-menu .moto-widget-menu-list .moto-widget-menu-item {
+    display: inline-block;
+    position: relative;
+}
+
+.moto-widget-menu .moto-widget-menu-list .moto-widget-menu-item .moto-widget-menu-link-level-1.moto-widget-menu-link-active {
+    color: #13a88a;
+    text-decoration: none;
+}
+
+.moto-widget-menu .moto-widget-menu-list .moto-widget-menu-item .moto-widget-menu-link-level-1 {
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.moto-widget-menu .moto-widget-menu-list>.moto-widget-menu-item>.moto-widget-menu-link {
+    font-size: 15px;
+    z-index: 2;
+    padding: 11px 0px 25px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.moto-widget-menu .moto-widget-menu-list>.moto-widget-menu-item:not(:first-child) {
+    margin-left: 31px;
+}
+
+.moto-widget-menu .moto-widget-menu-list>.moto-widget-menu-item {
+    text-align: left;
+}
+
+.moto-widget-menu .moto-widget-menu-list .moto-widget-menu-item {
+    display: inline-block;
+    position: relative;
+}
+
+.moto-widget-menu .moto-widget-menu-list>.moto-widget-menu-item>.moto-widget-menu-link {
+    font-size: 15px;
+    z-index: 2;
+    padding: 11px 0px 25px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.moto-container_content_5784f075 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: transparent;
+    border-style: none;
+    border-color: #fff;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-radius: 0;
+    background-image: url('http://template59064.motopreview.com/mt-demo/59000/59064/mt-content/uploads/2016/07/mt-0497-home-header-bg.jpg');
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.moto-container_content_5784f093 {
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    border-style: none;
+    border-color: #fff;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-radius: 0;
+    background-image: url('http://template59064.motopreview.com/mt-demo/59000/59064/mt-content/uploads/2016/07/mt-0497-home-slider1.png');
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+.moto-widget-button .moto-widget-button-link:hover {
+    background-color: transparent;
+}
+
+.moto-widget-button .moto-widget-button-link {
+    font-weight: 700;
+    font-style: normal;
+    color: #ffffff;
+    background-color: #87ba3b;
+    border-color: #87ba3b;
+}
+
+.moto-widget-button.moto-preset-2 .moto-widget-button-link:hover {
+    background-color: #87ba3b;
+    border-color: #87ba3b;
+}
+
+.moto-spacing-top-large {
+    padding-top: 55px;
+}
+
+.moto-widget-text-content {
+    padding: 0 1px;
+}
+
+.moto-text_system_5 {
+    font-weight: 300;
+    font-style: normal;
+    color: #333333;
+    font-size: 35px;
+    line-height: 1.2;
+    letter-spacing: 0px;
+}
+
+.moto-color3_3 {
+    color: #ffffff;
+}
+
+.moto-spacing-bottom-small {
+    padding-bottom: 10px;
+}
+
+.moto-text_system_4 {
+    font-weight: 500;
+    font-style: normal;
+    color: #333333;
+    font-size: 45px;
+    line-height: 1.5;
+    letter-spacing: 0px;
+}
+
+.moto-text_system_10 {
+    font-weight: 300;
+    font-style: normal;
+    color: #5d5d5d;
+    font-size: 14px;
+    line-height: 1.8;
+    letter-spacing: 0px;
+}
+
+.moto-color4_5 {
+    color: #757575;
+}
+
+.moto-widget-button .moto-widget-button-link {
+    font-weight: 700;
+    font-style: normal;
+    color: #ffffff;
+    background-color: #87ba3b;
+    border-color: #87ba3b;
+    padding: 13px 5px 14px;
+    border: 2px solid;
+    border-radius: 2px;
+    min-width: 220px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    z-index: 1;
+    -webkit-backface-visibility: hidden;
+    transition: all .3s;
+}
+
+.moto-widget-button.moto-preset-2 .moto-widget-button-link {
+    font-weight: 700;
+    font-style: normal;
+    color: #ffffff;
+    background-color: transparent;
+    border-color: #5d5d5d;
+    padding: 13px 5px 14px;
+    border: 2px solid;
+    border-radius: 2px;
+    min-width: 220px;
+}
+
+.moto-widget-button .moto-widget-button-link.moto-size-medium {
+    font-size: 15px;
+}
+
+.moto-widget-button.moto-preset-2 .moto-widget-button-link .moto-widget-button-label {
+    text-decoration: none;
+}
+
+.moto-spacing-bottom-large {
+    padding-bottom: 55px;
+}
+
+.moto-container_content_5784f24f {
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    border-style: none;
+    border-color: #fff;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-radius: 0;
+    background-image: url('http://template59064.motopreview.com/mt-demo/59000/59064/mt-content/uploads/2016/07/mt-0497-home-circle-number.png');
+    background-size: contain;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.moto-text_system_12 {
+    font-weight: 700;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 35px;
+    line-height: 2.2;
+    letter-spacing: 0px;
+}
+
+.moto-spacing-top-medium {
+    padding-top: 23px;
+}
+
+.moto-text_system_8 {
+    font-weight: 700;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 1.2;
+    letter-spacing: 0px;
+}
+
+.moto-text_system_10 {
+    font-weight: 300;
+    font-style: normal;
+    font-family: 'Ubuntu', sans-serif;
+    color: #5d5d5d;
+    font-size: 14px;
+    line-height: 1.8;
+    letter-spacing: 0px;
+}

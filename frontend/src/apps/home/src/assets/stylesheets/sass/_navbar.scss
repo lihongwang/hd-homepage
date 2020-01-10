@@ -1,0 +1,165 @@
+$bgColor: #fff;
+$fontColor: #444;
+$phoneFontColor: #fff;
+$activeColor: #00a8ff;
+// $activeBg:#00a8ff;
+$activeBg:transparent;
+nav.navbar {
+    min-height: 50px;
+    z-index: 40;
+    margin-bottom: 0;
+    background-color: $bgColor !important;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.25);
+    transition: background-color 0.3s ease-in-out;
+    .navbar-brand {
+        // padding: 0;
+    }
+    li[class^="-nav"] a,
+    li[class*="-nav"] a {
+        background-image: none !important;
+        box-shadow: none !important;
+        color: $fontColor;
+        font-size: 16px;
+    }
+    li {
+        cursor: pointer;
+        &.open {
+            a {
+                background-color: transparent;
+            }
+        }
+        &.dropdown {
+            ul {
+                display: none;
+                padding: 0;
+            }
+            li {
+                a {
+                    color: $fontColor;
+                }
+                &:hover,
+                &.active {
+                    background-color: #fff;
+                    a {
+                        background-color: $activeBg !important;
+                        background-image: none;
+                        // color: $fontColor !important;
+                        color: $activeColor !important;
+                    }
+                }
+                &.active {
+                    a {
+                        background-color: #ccc;
+                        color: $activeColor;
+                    }
+                }
+            }
+        }
+        &:hover,
+        &.active {
+            background-color: $activeBg !important;
+            color: $activeColor !important;
+        }
+        &:hover {
+            .dropdown-menu {
+                display: block;
+            }
+        }
+    }
+    .navbar-toggle {
+        background-color: $bgColor;
+        .icon-bar {
+            background-color: $fontColor;
+        }
+    }
+    .logo-nav {
+        color: #fff;
+        width: 220px;
+        padding-top: 10px;
+    }
+    img.logo {
+        max-height: 84px;
+        position: relative;
+        bottom: 4px;
+        padding: 0 5px;
+        width: 100%;
+    }
+    .dropdown-menu {
+        min-width: initial;
+    }
+}
+
+@include respond-to($except-phone) {
+    .navbar-nav {
+        float: right !important;
+        li a:hover {
+            color: $activeColor !important;
+            background-color: $activeBg !important;
+        }
+        .active a.dropdown-toggle {
+            color: $fontColor;
+        }
+    }
+}
+
+@include respond-to($tablet-landscape) {
+    .nav.navbar .logo-nav {
+        width: 180px;
+    }
+}
+
+@include respond-to($tablet-portrait) {
+    .navbar {
+        .logo-nav {
+            color: $phoneFontColor;
+            width: 180px !important;
+            // padding-top: 0;/
+        }
+        .navbar-collapse {
+            background-color: $fontColor;
+            z-index: 30;
+        }
+        li a {
+            color: $phoneFontColor !important;
+        }
+        li.active a {
+            color: $activeColor !important;
+        }
+        li {
+            &:hover a,
+            &.active a {
+                background-color: $activeBg !important;
+                color: $activeColor !important;
+            }
+        }
+        li.open .dropdown-menu a {
+            color: $phoneFontColor;
+        }
+        .active {
+            background-color: #ccc;
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+    .navbar-header {
+        //logo
+        display: block !important;
+    }
+    nav.navbar .logo-nav {}
+    nav.navbar {
+        float: initial !important;
+        .logo-nav {
+            color: $bgColor !important;
+            width: 180px;
+        }
+        li.dropdown {
+            ul li a:hover,
+            ul li a:active {
+                color: $activeColor !important;
+                background-color: $bgColor !important;
+                background-image: none !important;
+            }
+        }
+    }
+}

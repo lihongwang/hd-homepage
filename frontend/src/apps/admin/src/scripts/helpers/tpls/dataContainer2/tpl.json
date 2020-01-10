@@ -1,0 +1,39 @@
+{
+    "container": [{
+            "icon": "fa fa-bookmark",
+            "title": "Brand Strategy",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+
+        },
+        {
+            "icon": "fa fa-cubes",
+            "title": "Website Development",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+
+        },
+        {
+            "icon": "fa fa-archive",
+            "title": "Mobile Design",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+
+        },
+        {
+            "icon": "fa fa-bar-chart",
+            "title": "Social Media Marketing",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+
+        },
+        {
+            "icon": "fa fa-umbrella",
+            "title": "Responsive Webdesign",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+
+        },
+        {
+            "icon": "fa fa-users",
+            "title": "Website Traffic",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+
+        }
+    ]
+}

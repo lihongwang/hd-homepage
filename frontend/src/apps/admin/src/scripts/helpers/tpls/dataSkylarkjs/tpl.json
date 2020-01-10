@@ -1,0 +1,40 @@
+{
+    "title1": "技术平台",
+    "text": "技术只是起点",
+    "title2": "Skylark.js",
+    "lead": "skylark.js是一个构建html5应用程序的开源统一框架。 ",
+    "subLead": "skylark.js实现了一个简单的应用程序规范，可以更轻松地开发跨桌面和Web的HTML5应用程序。",
+    "contentTitle": "特点",
+    "custom": [{
+        "icon": "fa fa-genderless",
+        "title": "简洁",
+        "desc": "skylark.js框架简单而强大，代码只有7k（核心库，gzip）或22k（包括一套强大的工具库），并且易于阅读和易于调试。"
+    }, {
+        "icon": "fa fa-area-chart",
+        "title": "跨WEB和桌面",
+        "desc": "skylark.js应用程序发布为一个.slax文件。 slax应用可以部署到Web服务器，也可以直接在本地桌面上运行。"
+    }, {
+        "icon": "fa fa-shield",
+        "title": "统合性",
+        "desc": "skylark.js的核心框架着重于应用程序的功能结构，易于与jquery，Backbone，vue，React等各流行的UI框架集成。"
+    }, {
+        "icon": "fa fa-bandcamp",
+        "title": "统一",
+        "desc": "skylark.js很容易统一其他框架资源。 使用skylark-jquery，jquery插件和应用程序可以直接运行在skylarkjs上而不需要jquery库。此外，还有skylark-backbone，skylark-vue（在开发中）等等。"
+    }, {
+        "icon": "fa fa-pie-chart",
+        "title": "可配置",
+        "desc": "应用程序的所有组成元素（如路由，插件，依赖关系等）都在slax-config.json文件中统一配置。"
+    }, {
+        "icon": "fa fa-tint",
+        "title": "模块化",
+        "desc": "高度模块化。"
+    }],
+    "title3": "生态体系",
+    "text2": "skylark.js是一个高度组件化的生态系统，构成框架的各个模块很多本身具有独立性，可以独立使用。",
+    "title4": "Skylark.js技术知识网站",
+    "HPen": "官网（英文）：",
+    "ENHref": "http://skylarkjs.org/ ",
+    "HPcn": "知典（中文）：",
+    "CNHref": "http://zhidian.wuute.com"
+}

@@ -1,0 +1,75 @@
+<footer class="site-footer">
+			<div class="container">
+				<div class="row">
+					<!-- Widget "Company info" start //-->
+					<div class="col-lg-4">
+						<aside class="widget">
+							<h2 class="widget-title">{{infoTitle}}</h2>
+							<div class="widget-content">
+								<p> {{text1}}</p>
+								<p>{{text2}}</p>
+								<!--
+									Newsletters subscription start
+									See "Newsletters" section in the help file.
+								//-->
+								<div class="quick_newsletter">
+									<form action=" ../../php/process.php">
+										<input name="name" id="name" value="" placeholder="your name..." class="text" onblur="_hint(this,'Name',1)" onclick="_hint(this,'Name',0)" type="text">
+										<input name="email" id="email" value="" placeholder="your email..." class="text" onblur="_hint(this,'email',1)" onclick="_hint(this,'email',0)" type="text">
+										<input name="submit" value="OK!" class="biss-btn biss-btn-primary" onclick="doSubscribe(this,'#subscribe_response_div');" type="button">
+									</form>
+								</div>
+								<span id="subscribe_response_div"></span>
+								<!-- Newsletters subscription end //-->
+							</div>
+						</aside>
+					</div>
+					<!-- Widget "Company info" end //-->
+					<!-- Widget "Useful links" start //-->
+					<div class="col-lg-4">
+						<aside class="widget widget-links">
+							<h2 class="widget-title">{{linkTitle}}</h2>
+							<div class="widget-content">
+								<div class="wrap-1">
+									<ul>
+                                         {{#each wrap-1}}
+										<li><i class="fa fa-angle-double-right"></i> <a href="{{link}}">{{title}}</a></li>
+                                         {{/each}}
+									</ul>
+								</div>
+								<div class="wrap-2">
+									<ul>
+										{{#each wrap-2}}
+										<li><i class="fa fa-angle-double-right"></i> <a href="{{link}}">{{title}}</a></li>
+                                         {{/each}}
+									</ul>
+								</div>
+							</div>
+						</aside>
+					</div>
+					<!-- Widget "Useful links" end //-->
+					<!-- Widget "Stay connected" start //-->
+					<div class="col-lg-4">
+						<aside class="widget widget-contacts">
+							<h2 class="widget-title">{{contactTitle}}</h2>
+							<div class="widget-content">
+								<p>{{contacText}}</p>
+								<p class="contacts"><i class="fa fa-map-marker"></i>{{mapText}}</p>
+								<p class="contacts"><i class="fa fa-phone"></i>{{phoneText}}</p>
+								<p class="contacts"><i class="fa fa-envelope"></i>{{emilText}}</p>
+								<div class="sm-profiles">
+									<a href="{{facebookLink}}"><i class="fa fa-facebook"></i></a>
+									<a href="{{twitterLink}}"><i class="fa fa-twitter"></i></a>
+									<a href="{{behanceLink}}"><i class="fa fa-behance"></i></a>
+									<a href="{{linkedinLink}}"><i class="fa fa-linkedin"></i></a>
+									<a href="{{googleLink}}"><i class="fa fa-google-plus"></i></a>
+									<a href="{{rssLink}}"><i class="fa fa-rss"></i></a>
+								</div>
+							</div>
+						</aside>
+					</div>
+					<!-- Widget "Stay connected" end //-->
+
+				</div>
+			</div>
+		</footer>

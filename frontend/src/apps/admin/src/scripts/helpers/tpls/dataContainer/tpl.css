@@ -1,0 +1,143 @@
+.page-section {
+    padding-top: 60px;
+    width: 100%;
+    -webkit-animation: toLeftFromRight 0.9s forwards;
+    -moz-animation: toLeftFromRight 0.9s forwards;
+    animation: toLeftFromRight 0.9s forwards;
+    background-color: #f4f4f4;
+}
+
+.padbottom30 {
+    padding-bottom: 30px !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #4aaaa5;
+}
+
+.introicons {
+    padding: 14px;
+    position: relative;
+    background-color: white;
+    border-radius: 5px;
+    margin: 60px 0px;
+    cursor: pointer;
+}
+
+.introicons:hover>i {
+    border: 10px solid #ffffff;
+    -webkit-animation: spinAround 1.5s linear infinite;
+    -moz-animation: spinAround 1.5s linear infinite;
+    animation: spinAround 1.5s linear infinite;
+}
+
+@-webkit-keyframes spinAround {
+    from {
+        -webkit-transform: rotate(0deg)
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes spinAround {
+    from {
+        -moz-transform: rotate(0deg)
+    }
+    to {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@keyframes spinAround {
+    from {
+        transform: rotate(0deg)
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.inverse-background,
+.tooltip-inner,
+a:link.comment-reply-link,
+a:visited.comment-reply-link,
+#wp-calendar thead th,
+#wp-calendar #prev a,
+#wp-calendar #next a,
+ul.option-set li a.selected,
+ul.option-set li a:hover,
+.datebackground,
+.pagination ul>li>a:focus,
+.pagination ul>.active>a,
+.pagination ul>.active>span,
+.tagcloud a,
+.featured>header,
+.grid figcaption a {
+    background-color: #4aaaa5;
+}
+
+.inverse-background {
+    background-color: #4aaaa5;
+}
+
+[class^="icon-"],
+[class*=" icon-"],
+[class^="icon-"]:hover,
+[class*=" icon-"]:hover {
+    background-image: none;
+}
+
+.introicons i {
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    font-size: 50px;
+    line-height: 100px;
+    padding: 10px !important;
+    color: #f4f4f4;
+    top: 0px;
+    left: 50%;
+    margin: -60px 0px 0px -60px !important;
+    padding: 0px !important;
+    border-radius: 50%;
+    border: 10px solid #f4f4f4;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.introicons h6 {
+    font-weight: 400;
+    font-size: 18px;
+    margin: 70px 0px 20px 0px;
+    color: #666666;
+}
+
+.span3 {
+    width: 260px;
+}
+
+[class*="span"] {
+    float: left;
+    min-height: 1px;
+    margin-left: 30px;
+}
+
+.yellow-background {
+    background-color: #e3e49d !important;
+}
+
+.red-background {
+    background-color: #f47e7e !important;
+}
+
+.blue-background {
+    background-color: #aee0f1 !important;
+}

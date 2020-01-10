@@ -1,0 +1,179 @@
+element.style {
+    background-position: center -7px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(http://www.magictemplates.nl/Solid-01/assets/img/background/orange-drum.jpg);
+    background-attachment: fixed;
+}
+
+#main>section {
+    padding: 100px 0;
+    position: relative;
+}
+
+section.orange-bg {
+    min-height: 751px;
+}
+
+.dark {
+    color: #fff;
+    background: #212121;
+}
+
+section.orange-bg .container {
+    margin-bottom: -100px;
+    position: relative;
+    overflow: hidden;
+    min-height: 651px;
+}
+
+section>.container {
+    text-align: center;
+}
+
+.container {
+    width: 1200px;
+}
+
+section>.container {
+    text-align: center;
+}
+
+.dark {
+    color: #fff;
+    background: #212121;
+}
+
+.alpha {
+    padding-left: 0 !important;
+}
+
+.sub-title {
+    font-size: 16px;
+    letter-spacing: 0.2em;
+}
+
+h2 {
+    position: relative;
+    margin-bottom: 75px;
+    margin-top: 7px;
+}
+
+h2 {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 48px;
+    font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h2.text-left:after {
+    left: 0;
+    margin-left: 0;
+}
+
+h2:after {
+    content: '';
+    display: inline-block;
+    background: #5be1ff;
+    height: 4px;
+    width: 40px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+    position: absolute;
+    left: 50%;
+    margin-left: -20px;
+    bottom: -15px;
+}
+
+section>.container .content {
+    text-align: left;
+}
+
+.img-responsive {
+    display: inline-block;
+}
+
+.omega {
+    padding-right: 0 !important;
+}
+
+.alpha {
+    padding-left: 0 !important;
+}
+
+.medium-title {
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 0.25em;
+    margin-bottom: 18px;
+}
+
+.dark p.white {
+    color: #fff;
+}
+
+.dark a,
+.dark p {
+    color: #c7d3e2;
+}
+
+p {
+    font-family: 'ProximaNova', Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: none;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.gap {
+    padding: 25px 0 0;
+}
+
+.button-clear {
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff !important;
+}
+
+.button-clear,
+.button-main,
+.button-standard,
+.button-navbar {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 14px 40px 13px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+}
+
+.button-clear span,
+.button-main span,
+.button-standard span {
+    margin-left: 10px;
+}
+
+.img-responsive {
+    display: inline-block;
+}

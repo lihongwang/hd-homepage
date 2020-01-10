@@ -1,0 +1,21 @@
+{
+    "title": "Our latest clients",
+    "text": "At vero eos et accusamus et iusto odio dignissimos",
+    "clientslist": [{
+            "src": "http://themes.derby-web-design-agency.co.uk/Alfie-The-Responsive-Bootstrap-Template/Boxed/Teal-Green/images/clients/lo1.png"
+        },
+        {
+            "src": "http://themes.derby-web-design-agency.co.uk/Alfie-The-Responsive-Bootstrap-Template/Boxed/Teal-Green/images/clients/lo2.png"
+        },
+        {
+            "src": "http://themes.derby-web-design-agency.co.uk/Alfie-The-Responsive-Bootstrap-Template/Boxed/Teal-Green/images/clients/lo3.png"
+        },
+        {
+            "src": "http://themes.derby-web-design-agency.co.uk/Alfie-The-Responsive-Bootstrap-Template/Boxed/Teal-Green/images/clients/lo4.png"
+        },
+        {
+            "src": "http://themes.derby-web-design-agency.co.uk/Alfie-The-Responsive-Bootstrap-Template/Boxed/Teal-Green/images/clients/lo5.png"
+        }
+    ]
+
+}

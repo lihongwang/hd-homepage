@@ -1,0 +1,21 @@
+<section class="light">
+            <div class="container">
+                <div class="content">
+                    <div class="row">
+                        {{#each lightRow}}
+                        <div class="col-sm-4">
+                            <div class="media media-gap">
+                                <span class="pull-left">
+                                    <img class="media-object" src="{{src}}" alt="Image">
+                                </span>
+                                <div class="media-body">
+                                    <h5 class="media-heading">{{title}}</h5>
+                                    <p>{{text}}</p>
+                                </div>
+                            </div>
+                        </div>
+                        {{/each}}                        
+                    </div>
+                </div>
+            </div>
+        </section>

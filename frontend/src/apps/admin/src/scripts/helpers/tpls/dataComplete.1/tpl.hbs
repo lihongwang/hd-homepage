@@ -1,0 +1,23 @@
+<section class="dark coffee-bg">
+            <div class="container">
+                <div class="sub-title">{{subTitle}}</div>
+                <h2>{{title}}</h2>
+                <div class="content">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6 omega">
+                            {{#each coffeeRow}}
+                            <div class="media">
+                                <span class="pull-left">
+                                    <img class="media-object" src="{{src}}" alt="Image">
+                                </span>
+                                <div class="media-body">
+                                    <h4 class="media-heading">{{title}}</h4>
+                                    <p>{{text}}</p>
+                                </div>
+                            </div>
+                            {{/each}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>

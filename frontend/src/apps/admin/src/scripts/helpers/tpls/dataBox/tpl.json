@@ -1,0 +1,56 @@
+{
+    "title1": "Our Service",
+    "title2": "服务范围",
+    "link": "/services",
+    "headSrc": "assets/images/nimg116.png",
+    "service": [{
+            "bgSrc": "assets/images/nimg55_1.png",
+            "name": "Design",
+            "cnName1": "设计",
+            "cnName2": "网站设计",
+            "subs": [
+                "网站设计",
+                "网页设计",
+                "自适应设计",
+                "响应式设计",
+                "移动端设计",
+                "手机端设计",
+                "APP设计",
+                "UI设计",
+                "微信设计"
+            ]
+        },
+        {
+            "bgSrc": "assets/images/nimg55_2.png",
+            "name": "Develop",
+            "cnName1": "开发",
+            "cnName2": "网站开发",
+            "subs": [
+                "企业网站开发",
+                "公司网站开发",
+                "门户网站开发",
+                "协会网站开发",
+                "网站开发定制",
+                "网站二次开发",
+                "手机网站开发",
+                "网站系统开发",
+                "H5网站开发设计",
+                "响应式网站开发"
+            ]
+        },
+        {
+            "bgSrc": "assets/images/nimg55_3.png",
+            "name": "Domain",
+            "cnName1": "制作",
+            "cnName2": "网站制作",
+            "subs": [
+                "H5网站制作",
+                "企业网站制作",
+                "公司网站制作",
+                "网站专题制作",
+                "响应式网站制作",
+                "协会网页制作"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "buildForm": true,
+    "selectRowData": true,
+    "schema": {
+        "type": "object",
+        "properties": {
+            "items": {
+                "title": "Banner Items",
+                "type": "array",
+                "items": {
+                    "_contentSelect": true,
+                    "description": "row item",
+                    "type": "object",
+                    "properties": {
+                        "head": {
+                            "type": "string",
+                            "title": "Head",
+                            "description": "head"
+                        },
+                        "title": {
+                            "type": "string",
+                            "title": "Title",
+                            "description": "title"
+                        },
+                        "link": {
+                            "type": "string",
+                            "title": "Link",
+                            "description": "link"
+                        },
+                        "description": {
+                            "type": "string",
+                            "title": "description",
+                            "format": "text"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

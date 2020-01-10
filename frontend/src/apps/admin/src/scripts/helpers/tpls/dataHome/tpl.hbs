@@ -1,0 +1,129 @@
+<header class="header moto-section">
+    <div class="moto-container_header">
+        <div class="container">
+            <div class="row">
+                <div class="moto-cell col-sm-4">
+                    <div class="row">
+                        <div class="moto-cell col-xs-3">
+                            <div class="moto-widget-image ">
+                                <a class="moto-widget-image-link " href="/">
+                                    <img class="moto-widget-image-picture" title="" alt="" src="http://template59064.motopreview.com/mt-demo/59000/59064/mt-content/uploads/2016/07/mt-0497-home-logo.png">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="moto-cell col-xs-9">
+                            <div class="moto-widget-text">
+                                <div class="moto-widget-text-content">
+                                    <p class="moto-text_system_1">
+                                        <a class="" href="/">WOMEN'S</a><br></p>
+                                </div>
+                            </div>
+                            <div class="moto-widget-text">
+                                <div class="moto-widget-text-content ">
+                                    <p class="moto-text_system_2">
+                                        <a class="" href="/">SELF DEFENCE SCHOOL</a><br></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="moto-cell col-sm-8">
+                    <div class="moto-widget-menu">
+                        <ul class="moto-widget-menu-list">
+                            {{#each menuItems}}
+                            <li class="moto-widget-menu-item">
+                                <a href="{{href}}" class="moto-widget-menu-link moto-widget-menu-link-level-1  {{#if @index}}" "{{else}}moto-widget-menu-link-active{{/if}} ">{{item}}</a>
+                            </li>
+                            {{/each}}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<section class="content page-1 moto-section">
+    <div class=" moto-container_content_5784f075">
+        <div class="moto-container_content_5784f093">
+            <div class="container">
+                <div class="row">
+                    <div class="moto-cell col-sm-12">
+                        <div class="moto-widget-spacer   moto-spacing-top-large">
+                            <div class="moto-widget-spacer-block" style="height: 5px;"></div>
+                        </div>
+                        <div class="moto-widget-text   moto-spacing-top-large">
+                            <div class="moto-widget-text-content ">
+                                <p class="moto-text_system_5">
+                                    <span class="moto-color3_3">Helping you deal with stress<br></span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="moto-widget-text       moto-spacing-bottom-small">
+                            <div class="moto-widget-text-content ">
+                                <p class="moto-text_system_4">
+                                    <span class="moto-color3_3">AND CRISIS SITUATIONS<br></span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="moto-cell col-sm-7">
+                                <div class=" moto-widget-text  moto-spacing-bottom-large">
+                                    <div class="moto-widget-text-content ">
+                                        <p class="moto-text_system_10">
+                                            <span class="moto-color4_5">Clients of our gym receive not only necessary equipment for their workouts but also friendly support in achieving their number one training goal.</span><br></p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="moto-cell col-sm-5">
+                                        <div class="moto-widget-button  moto-spacing-bottom-large">
+                                            <a href="/" target="_blank" class="moto-widget-button-link moto-size-medium moto-link">
+                                                <span class="moto-widget-button-label">Register Now!</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="moto-cell col-sm-7">
+                                        <div class="moto-widget-button moto-preset-2 moto-spacing-bottom-large">
+                                            <a href="/" class="moto-widget-button-link moto-size-medium ">
+                                                <span class="moto-widget-button-label">Read more about us</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="moto-widget-spacer moto-spacing-top-large moto-spacing-bottom-large ">
+                <div class="moto-widget-spacer-block" style="height: 0px;"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                {{#each cellItem}}
+                <div class="moto-cell col-sm-3">
+                    <div class="moto-container_content_5784f24f">
+                        <div class="moto-widget moto-widget-text">
+                            <div class="moto-widget-text-content">
+                                <p class="text-center moto-text_system_12">{{text}}<br></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="moto-widget-text  moto-spacing-top-medium">
+                        <div class="moto-widget-text-content ">
+                            <p class="text-center moto-text_system_8">{{title}}<br></p>
+                        </div>
+                    </div>
+                    <div class="moto-widget-text moto-spacing-bottom-large">
+                        <div class="moto-widget-text-content">
+                            <p class="text-center moto-text_system_10">
+                                <span class="moto-color3_3">{{desc}}</span><br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        </div>
+    </div>
+</section>

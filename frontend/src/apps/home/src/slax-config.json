@@ -1,0 +1,45 @@
+{
+    "name": "hd-homepage",
+    "title": "互道科技-潜心打造云组件web平台",
+    "runtime": {
+        "skylarkjs": {
+            "version": "0.9.5"
+        },
+        "paths": {
+            "server": "scripts/services/server",
+            "commHelpers": "src/helpers",
+            "toastr": "https://cdn.bootcss.com/toastr.js/latest/js/toastr",
+            "handlebars": "https://cdn.bootcss.com/handlebars.js/4.0.11/handlebars.amd.min",
+            "lodash": "https://cdn.bootcss.com/lodash.js/4.17.4/lodash.min",
+            "skylark-jquery": "/lib/skylark-jquery",
+            "skylark-bs-swt": "/lib/skylark-bs-swt",
+            "text": "https://cdn.bootcss.com/require-text/2.0.12/text.min",
+            "async": "https://cdn.bootcss.com/requirejs-async/0.1.1/async"
+        },
+        "map": {
+            "*": {
+                "jquery": "skylark-jquery",
+                "skylarkBs": "skylark-bs-swt"
+            }
+        }
+    },
+    "spaModule": "scripts/helpers/spa",
+    "page": {
+        "routeViewer": "#main"
+    },
+    "plugins": {
+        "app": {
+            "hookers": "starting started",
+            "controller": {
+                "type": "scripts/plugins/app/AppController"
+            }
+        },
+        "navbar": {
+            "hookers": "starting",
+            "controller": {
+                "type": "scripts/plugins/navbar/NavbarController"
+            }
+        }
+    },
+    "routesPath": "./routes.json"
+}

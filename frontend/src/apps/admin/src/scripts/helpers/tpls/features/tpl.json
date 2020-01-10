@@ -1,0 +1,33 @@
+{
+    "title": "More features",
+    "desc": "Similique culpa quicia deserunt mollitia animi, id est laborum et dolorum",
+    "leftItems": [{
+        "src": "http://template-preview.com/bootstrap-templates/photography/images/ic1.png",
+        "title": "Creative Design",
+        "desc": "Come aboard were expecting Love life's sweetest reward Let it flow it floats back to you."
+
+    }, {
+        "src": "http://template-preview.com/bootstrap-templates/photography/images/ic2.png",
+        "title": "unlimited features",
+        "desc": "A shadowy flight into the dangerous world of a man wonder flying who does not exist."
+
+    }, {
+        "src": "http://template-preview.com/bootstrap-templates/photography/images/ic3.png",
+        "title": "custom shortcodes",
+        "desc": "No phone no lights no motor car not a single man luxury. Groovin' all week with you."
+    }],
+    "rightItems": [{
+        "scr": "http://template-preview.com/bootstrap-templates/photography/images/ic4.png",
+        "title": "pixel perfect",
+        "desc": "Come aboard were expecting Love life's sweetest reward Let it flow it floats back to you."
+    }, {
+        "scr": "http://template-preview.com/bootstrap-templates/photography/images/ic5.png",
+        "title": ">easy install",
+        "desc": "A shadowy flight into the dangerous world of a man wonder flying who does not exist."
+    }, {
+        "scr": "http://template-preview.com/bootstrap-templates/photography/images/ic6.png",
+        "title": "seo optimized",
+        "desc": "No phone no lights no motor car not a single man luxury. Groovin' all week with you."
+    }],
+    "centerImg": "http://template-preview.com/bootstrap-templates/photography/images/phone1.png"
+}

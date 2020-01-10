@@ -1,0 +1,75 @@
+#main>section {
+    padding: 100px 0;
+    position: relative;
+}
+
+.light {
+    color: #1a293a;
+    background: #fff;
+}
+
+section>.container {
+    text-align: center;
+}
+
+.container {
+    width: 1200px;
+}
+
+section>.container .content {
+    text-align: left;
+}
+
+section>.container {
+    text-align: center;
+}
+
+.light {
+    color: #1a293a;
+    background: #fff;
+}
+
+.media-gap {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.media-left,
+.media>.pull-left {
+    padding-right: 15px;
+}
+
+.media-heading {
+    margin-bottom: 15px;
+}
+
+h5 {
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0.025em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.light a,
+.light p {
+    color: #455566;
+}
+
+p {
+    font-family: 'ProximaNova', Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: none;
+    font-size: 18px;
+    line-height: 30px;
+}

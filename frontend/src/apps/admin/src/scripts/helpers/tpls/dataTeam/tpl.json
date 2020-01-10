@@ -1,0 +1,30 @@
+{
+    "title1": "WE ARE AWESOME",
+    "title2": "MEET OUR TEAM",
+    "team": [{
+            "src": "https://edena-creative-multipurpose-bootstrap-theme.little-neko.com/files/images/team/team-corporate-1.jpg",
+            "title": "THE QUESTION",
+            "text": "The question I ask myself like almost every day is, ‘Am I doing the most important thing I could be doing?",
+            "smallTiltle": "MARTIN",
+            "nameTitle": "SOMERVILLE",
+            "positionTitle": "C.E.0"
+        },
+        {
+            "src": "https://edena-creative-multipurpose-bootstrap-theme.little-neko.com/files/images/team/team-corporate-2.jpg",
+            "title": "THE QUESTION",
+            "text": "The question I ask myself like almost every day is, ‘Am I doing the most important thing I could be doing?",
+            "smallTiltle": "LEONA",
+            "nameTitle": "FIBONACCI",
+            "positionTitle": "SALES"
+        },
+        {
+            "src": "https://edena-creative-multipurpose-bootstrap-theme.little-neko.com/files/images/team/team-corporate-3.jpg",
+            "title": "THE QUESTION",
+            "text": "The question I ask myself like almost every day is, ‘Am I doing the most important thing I could be doing?",
+            "smallTiltle": "MARIA",
+            "nameTitle": "MITCHELL",
+            "positionTitle": "GRAPHIC DESIGNER"
+        }
+    ]
+
+}

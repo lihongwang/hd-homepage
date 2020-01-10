@@ -1,0 +1,35 @@
+<section class="page-section">
+
+	<div class="container">
+
+        <!-- Welcome Message -->
+        <div class="text-center padbottom30">
+        
+            <h1>{{title}}</h1>
+            <p>{{text}}</p>
+        
+        </div>
+        <!-- Welcome Message -->
+
+		 <!-- Intro Buttons Section -->
+        <div class="row text-center">
+        {{#each buttons}}
+        	 <!-- Intro Buttons -->
+            <div class="span3">
+            
+                <div class="introicons">
+                
+                    <i class="{{icon}}"></i>
+                    <h6 class="inverse-font">{{title}}</h6>
+                    <p>{{text}}</p>
+                
+                </div>
+                
+            </div>
+            <!-- Intro Buttons -->
+            
+ 
+        {{/each}}
+   </div>
+
+</section>

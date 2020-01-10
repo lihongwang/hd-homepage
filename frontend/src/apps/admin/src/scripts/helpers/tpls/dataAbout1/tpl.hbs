@@ -1,0 +1,39 @@
+<div class="section">
+    <div class="container about-section">
+        <div class="row">
+            <div class="col-sm-4 for-color">
+                <div class="about">
+                    <h2 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s" style="visibility: visible; -webkit-animation: 1s 0.2s;">{{title}}</h2>
+                    <p>{{desc}} </p>
+                    <a href="about-us.html" class="about-bt hvr-bounce-to-right">Read More
+                        <span class="text-right">
+                            <i class="fa fa-inverse fa-long-arrow-right"></i>
+                        </span>
+                    </a>
+                </div>
+                <!-- /.about -->
+            </div>
+            <!-- /.col-lg-4 col-md-4 col-sm-4 -->
+            <div class="col-sm-8 service service_heading">
+                <h2 class="wow " data-wow-duration="1s" data-wow-delay="0.2s" id="servicehome" style="visibility: visible; -webkit-animation: 1s 0.2s;">{{serTitle}}</h2>
+                <div class="row">
+                {{#each services}}
+                    <div class="col-xs-4 col-sm-2 col-md-2">
+                        <img src="{{img}}" class="img-responsive serv" alt="business" >
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-8">
+                        <div class="business2 wow " data-wow-duration="1s" data-wow-delay="0.2s" style="visibility: visible; -webkit-animation: 1s 0.2s;">
+                            <p class="newse2">{{title}}</p>
+                            <p class="news6">{{desc}}</p>
+                        </div>
+                    </div>
+                    {{/each}}
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.service -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+</div>

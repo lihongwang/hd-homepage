@@ -1,0 +1,19 @@
+{
+
+    "aboutRow": [{
+            "icon": "fa fa-magic",
+            "title": "Award Winners",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temincid dunt ut labore et dolore. boris aliquipea eiusmod tempor incidid commodo."
+        },
+        {
+            "icon": "fa fa-leaf",
+            "title": "Innovative Ideas",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temincid dunt ut labore et dolore. boris aliquipea eiusmod tempor incidid commodo."
+        },
+        {
+            "icon": "fa fa-paper-plane",
+            "title": "Freindly Support",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temincid dunt ut labore et dolore. boris aliquipea eiusmod tempor incidid commodo."
+        }
+    ]
+}

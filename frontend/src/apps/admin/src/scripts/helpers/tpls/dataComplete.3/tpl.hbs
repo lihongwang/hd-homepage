@@ -1,0 +1,17 @@
+<section class="dark polyblue-bg">
+            <div class="container">
+                <div class="row">
+                    {{#each darkRow}}
+                    <div class="col-sm-3">
+                        <div class="review-stat counter animated fadeIn visible" data-delay="0" data-animation="fadeIn">
+                            <div class="circular">
+                                <div class="circle-stat circliful" data-dimension="170" data-width="10" data-percent="{{text}}" data-fgcolor="#5be1ff" data-bgcolor="rgba(255,255,255, 0)" style="width: 170px;"><canvas width="170" height="170"></canvas></div>
+                                <div class="text"><span class="value" data-from="0" data-to="{{text}}">{{text}}</span>%</div>
+                            </div>
+                            <p class="caption">{{title}}</p>
+                        </div>
+                    </div>
+{{/each}}
+                </div>
+            </div>
+        </section>

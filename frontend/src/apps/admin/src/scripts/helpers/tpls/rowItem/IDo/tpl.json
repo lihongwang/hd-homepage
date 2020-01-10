@@ -1,0 +1,28 @@
+{
+    "title": "WHAT I DO",
+    "subtitle": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+    "items": [{
+        "title": "Branding",
+        "desc": "Many desktop publishing packages and web page editors now use Lorem Ipsum text."
+    }, {
+
+        "title": "Web Design",
+        "desc": "Many desktop publishing packages and web page editors now use Lorem Ipsum text."
+    }, {
+
+        "title": "Web Development",
+        "desc": "Many desktop publishing packages and web page editors now use Lorem Ipsum text."
+    }, {
+
+        "title": "Email Templates",
+        "desc": "Many desktop publishing packages and web page editors now use Lorem Ipsum text."
+    }, {
+
+        "title": "Wordpress",
+        "desc": "Many desktop publishing packages and web page editors now use Lorem Ipsum text."
+    }, {
+
+        "title": "Web Hosting",
+        "desc": "Many desktop publishing packages and web page editors now use Lorem Ipsum text."
+    }]
+}

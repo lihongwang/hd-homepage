@@ -1,0 +1,73 @@
+<div class="f-index-model">
+    <div class="fk-index-wrap">
+        <div class="fk-index-header">
+            <h2 class="f-hd-title">{{title}}</h2>
+            <p class="f-hd-subDesc">{{subDesc}}</p>
+            <ul class="fk-index-tabs" sld-id="modelSld">
+                <li class="f-tab f-tab-first f-tab-active">电脑端</li>
+                <li class="f-tab">手机端</li>
+                <li class="f-tab-activeLine" style="left: 40px; top: 101px; width: 78px; height: 2px;"></li>
+            </ul>
+        </div>
+        <div class="fk-index-sliderPanel" id="modelSld" style="height: 872px;">
+            <ul class="f-sldList f-sldList-2" style="left: 0px;">
+                <li class="f-sldItem">
+                    <div class="f-listWrap">
+                        <ul class="f-list" id="pcCaseList">
+                            {{#each fItems}}
+                            <li class="f-item">
+                                <div class="fk-casePc-formWrap fk-casePc-formWrapHover">
+                                    <div class="f-casePc-form">
+                                        <div class="f-winBg"></div>
+                                        <div class="f-win">
+                                            <img src="{{bgSrc}}" alt="{{alt}}" class="f-win-img">
+                                        </div>
+                                        <div class="f-winMask">
+                                            <a href="{{link}}" target="_blank" title="{{title}}" class="f-link-preview" rel="nofollow">
+                                                <div class="f-link-previewBg"></div>
+                                                <div class="f-icon-preview"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            {{/each}}
+                        </ul>
+                    </div>
+                </li>
+                <li class="f-sldItem">
+                    <div class="f-listWrap f-mobiListWrap">
+                        <ul class="f-list-mobi" id="caseMobiList">
+                            {{#each mfItems}}
+                            <li class="f-item">
+                                <div class="fk-caseForm">
+                                    <div class="f-caseWrap">
+                                        <div class="fk-index-mobiArea fk-index-mobiAreaHover">
+                                            <div class="fk-index-mobiPlaceholder">
+                                                <div class="fk-index-caseForm">
+                                                    <div class="f-phone-template"></div>
+                                                    <div class="f-screen fk-index-screenHover">
+                                                        <a href="{{link}}" class="f-screen-link" rel="nofollow">
+                                                            <img src="{{bgSrc}}" alt="{{alt}}" class="f-screen-img">
+                                                        </a>
+                                                        <div class="f-screenMask">
+                                                        </div>
+                                                        <div class="f-screen-contentWrap">
+                                                            <img class="f-qrCode" src="{{bg1Src}}" width="80px" height="80px">
+                                                            <a class="f-btn-preview" href="{{link1}}" target="_blank" rel="nofollow"><span><i class="fkIcon-preview"></i><span class="f-txt">预览</span></span></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            {{/each}}
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

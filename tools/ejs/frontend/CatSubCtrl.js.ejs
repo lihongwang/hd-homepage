@@ -1,0 +1,14 @@
+define([
+    "./<%=parentCtrlName%>"
+], function(<%=parentName%>) {
+    return <%=parentName%>.inherit({
+        klassName: "<%=ctrlName%>",
+        repeaterId: "<%=name%><%=parentName%>Repeater",
+        title: "列表",
+        addTitle: "添加",
+        actionName: "public/<%=name%>",
+        postAction: "post/<%=name%>",
+        isSub: true,
+        category: "<%=name%>"
+    });
+});
