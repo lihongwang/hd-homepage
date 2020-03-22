@@ -170,6 +170,25 @@
       "createdAt": "2018-02-02T06:46:09.785Z",
       "updatedAt": "2018-02-02T06:46:09.785Z",
       "src": "/upload/details/1517553969673-mockup-654585_640.jpg"
+    },
+    {
+      "id": "yLUPPTLnm",
+      "name": "产品背景",
+      "category": "photos_slides",
+      "file": {
+        "fieldname": "file",
+        "originalname": "chanpin.jpg",
+        "encoding": "7bit",
+        "mimetype": "image/jpeg",
+        "destination": "C:\\work\\webserver\\hd-homepage\\public\\upload\\slides",
+        "filename": "1584593643073-chanpin.jpg",
+        "path": "\\upload\\slides\\1584593643073-chanpin.jpg",
+        "size": 112530
+      },
+      "uniqName": "产品背景_photos_slides",
+      "createdAt": "2020-03-19T04:54:03.131Z",
+      "updatedAt": "2020-03-19T04:54:03.131Z",
+      "src": "\\upload\\slides\\1584593643073-chanpin.jpg"
     }
   ]
 }

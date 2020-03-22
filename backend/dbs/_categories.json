@@ -135,6 +135,16 @@
       "usage": 2,
       "createdAt": "2018-02-02T06:45:19.378Z",
       "updatedAt": "2018-02-02T06:45:19.378Z"
+    },
+    {
+      "id": "fnSgNUZ4z",
+      "name": "contents-softwareProduct",
+      "display": "软件产品",
+      "_contentSelectable": false,
+      "category": "contents",
+      "usage": 2,
+      "createdAt": "2020-03-17T03:46:15.398Z",
+      "updatedAt": "2020-03-17T03:46:15.398Z"
     }
   ]
 }

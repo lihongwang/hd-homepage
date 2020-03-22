@@ -88,7 +88,8 @@
       "contents-about",
       "contents-contact",
       "contents-development",
-      "contents-technical"
+      "contents-technical",
+      "contents-softwareProduct"
     ]
   },
   "categories-pages": {
@@ -253,6 +254,17 @@
     },
     "controller": {
       "type": "scripts/routes/messages/MessagesController"
+    }
+  },
+  "contents-softwareProduct": {
+    "sub": true,
+    "pathto": "/contents/softwareProduct",
+    "data": {
+      "name": "contents-softwareProduct",
+      "navName": "软件产品"
+    },
+    "controller": {
+      "type": "scripts/routes/contents/SoftwareProductController"
     }
   }
 }

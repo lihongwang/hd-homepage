@@ -52,11 +52,9 @@
       "category": "pages_main",
       "uniqName": "technical_pages_main",
       "createdAt": "2018-01-27T14:22:09.660Z",
-      "updatedAt": "2018-02-01T10:05:06.895Z",
+      "updatedAt": "2020-03-17T07:34:11.887Z",
       "contents": [
-        "HyZy8sBuBz",
-        "HkJDsrOrz",
-        "HysDsHuHf"
+        "HyZy8sBuBz"
       ],
       "subs": ""
     },
@@ -114,6 +112,25 @@
       "uniqName": "messages_pages_main",
       "createdAt": "2018-02-09T02:06:07.979Z",
       "updatedAt": "2018-02-09T02:06:07.979Z"
+    },
+    {
+      "id": "TExfBEIun",
+      "name": "softwareProduct",
+      "title": "软件产品",
+      "pathto": "/softwareProduct",
+      "_hasTable": false,
+      "_hasAdminPage": true,
+      "hide": false,
+      "position": "7",
+      "category": "pages_main",
+      "uniqName": "softwareProduct_pages_main",
+      "createdAt": "2020-03-17T03:37:13.877Z",
+      "updatedAt": "2020-03-21T12:41:05.534Z",
+      "subs": "",
+      "contents": [
+        "CxCe5XTmZ",
+        "44zmoY74q"
+      ]
     }
   ]
 }

@@ -70,5 +70,17 @@
     "controller": {
       "type": "scripts/routes/messages/MessagesController"
     }
+  },
+  "softwareProduct": {
+    "pathto": "/softwareProduct",
+    "hide": false,
+    "data": {
+      "name": "softwareProduct",
+      "navName": "软件产品"
+    },
+    "controller": {
+      "type": "scripts/routes/softwareProduct/SoftwareProductController"
+    },
+    "position": "7"
   }
 }
