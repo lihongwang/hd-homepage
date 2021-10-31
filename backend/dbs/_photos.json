@@ -189,6 +189,82 @@
       "createdAt": "2020-03-19T04:54:03.131Z",
       "updatedAt": "2020-03-19T04:54:03.131Z",
       "src": "\\upload\\slides\\1584593643073-chanpin.jpg"
+    },
+    {
+      "id": "h_Mpghvmv",
+      "name": "艺圈",
+      "category": "photos_details",
+      "file": {
+        "fieldname": "file",
+        "originalname": "yiquan.png",
+        "encoding": "7bit",
+        "mimetype": "image/png",
+        "destination": "C:\\work\\webserver\\hd-homepage\\public\\upload\\details",
+        "filename": "1635683994503-yiquan.png",
+        "path": "\\upload\\details\\1635683994503-yiquan.png",
+        "size": 993039
+      },
+      "uniqName": "艺圈_photos_details",
+      "createdAt": "2021-10-31T12:39:54.660Z",
+      "updatedAt": "2021-10-31T12:39:54.660Z",
+      "src": "\\upload\\details\\1635683994503-yiquan.png"
+    },
+    {
+      "id": "C_Hq__TmF",
+      "name": "慧总网",
+      "category": "photos_details",
+      "file": {
+        "fieldname": "file",
+        "originalname": "huizong.png",
+        "encoding": "7bit",
+        "mimetype": "image/png",
+        "destination": "C:\\work\\webserver\\hd-homepage\\public\\upload\\details",
+        "filename": "1635684029347-huizong.png",
+        "path": "\\upload\\details\\1635684029347-huizong.png",
+        "size": 161582
+      },
+      "uniqName": "慧总网_photos_details",
+      "createdAt": "2021-10-31T12:40:29.410Z",
+      "updatedAt": "2021-10-31T12:40:29.410Z",
+      "src": "\\upload\\details\\1635684029347-huizong.png"
+    },
+    {
+      "id": "oOtGR7fYp",
+      "name": "ioneplayer",
+      "category": "photos_details",
+      "file": {
+        "fieldname": "file",
+        "originalname": "ioneplayer.png",
+        "encoding": "7bit",
+        "mimetype": "image/png",
+        "destination": "C:\\work\\webserver\\hd-homepage\\public\\upload\\details",
+        "filename": "1635684055957-ioneplayer.png",
+        "path": "\\upload\\details\\1635684055957-ioneplayer.png",
+        "size": 223037
+      },
+      "uniqName": "ioneplayer_photos_details",
+      "createdAt": "2021-10-31T12:40:56.003Z",
+      "updatedAt": "2021-10-31T12:40:56.003Z",
+      "src": "\\upload\\details\\1635684055957-ioneplayer.png"
+    },
+    {
+      "id": "945Vxvcp2",
+      "name": "例子-慧总网",
+      "category": "photos_slides",
+      "file": {
+        "fieldname": "file",
+        "originalname": "huizong.png",
+        "encoding": "7bit",
+        "mimetype": "image/png",
+        "destination": "C:\\work\\webserver\\hd-homepage\\public\\upload\\slides",
+        "filename": "1635684442707-huizong.png",
+        "path": "\\upload\\slides\\1635684442707-huizong.png",
+        "size": 161582
+      },
+      "uniqName": "例子-慧总网_photos_slides",
+      "createdAt": "2021-10-31T12:47:22.785Z",
+      "updatedAt": "2021-10-31T12:47:22.785Z",
+      "src": "\\upload\\slides\\1635684442707-huizong.png"
     }
   ]
 }

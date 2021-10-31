@@ -31,7 +31,7 @@
         "slaxes": {
             "paths": [{
                     "mapping": "",
-                    "dir": "./frontend/dist/home"
+                    "dir": "./frontend/src/apps/home/src"
                 },
                 {
                     "mapping": "/admin",

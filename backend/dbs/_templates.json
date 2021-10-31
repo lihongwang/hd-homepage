@@ -348,14 +348,14 @@
     {
       "id": "Bk-ffJsIG",
       "name": "首页——thumbnail",
-      "html": "<div class=\"container\">\r\n  <h3 class=\"text-center\">技术平台</h3>\r\n<div class=\"row\">\r\n  <div class=\"col-sm-6 col-md-4\">\r\n    <div class=\"thumbnail\">\r\n      <img src=\"/src/assets/images/utilhub.png\" alt=\"UtilHub-互联网操作系统\">\r\n      <div class=\"caption\">\r\n        <h3>UtilHub-互联网操作系统</h3>\r\n        <p>组件化的SAAS型中间件系统平台，快速开发企业级大型网站系统和应用。</p>\r\n        <p>UtilHub基于WEB标准技术，创造了一个组件化的新型云计算技术平台</p>\r\n      </div>\r\n    </div>\r\n  </div>\r\n  <div class=\"col-sm-6 col-md-4\">\r\n    <div class=\"thumbnail\">\r\n      <img src=\"/src/assets/images/faas.png\" alt=\"FaaS(Frontend as a Service)\">\r\n      <div class=\"caption\">\r\n        <h3>FaaS(Frontend as a Service)</h3>\r\n        <p>FaaS将互联网上的各种WEB服务和资源统合于同一平台(我们称之为互联网操作系统)，并通过封装成其上的WEB前端组件，</p>\r\n        <p>以云服务的方式提供给系统(包括网站)运营及开发用户分享使用。</p>\r\n      </div>\r\n    </div>\r\n  </div>\r\n  <div class=\"col-sm-6 col-md-4\">\r\n    <div class=\"thumbnail\">\r\n      <img src=\"/src/assets/images/skylarkjs.png\" alt=\"skylark.js\">\r\n      <div class=\"caption\">\r\n        <h3>skylark.js</h3>\r\n        <p>构建html5应用程序的开源统一框架。</p>\r\n        <p>提供一个简单的应用程序规范，方便快捷的开发跨终端HTML5应用程序。</p>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>\r\n<div class=\"more container text-center\"><a class=\"btn btn-default\" href=\"/technical\" target=\"_blank\">了解更多</a></div>\r\n</div>",
+      "html": "<div class=\"container\">\n  <h3 class=\"text-center\">技术平台</h3>\n<div class=\"row\">\n  <div class=\"col-sm-6 col-md-4\">\n    <div class=\"thumbnail\">\n      <img src=\"/src/assets/images/utilhub.png\" alt=\"吾特网-互联网操作系统\">\n      <div class=\"caption\">\n        <h3>吾特网-互联网操作系统</h3>\n        <p>组件化的SAAS型中间件系统平台，快速开发企业级大型网站系统和应用。</p>\n        <p>吾特网基于WEB标准技术，创造了一个组件化的新型云计算技术平台</p>\n      </div>\n    </div>\n  </div>\n  <div class=\"col-sm-6 col-md-4\">\n    <div class=\"thumbnail\">\n      <img src=\"/src/assets/images/faas.png\" alt=\"FaaS(Frontend as a Service)\">\n      <div class=\"caption\">\n        <h3>FaaS(Frontend as a Service)</h3>\n        <p>FaaS将互联网上的各种WEB服务和资源统合于同一平台(我们称之为互联网操作系统)，并通过封装成其上的WEB前端组件，</p>\n        <p>以云服务的方式提供给系统(包括网站)运营及开发用户分享使用。</p>\n      </div>\n    </div>\n  </div>\n  <div class=\"col-sm-6 col-md-4\">\n    <div class=\"thumbnail\">\n      <img src=\"/src/assets/images/skylarkjs.png\" alt=\"skylark.js\">\n      <div class=\"caption\">\n        <h3>skylark.js</h3>\n        <p>构建html5应用程序的开源统一框架。</p>\n        <p>提供一个简单的应用程序规范，方便快捷的开发跨终端HTML5应用程序。</p>\n      </div>\n    </div>\n  </div>\n</div>\n<div class=\"more container text-center\"><a class=\"btn btn-default\" href=\"/technical\" target=\"_blank\">了解更多</a></div>\n</div>",
       "css": "",
-      "javascript": "var _s = $(tpl(data));\r\nreturn _s.appendTo(container);",
-      "data": "{\r\n}",
-      "publishedDate": "2018-03-21T02:01:10.420Z",
+      "javascript": "var _s = $(tpl(data));\nreturn _s.appendTo(container);",
+      "data": "{\n}",
+      "publishedDate": "2021-10-30T10:54:53.505Z",
       "published": true,
       "createdAt": "2018-02-09T08:55:36.711Z",
-      "updatedAt": "2018-03-21T02:01:10.431Z",
+      "updatedAt": "2021-10-30T10:54:53.519Z",
       "file": {
         "fieldname": "file",
         "originalname": "QQ截图20180321095000.jpg",
@@ -403,6 +403,18 @@
       "published": true,
       "createdAt": "2020-03-19T08:40:09.983Z",
       "updatedAt": "2020-03-20T10:19:13.939Z"
+    },
+    {
+      "id": "yPgspvXlV",
+      "name": "111",
+      "html": "<div class=\"product w1200\">\n\t<div class=\"head\"></div>\n\t<div class=\"content\">\n\t\t<ul>\n\t\t\t<li>\n\t\t\t\t<a class=\"product-item zwpt\" href=\"http://192.168.1.50:8088/seeyon/index.jsp\" target=\"_blank\">\n\t\t\t\t\t<img class=\"cover-image\" src=\"/blog/pnews/images/quick-link-1.jpg\">\n\t\t\t\t\t<div class=\"title\">工作协同<span style=\"font-weight: normal\"> （内部用户）</span></div>\n\t\t\t\t</a>\n\t\t\t</li>\n\t\t\t<li>\n\t\t\t\t<a class=\"product-item\">\n\t\t\t\t\t<img class=\"cover-image\" src=\"/blog/pnews/images/quick-link-2.jpg\">\n\t\t\t\t\t<div class=\"title\">党建工作</div>\n\t\t\t\t</a>\n\t\t\t</li>\n\t\t\t<li>\n\t\t\t\t<!--href=\"/main/jump/news-review.html?id=2021071314302544316689\"-->\n\t\t\t\t<a class=\"product-item\">\n\t\t\t\t\t<img class=\"cover-image\" src=\"/blog/pnews/images/quick-link-3.jpg\">\n\t\t\t\t\t<div class=\"title\">社会公益</div>\n\t\t\t\t</a>\n\t\t\t</li>\n\t\t</ul>\n\t</div>\n<!--\t<div class=\"more clearfix\"><a th:href=\"@{/main/jump/product}\">更多产品</a></div>-->\n\n</div>",
+      "css": ".product {\n    margin-top: 30px;\n}\n\n.product .content {\n    margin-top: 20px;\n}\n\n.product .content li {\n    float: left;\n    width: 32%;\n    margin-right: 2%;\n    margin-bottom: 30px;\n}\n\n.product .content li:last-child {\n    margin-right: 0;\n}\n\n.product .content li .title {\n    font-size: 20px;\n    font-weight: bold;\n    padding-top: 20px;\n}\n\n.product .content .product-item {\n    display: block;\n    /* width: 260px; */\n    height: 250px;\n    border: 1px solid #eee;\n}\n.product .content .product-item .cover-image{\n    width: 100%;\n    height: 120px;\n}\n.product .content .product-item.zwpt {\n    background: url(../images/product-1.gif) no-repeat top;\n    background-size: 100%;\n}\n\n.product .content .product-item.rcfw {\n    background: url(../images/product-2.gif) no-repeat top;\n    background-size: 100%;\n}\n\n.product .content .product-item.shfw {\n    background: url(../images/product-3.gif) no-repeat top;\n    background-size: 100%;\n}\n\n.product .content .product-item .desc {\n    padding-top: 15px;\n    height: 50px;\n    line-height: 25px;\n    word-break: break-all;\n    word-wrap: normal;\n    text-overflow: ellipsis;\n    overflow: hidden;\n    white-space: initial;\n}\n.product .content .product-item .title,.product .content .product-item .desc{\n    padding-left: 30px;\n    padding-right: 30px;\n}\n",
+      "javascript": "var _s = $(tpl(data));\nreturn _s.appendTo(container);",
+      "data": "{\n}",
+      "publishedDate": "2021-10-31T12:17:35.441Z",
+      "published": false,
+      "createdAt": "2021-10-30T10:53:01.457Z",
+      "updatedAt": "2021-10-31T12:17:35.441Z"
     }
   ]
 }

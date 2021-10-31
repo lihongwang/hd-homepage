@@ -73,7 +73,7 @@
   },
   "softwareProduct": {
     "pathto": "/softwareProduct",
-    "hide": false,
+    "hide": true,
     "data": {
       "name": "softwareProduct",
       "navName": "软件产品"

@@ -120,17 +120,14 @@
       "pathto": "/softwareProduct",
       "_hasTable": false,
       "_hasAdminPage": true,
-      "hide": false,
+      "hide": true,
       "position": "7",
       "category": "pages_main",
       "uniqName": "softwareProduct_pages_main",
       "createdAt": "2020-03-17T03:37:13.877Z",
-      "updatedAt": "2020-03-21T12:41:05.534Z",
+      "updatedAt": "2021-10-20T02:34:58.754Z",
       "subs": "",
-      "contents": [
-        "CxCe5XTmZ",
-        "44zmoY74q"
-      ]
+      "contents": ""
     }
   ]
 }
