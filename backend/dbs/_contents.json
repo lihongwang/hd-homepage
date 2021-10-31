@@ -464,6 +464,16 @@
       "uniqName": "产品内容_contents_softwareProduct",
       "createdAt": "2020-03-21T12:40:46.223Z",
       "updatedAt": "2020-03-21T12:40:46.223Z"
+    },
+    {
+      "id": "ec785Mg5a",
+      "name": "例子",
+      "published": true,
+      "templateId": "yPgspvXlV",
+      "category": "contents_development",
+      "uniqName": "例子_contents_development",
+      "createdAt": "2021-10-31T14:07:00.347Z",
+      "updatedAt": "2021-10-31T14:07:00.347Z"
     }
   ]
 }
