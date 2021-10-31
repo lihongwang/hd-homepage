@@ -265,6 +265,25 @@
       "createdAt": "2021-10-31T12:47:22.785Z",
       "updatedAt": "2021-10-31T12:47:22.785Z",
       "src": "\\upload\\slides\\1635684442707-huizong.png"
+    },
+    {
+      "id": "lRK-stB3E",
+      "name": "skylarkjs",
+      "category": "photos_details",
+      "file": {
+        "fieldname": "file",
+        "originalname": "skylarkjs.jpg",
+        "encoding": "7bit",
+        "mimetype": "image/jpeg",
+        "destination": "C:\\work\\webserver\\hd-homepage\\public\\upload\\details",
+        "filename": "1635688049769-skylarkjs.jpg",
+        "path": "\\upload\\details\\1635688049769-skylarkjs.jpg",
+        "size": 400281
+      },
+      "uniqName": "skylarkjs_photos_details",
+      "createdAt": "2021-10-31T13:47:29.863Z",
+      "updatedAt": "2021-10-31T13:47:29.863Z",
+      "src": "\\upload\\details\\1635688049769-skylarkjs.jpg"
     }
   ]
 }
